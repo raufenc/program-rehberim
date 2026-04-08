@@ -1,0 +1,5359 @@
+{
+  "meta": {
+    "ders_kodu": "HDS",
+    "ders_adi": "Hadis",
+    "sinif": 10,
+    "okul_turu": "Anadolu İmam Hatip Lisesi",
+    "toplam_ders_saati": 72,
+    "okul_temelli_planlama_saati": 4,
+    "kitap_forma_sayisi": "10-12",
+    "kitap_ebatlari": "19,5 cm X 27,5 cm",
+    "program_onay_tarihi": "26.05.2025",
+    "program_onay_sayisi": 15,
+    "uygulama_baslangic": "2025-2026"
+  },
+  "program": {
+    "ozel_amaclar": [
+      "Hadis ilminin konusu ile önemini çözümlemeleri.",
+      "Hadis ilmiyle ilgili kavramları sınıflandırmaları.",
+      "Sünnetin dindeki yerini sentezlemeleri.",
+      "Hadislerin aktarımını tarihsel bağlamsallaştırmaları.",
+      "Hadislerin tedvin ve tasnif sürecini karşılaştırmaları.",
+      "Tedvin ve tasnif sonrası dönem hadis çalışmalarını özetlemeleri.",
+      "Hadis çeşitlerini sınıflandırma ve özetlemeleri.",
+      "Hadislerin anlaşılmasını konu edinen ilimleri çözümlemeleri.",
+      "Hadislerin anlaşılmasında dikkat edilmesi gereken esasları yapılandırmaları.",
+      "Sahih hadis kaynaklarını kullanmaları.",
+      "Hadislerde öne çıkan ilke ve değerleri hayata aktarmaları.",
+      "Hadis metinlerini yorumlamaları."
+    ],
+    "uygulama_esaslari": [
+      {
+        "madde": 1,
+        "icerik": "Eğitim ve öğretim süreçleri; Türkiye Yüzyılı Maarif Modeli ile hedeflenen öğrenci profiline uygun, sağlam ve doğru inanca sahip, millî ve manevi değerleri tanıyan, geçmiş-bugün-gelecek arasında bağ kuran yetkin ve erdemli öğrenciler yetiştirecek şekilde planlanır; sevgi, saygı, kardeşlik, dostluk, vatan ve millet bilincini güçlendiren değerlere özellikle yer verilir."
+      },
+      {
+        "madde": 2,
+        "icerik": "Peygamberimizin Kur’an-ı Kerim’i anlamadaki rolü ve önemi ile Hz. Peygamber’e ve sünnetine bağlılıkla ilgili konulara yer verilmesine özen gösterilir."
+      },
+      {
+        "madde": 3,
+        "icerik": "Program beceri temelli yapılandırılmıştır; kitap yazımında ve öğrenme-öğretme yaşantılarında becerilerin, süreç bileşenlerinin, değerlerin, eğilimlerin ve anahtar kavramların bütüncül biçimde kazandırılmasına dikkat edilir."
+      },
+      {
+        "madde": 4,
+        "icerik": "“İçerik Çerçevesi” bölümünde ana konu başlıkları yer alır; konu alt başlıkları, öğrenme çıktıları-süreç bileşenleri ve öğrenme-öğretme yaşantıları esas alınarak yazarlar tarafından oluşturulabilir."
+      },
+      {
+        "madde": 5,
+        "icerik": "Ölçme ve değerlendirme yöntemleri öğrencilerin yetenek, ihtiyaç ve özel durumlarına göre çeşitlendirilir; günlük yaşamla ilişkili görevler, motive edici geri bildirimler, dijital teknolojiler ve oyunlaştırma kullanılabilir."
+      },
+      {
+        "madde": 6,
+        "icerik": "Öğrenme-öğretme uygulamalarındaki “istenir/istenebilir” ayrımı, içerik ve çıktılarda zorunluluk; yöntem, teknik ve ölçme süreçlerinde ise sınıfın şartlarına göre öğretmen tercihine açıklık anlamına gelir."
+      },
+      {
+        "madde": 7,
+        "icerik": "Zenginleştirme ve/veya destekleme uygulamaları ihtiyaç hâlinde farklı öğrenci gereksinimlerine cevap verecek şekilde planlanır; bu bölüm ders kitabında yer almaz, gerektiğinde e-içerik olarak sunulabilir."
+      },
+      {
+        "madde": 8,
+        "icerik": "Türkçenin doğru ve etkili kullanılmasına, öğrencilerin söz varlıklarının ve dil becerilerinin geliştirilmesine özen gösterilir."
+      },
+      {
+        "madde": 9,
+        "icerik": "Program ve ders kitabındaki alana özgü kelime, kavram ve tamlamalar “Din Kültürü ve Ahlak Bilgisi Kavramları Yazım Kılavuzu” esas alınarak yazılır; kılavuzda yer almayanlar için de aynı ilke ve esaslara uyulur."
+      },
+      {
+        "madde": 10,
+        "icerik": "Ünitelerin süreleri ve işleniş sırası programda belirlenmiştir; bununla birlikte zümre öğretmenleri öğrenci seviyesi ve çevre şartlarına göre planlama yapabilir."
+      },
+      {
+        "madde": 11,
+        "icerik": "Öğrenme-öğretme yaşantılarında çevre, eğitim ortamı, gelişim düzeyi ve dinî bilgi seviyesi dikkate alınarak öğrenciyi aktif kılan yöntem, teknik ve stratejiler kullanılır."
+      },
+      {
+        "madde": 12,
+        "icerik": "Çevre şartları elverdiğinde öğrencilerin dinî, tarihî ve kültürel mekânları yerinde tanımaları sağlanır."
+      },
+      {
+        "madde": 13,
+        "icerik": "Öğretmen, ders kitabı dışındaki farklı öğretim materyallerini tasarlar ve kullanır; telif haklarına riayet ederek interaktif materyallerden ve güvenilir genel ağ kaynaklarından yararlanır."
+      },
+      {
+        "madde": 14,
+        "icerik": "Hadis kaynaklarını kullanma becerisinde Tecrid-i Sarih Tercümesi, Hadislerle İslam ve Riyazü’s-Salihin gibi Diyanet İşleri Başkanlığı yayımlarından yararlanılır."
+      },
+      {
+        "madde": 15,
+        "icerik": "Her ünitenin sonunda on sahih hadis verilir; bunlardan biri kitapta etkinliklerle birlikte, diğerleri e-içerikte ve kitabın sonunda yer alır. Konular sırasıyla sünnete bağlılık, iman, ahlak ve ilim etrafında düzenlenir; ezbere teşvik edilir."
+      },
+      {
+        "madde": 16,
+        "icerik": "Ölçme ve değerlendirme uygulama esaslı ve süreç odaklı yürütülür; bireysel farklılıklar ve gelişim süreçleri dikkate alınır; her ünite için en az bir performans görevi verilir."
+      },
+      {
+        "madde": 17,
+        "icerik": "Okuryazarlık becerisinin kazandırılmasında TYMM Ortak Metni’ne uygun olarak farkındalık, işlevsellik ve eylemsellik düzeyleri dikkate alınır."
+      },
+      {
+        "madde": 18,
+        "icerik": "Beceri temelli öğretim sürecinde tanılayıcı, biçimlendirici ve düzey belirleyici ölçme-değerlendirme uygulamalarının yapılmasına dikkat edilir."
+      }
+    ],
+    "uniteler": [
+      {
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "unite_aciklamasi": "Bu ünitede hadis ilminin konusunun ve öneminin çözümlenmesi, hadis ilmiyle ilgili kavramların sınıflandırılması, sünnetin dindeki yeri ve bağlayıcılığının sentezlenmesi, sünnetin evrenselliğinin analitik düşünülmesi ve Kur’an ve sünnete bağlılıkla ilgili hadis metninin yorumlanması amaçlanmaktadır.",
+        "ders_saati": 16,
+        "yuzde_orani": 22,
+        "alan_becerileri": [
+          {
+            "kod": "DAB3.3",
+            "ad": "Dinî Metinleri Yorumlama"
+          },
+          {
+            "kod": "DAB4.4",
+            "ad": "Dinî Konularda Analitik Düşünme"
+          }
+        ],
+        "kavramsal_beceriler": [
+          {
+            "kod": "KB2.4",
+            "ad": "Çözümleme"
+          },
+          {
+            "kod": "KB2.5",
+            "ad": "Sınıflandırma"
+          },
+          {
+            "kod": "KB2.20",
+            "ad": "Sentezleme"
+          }
+        ],
+        "egilimler": [
+          {
+            "kod": "E3.4",
+            "ad": "Gerçeği Arama"
+          },
+          {
+            "kod": "E3.8",
+            "ad": "Soru Sorma"
+          }
+        ],
+        "programlar_arasi_bilesenler": {
+          "sosyal_duygusal_ogrenme": [
+            {
+              "kod": "SDB1.3",
+              "ad": "Kendine Uyarlama (Öz Yansıtma)"
+            },
+            {
+              "kod": "SDB2.1",
+              "ad": "İletişim"
+            },
+            {
+              "kod": "SDB2.2",
+              "ad": "İş Birliği"
+            }
+          ],
+          "degerler": [
+            {
+              "kod": "D4",
+              "ad": "Dostluk"
+            },
+            {
+              "kod": "D14",
+              "ad": "Saygı"
+            }
+          ],
+          "okuryazarlik_becerileri": [
+            {
+              "kod": "OB1",
+              "ad": "Bilgi Okuryazarlığı"
+            }
+          ]
+        },
+        "disiplinler_arasi_iliskiler": [],
+        "beceriler_arasi_iliskiler": [
+          {
+            "kod": "KB2.14",
+            "ad": "Yorumlama"
+          },
+          {
+            "kod": "KB2.18",
+            "ad": "Tartışma"
+          }
+        ],
+        "icerik_cercevesi": [
+          "Hadis İlminin Konusu ve Önemi",
+          "Hadis İlmiyle İlgili Kavramlar",
+          "Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+          "Sünnetin Evrenselliği",
+          "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık"
+        ],
+        "anahtar_kavramlar": [
+          "isnat",
+          "metin",
+          "muhaddis",
+          "ravi",
+          "rivayet",
+          "senet",
+          "sünnet"
+        ],
+        "ogrenme_ciktilari": [
+          {
+            "kod": "HDS.10.1.1",
+            "baslik": "Hadis ilminin konusunu ve önemini çözümleyebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis ilminin konusunu ve önemini belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadis ilminin konusu ve önemi arasındaki ilişkiyi belirler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.1.2",
+            "baslik": "Hadis ilmiyle ilgili kavramları sınıflandırabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis ilmiyle ilgili kavramları belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadis ilmiyle ilgili kavramları ayrıştırır."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadis ilmiyle ilgili kavramları tasnif eder."
+              },
+              {
+                "harf": "ç",
+                "metin": "Hadis ilmiyle ilgili kavramları etiketler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.1.3",
+            "baslik": "Sünnetin dindeki yeri ve bağlayıcılığıyla ilgili sentez yapabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Sünnetin dindeki yeri ve bağlayıcılığı hakkındaki bilgileri belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Sünnetin dindeki yeri ve bağlayıcılığı hakkındaki bilgiler arasında ilişki kurar."
+              },
+              {
+                "harf": "c",
+                "metin": "Sünnetin dindeki yeri ve bağlayıcılığıyla ilgili bilgileri birleştirerek bir bütün oluşturur."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.1.4",
+            "baslik": "Sünnetin evrenselliğini analitik düşünebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hz. Peygamber’in nübüvvetinin özelliklerini inceleyerek sünnetin evrenselliğine dair nedensel ilişkiler kurar."
+              },
+              {
+                "harf": "b",
+                "metin": "Tespit ettiği ilişkilerle ilgili akıl yürütür."
+              },
+              {
+                "harf": "c",
+                "metin": "Akıl yürütme ile ulaştığı çıkarımları tartışır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Tercih edilebilir görüş ve argümanları gerekçeleriyle belirler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.1.5",
+            "baslik": "Kur’an ve Sünnete bağlılıkla ilgili hadisi yorumlayabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis usulüne göre Kur’an ve sünnete bağlılıkla ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Belirlenen ilke ve usuller çerçevesinde Kur’an ve sünnete bağlılıkla ilgili hadisi inceler."
+              },
+              {
+                "harf": "c",
+                "metin": "Kur’an ve sünnete bağlılıkla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+              }
+            ]
+          }
+        ],
+        "ogrenme_kanitlari": {
+          "olcme_araclari": [
+            "açık uçlu ve kısa cevaplı sorular",
+            "doğru-yanlış soruları",
+            "anlam çözümleme tablosu",
+            "çoklu cevaplı soru",
+            "tekzip metni",
+            "çıkış kartı",
+            "kavram haritası",
+            "Frayer diyagramı",
+            "dereceli puanlama anahtarı",
+            "grup değerlendirme formu",
+            "öz değerlendirme formu"
+          ],
+          "performans_gorevi": {
+            "aciklama": "İş birlikli öğrenme tekniği ile sünnetin dindeki yeri ve bağlayıcılığı hakkında bir broşür hazırlayıp sunmaları istenebilir.",
+            "degerlendirme_olcutleri": [
+              "bilgi toplama",
+              "tasarım",
+              "çözümleme",
+              "özgünlük",
+              "sunma"
+            ],
+            "degerlendirme_araci": "dereceli puanlama anahtarı ve grup değerlendirme formu"
+          }
+        },
+        "ogrenme_ogretme_yasantilari": {
+          "temel_kabuller": "Öğrencilerin hadis kavramıyla ilgili temel bilgilere sahip oldukları kabul edilmektedir.",
+          "on_degerlendirme": [
+            "Öğrencilerin hadis ile ilgili ön bilgileri kum saati tekniğiyle değerlendirilebilir."
+          ],
+          "kopru_kurma": "Hadis ve sünnetin önemini ortaya koyan bazı hadisler tahtaya yazılır veya yansıtılır; öğrencilerden bunların günlük hayatın hangi alanına işaret ettiğini tespit etmeleri istenerek Hz. Peygamber’in sözleri ile günlük hayat arasında bağ kurulur.",
+          "uygulamalar": [
+            {
+              "cikti_kodu": "HDS.10.1.1",
+              "uygulama_metni": "Hadis ilminin Hz. Muhammed’in söz, fiil ve takrirlerini konu edindiği belirlenir; tebliğ, tebyin, teşri, temsil ve tekit kavramları üzerinden Hz. Peygamber’in dinin anlaşılmasındaki rolü açıklanır; hadis ilminin konusu ile önemi arasında ilişki kurulur.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Soru-Cevap",
+                  "nerede": "konu ile ilgili cevap üretme ve ilişki kurma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "DAB3.3",
+                "DAB4.4"
+              ],
+              "olcme_onerileri": [
+                "kısa cevaplı sorular",
+                "açık uçlu sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.1.2",
+              "uygulama_metni": "Hadis-sünnet, rivayet-ravi, senet-isnat ve metin kavramları ayrıştırılır; hadis kavramı kavlî, fiilî ve takrirî olarak tasnif edilir; muhaddis kavramına vurgu yapılarak kavramlar uygun tasnife göre etiketlenir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Ayrılıp Birleşme (Jigsaw)",
+                  "nerede": "kavramların sınıflandırılması ve paylaşılması aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "OB1",
+                "SDB2.2",
+                "D4"
+              ],
+              "olcme_onerileri": [
+                "kavram haritası",
+                "kısa cevaplı sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.1.3",
+              "uygulama_metni": "Sünnetin dindeki yeri ve bağlayıcılığı ayetlerden hareketle belirlenir; Hz. Muhammed’in peygamberlik rolü ile bu bilgiler birleştirilerek bütüncül bir sentez oluşturulur.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Kar Topu",
+                  "nerede": "bilgileri birleştirip görüş geliştirme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E3.4",
+                "KB2.18",
+                "D14"
+              ],
+              "olcme_onerileri": [
+                "kısa cevaplı sorular",
+                "açık uçlu sorular",
+                "tekzip metni"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.1.4",
+              "uygulama_metni": "Hz. Peygamber’in nübüvvetinin özelliklerinden hareketle sünnetin evrenselliğine dair nedensel ilişkiler kurulur; bu ilişkiler üzerinde akıl yürütülür ve görüşler gerekçelendirilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Beyin Fırtınası",
+                  "nerede": "sünnetin evrenselliğine ilişkin farklı fikirler üretme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "DAB4.4",
+                "KB2.18"
+              ],
+              "olcme_onerileri": [
+                "çıkış kartı"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.1.5",
+              "uygulama_metni": "Kur’an ve sünnete bağlılıkla ilgili bir hadisin sahabi ravisi tanıtılarak anlamı açıklanır; hadisi yorumlarken Kur’an ve sünnete uygunluk temel ilke olarak kullanılır ve hadisin mesajları öğrencinin kendi cümleleriyle ifade ettirilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Burada Herkes Öğretmen",
+                  "nerede": "hadis yorumlarını sınıf içinde paylaşma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "SDB1.3",
+                "KB2.14",
+                "E3.8",
+                "SDB2.1"
+              ],
+              "olcme_onerileri": [
+                "Frayer diyagramı",
+                "doğru-yanlış soruları"
+              ]
+            }
+          ]
+        },
+        "farklilastirma": {
+          "zenginlestirme": [
+            "Kur’an ve sünnete bağlılıkla ilgili karekodda verilen hadisleri ezberlemeye yönlendirme ve ezber çalışmalarında bilişsel çıraklık tekniğinden yararlanma.",
+            "RAFT tekniği ile hadis ve sünnetin bağlayıcılığını anlatan bir radyo programı veya podcast hazırlatma; verilen hadisler üzerinden atasözleriyle bağlantı kurdurma."
+          ],
+          "destekleme": [
+            "Ünite geneli hakkında soruların bulunduğu çalışma yaprağı ile konuları pekiştirme.",
+            "Hadis ilmiyle ilgili kavram haritası oluşturma."
+          ]
+        }
+      },
+      {
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "unite_aciklamasi": "Bu ünitede hadislerin sözlü ve yazılı aktarımının tarihsel bağlamsallaştırılması, hadislerin tedvin ve tasnif sürecinin karşılaştırılması, tedvin ve tasnif sonrası hadis çalışmalarının özetlenmesi, hadis kaynaklarının kullanılması ve imanla ilgili hadis metninin yorumlanması amaçlanmaktadır.",
+        "ders_saati": 20,
+        "yuzde_orani": 28,
+        "alan_becerileri": [
+          {
+            "kod": "DAB1.2",
+            "ad": "Hadis Kaynaklarına Başvurma"
+          },
+          {
+            "kod": "DAB3.3",
+            "ad": "Dinî Metinleri Yorumlama"
+          },
+          {
+            "kod": "SBAB3.1",
+            "ad": "Tarihsel Bağlamsallaştırma"
+          }
+        ],
+        "kavramsal_beceriler": [
+          {
+            "kod": "KB2.3",
+            "ad": "Özetleme"
+          },
+          {
+            "kod": "KB2.7",
+            "ad": "Karşılaştırma"
+          }
+        ],
+        "egilimler": [
+          {
+            "kod": "E2.1",
+            "ad": "Empati"
+          },
+          {
+            "kod": "E3.7",
+            "ad": "Sistematiklik"
+          }
+        ],
+        "programlar_arasi_bilesenler": {
+          "sosyal_duygusal_ogrenme": [
+            {
+              "kod": "SDB1.3",
+              "ad": "Kendine Uyarlama (Öz Yansıtma)"
+            },
+            {
+              "kod": "SDB2.1",
+              "ad": "İletişim"
+            },
+            {
+              "kod": "SDB2.2",
+              "ad": "İş Birliği"
+            }
+          ],
+          "degerler": [
+            {
+              "kod": "D3",
+              "ad": "Çalışkanlık"
+            },
+            {
+              "kod": "D14",
+              "ad": "Saygı"
+            }
+          ],
+          "okuryazarlik_becerileri": [
+            {
+              "kod": "OB1",
+              "ad": "Bilgi Okuryazarlığı"
+            },
+            {
+              "kod": "OB5",
+              "ad": "Kültür Okuryazarlığı"
+            }
+          ]
+        },
+        "disiplinler_arasi_iliskiler": [],
+        "beceriler_arasi_iliskiler": [
+          {
+            "kod": "KB2.14",
+            "ad": "Yorumlama"
+          }
+        ],
+        "icerik_cercevesi": [
+          "Hadislerin Sözlü ve Yazılı Aktarımı",
+          "Hadislerin Tedvin ve Tasnifi",
+          "Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+          "Hadis Kaynaklarında İman",
+          "Hadislerden Mesajlar: İman"
+        ],
+        "anahtar_kavramlar": [
+          "câmi",
+          "Kütübisitte",
+          "Kütübitisa",
+          "müsned",
+          "rihle",
+          "sahabi",
+          "sünen",
+          "tâbiin",
+          "tasnif",
+          "tebeüttâbiin",
+          "tedvin"
+        ],
+        "ogrenme_ciktilari": [
+          {
+            "kod": "HDS.10.2.1",
+            "baslik": "Hadislerin sözlü ve yazılı aktarımını tarihsel bağlamsallaştırabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadislerin sözlü ve yazılı aktarımını kanıtlara dayalı analiz eder."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadislerin sözlü ve yazılı aktarımıyla ilgili dönemin ve mekânın koşullarını fark eder."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadislerin sözlü ve yazılı aktarımını günümüz koşullarıyla karşılaştırır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Hadislerin sözlü ve yazılı aktarımını ait olduğu dönemin koşulları içerisinde açıklar."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.2.2",
+            "baslik": "Hadislerin tedvin ve tasnif sürecini karşılaştırabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadislerin tedvin ve tasnif sürecinin özelliklerini belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadislerin tedvin ve tasnif sürecinin özelliklerine ilişkin benzerlikleri listeler."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadislerin tedvin ve tasnif sürecine ilişkin farklılıkları listeler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.2.3",
+            "baslik": "Tedvin ve tasnif sonrası hadis çalışmalarını özetleyebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Tedvin ve tasnif sonrası hadis çalışmaları ile ilgili çözümleme yapar."
+              },
+              {
+                "harf": "b",
+                "metin": "Tedvin ve tasnif sonrası hadis çalışmaları ile ilgili sınıflandırma yapar."
+              },
+              {
+                "harf": "c",
+                "metin": "Tedvin ve tasnif sonrası hadis çalışmalarını kendi cümleleri ile aktarır."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.2.4",
+            "baslik": "İmanla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "İmanla ilgili hadisleri tespit eder."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadisleri içeriklerine göre sınıflandırır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar."
+              },
+              {
+                "harf": "d",
+                "metin": "Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.2.5",
+            "baslik": "İmanla ilgili hadisi yorumlayabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis usulüne göre iman ile ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Belirlenen ilke ve usuller çerçevesinde iman ile ilgili hadisi inceler."
+              },
+              {
+                "harf": "c",
+                "metin": "İmanla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+              }
+            ]
+          }
+        ],
+        "ogrenme_kanitlari": {
+          "olcme_araclari": [
+            "kısa cevaplı sorular",
+            "açık uçlu sorular",
+            "tanılayıcı dallanmış ağaç",
+            "çalışma yaprağı",
+            "çoklu cevaplı soru",
+            "çıkış kartı",
+            "Frayer diyagramı",
+            "dereceli puanlama anahtarı",
+            "öğrenme günlüğü"
+          ],
+          "performans_gorevi": {
+            "aciklama": "Hadis tarihinin belli başlı dönemlerinin özelliklerini gösteren bir tarihsel akış şeması hazırlamaları ve sunmaları istenebilir.",
+            "degerlendirme_olcutleri": [
+              "bilgi toplama",
+              "ilişki kurma",
+              "sınıflandırma",
+              "tasarım",
+              "özgünlük",
+              "sunma"
+            ],
+            "degerlendirme_araci": "dereceli puanlama anahtarı"
+          }
+        },
+        "ogrenme_ogretme_yasantilari": {
+          "temel_kabuller": "Öğrencilerin hadislerin sahabiler tarafından nakledildiğini bildikleri kabul edilmektedir.",
+          "on_degerlendirme": [
+            "Hadislerin günümüze ulaşmasında etkili olan çalışmalarla ilgili açık uçlu sorular sorulabilir."
+          ],
+          "kopru_kurma": "Öğrencilere doğru bilgiye nasıl ulaştıkları sorularak muhaddislerin hadisleri doğrulamak için gösterdiği çaba arasında bağ kurulur.",
+          "uygulamalar": [
+            {
+              "cikti_kodu": "HDS.10.2.1",
+              "uygulama_metni": "Hadis usulü kitaplarındaki bilgilerden hareketle hadislerin sözlü ve yazılı aktarımı kanıtlara dayalı incelenir; sahabe ve tâbiin nesillerinin hadis aktarımındaki çabası dönemin ve mekânın koşulları içinde değerlendirilir ve günümüzle karşılaştırılır.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Konuşma Halkası",
+                  "nerede": "hadis aktarım sürecine ilişkin ortak değerlendirme aşamasında"
+                },
+                {
+                  "ad": "Öğrenme Galerisi",
+                  "nerede": "geçmiş ve günümüz yöntemlerini karşılaştırma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "D14",
+                "OB5",
+                "SBAB3.1"
+              ],
+              "olcme_onerileri": [
+                "açık uçlu sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.2.2",
+              "uygulama_metni": "Tebeüttâbiin neslinin çabasıyla tedvin ve tasnif kavramları açıklanır; câmi, sünen, müsned, Kütübisitte ve Kütübitisa tanıtılır; öğrenciler tedvin ve tasnif süreçlerinin özelliklerini karşılaştırır.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "T Diyagramı",
+                  "nerede": "benzerlik ve farklılıkları listeleme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "OB1"
+              ],
+              "olcme_onerileri": [
+                "çoklu cevaplı soru",
+                "çıkış kartı"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.2.3",
+              "uygulama_metni": "Tedvin ve tasnif sonrası hadis çalışmalarının türleri çözümletilir; öğrenciler bağlama uygun, düzenli ve sistematik bir metinle bu çalışmaları özetler.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Vızıltı Grupları",
+                  "nerede": "kısa süreli fikir üretimi ve özetleme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "D3",
+                "E3.7",
+                "SDB2.1"
+              ],
+              "olcme_onerileri": [
+                "çalışma yaprağı"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.2.4",
+              "uygulama_metni": "İmanla ilgili hadisler güvenilir kaynaklardan bulunur; olay, şahıs, yer, konu ve kavramlar belirlenerek içeriklerine göre sınıflandırılır ve çıkarımlar kavram haritasına dönüştürülür.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Kar Topu",
+                  "nerede": "hadislerden çıkarım yapıp ortak sonuçlara ulaşma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E2.1"
+              ],
+              "olcme_onerileri": [
+                "öğrenme günlüğü"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.2.5",
+              "uygulama_metni": "İmanla ilgili hadisin sahabi ravisi tanıtılır; yorumlamada Kur’an ve sünnete uygunluk ölçü olarak alınır ve öğrenciler hadisin anlamını bağlamı içinde kendi cümleleriyle ifade eder.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "İstasyon",
+                  "nerede": "hadisin farklı boyutlarını grupla inceleme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "SDB1.3",
+                "KB2.14",
+                "SDB2.2"
+              ],
+              "olcme_onerileri": [
+                "Frayer diyagramı",
+                "tanılayıcı dallanmış ağaç"
+              ]
+            }
+          ]
+        },
+        "farklilastirma": {
+          "zenginlestirme": [
+            "İmanla ilgili karekodda verilen hadisleri ezbere okuma ve bilişsel çıraklık tekniğiyle ezber çalışmaları yapma.",
+            "Hadislerin aktarımının İslam ilim geleneğinin oluşmasındaki rolüne ilişkin dijital çalışma hazırlama ve sunma.",
+            "Bir ravinin hadisle ilgili çalışmalarını infografik metin hâlinde hazırlayıp sunma.",
+            "Hadis toplamak için yolculuk yapan bir âlim kurgusuyla hikâye metni yazma."
+          ],
+          "destekleme": [
+            "Hadislerin ilk dönemden günümüze aktarımıyla ilgili çalışma yaprakları kullanma.",
+            "Hadis tarihi ile ilgili temel bilgilerin yer aldığı bilgi kartları hazırlama."
+          ]
+        }
+      },
+      {
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "unite_aciklamasi": "Bu ünitede kaynağına göre hadis çeşitlerinin sınıflandırılması, ravi sayısına göre hadis çeşitlerinin ayırt edilmesi, sıhhat derecesine göre hadis çeşitlerinin özetlenmesi, hadis kaynaklarının kullanılması ve ahlakla ilgili hadis metninin yorumlanması amaçlanmaktadır.",
+        "ders_saati": 18,
+        "yuzde_orani": 25,
+        "alan_becerileri": [
+          {
+            "kod": "DAB1.2",
+            "ad": "Hadis Kaynaklarına Başvurma"
+          },
+          {
+            "kod": "DAB3.1",
+            "ad": "Dinî Kavramları Ayırt Etme"
+          },
+          {
+            "kod": "DAB3.3",
+            "ad": "Dinî Metinleri Yorumlama"
+          }
+        ],
+        "kavramsal_beceriler": [
+          {
+            "kod": "KB2.3",
+            "ad": "Özetleme"
+          },
+          {
+            "kod": "KB2.5",
+            "ad": "Sınıflandırma"
+          }
+        ],
+        "egilimler": [
+          {
+            "kod": "E1.1",
+            "ad": "Merak"
+          },
+          {
+            "kod": "E3.2",
+            "ad": "Odaklanma"
+          },
+          {
+            "kod": "E3.7",
+            "ad": "Sistematiklik"
+          },
+          {
+            "kod": "E3.8",
+            "ad": "Soru Sorma"
+          }
+        ],
+        "programlar_arasi_bilesenler": {
+          "sosyal_duygusal_ogrenme": [
+            {
+              "kod": "SDB1.3",
+              "ad": "Kendine Uyarlama (Öz Yansıtma)"
+            },
+            {
+              "kod": "SDB2.1",
+              "ad": "İletişim"
+            }
+          ],
+          "degerler": [
+            {
+              "kod": "D1",
+              "ad": "Adalet"
+            },
+            {
+              "kod": "D6",
+              "ad": "Dürüstlük"
+            }
+          ],
+          "okuryazarlik_becerileri": [
+            {
+              "kod": "OB1",
+              "ad": "Bilgi Okuryazarlığı"
+            }
+          ]
+        },
+        "disiplinler_arasi_iliskiler": [],
+        "beceriler_arasi_iliskiler": [
+          {
+            "kod": "KB2.14",
+            "ad": "Yorumlama"
+          }
+        ],
+        "icerik_cercevesi": [
+          "Kaynağına Göre Hadis Çeşitleri",
+          "Ravi Sayısına Göre Hadis Çeşitleri",
+          "Sıhhat Derecesine Göre Hadis Çeşitleri",
+          "Hadis Kaynaklarında Ahlak",
+          "Hadislerden Mesajlar: Ahlak"
+        ],
+        "anahtar_kavramlar": [
+          "ahad hadis",
+          "hasen hadis",
+          "kutsi hadis",
+          "maktu hadis",
+          "merfu hadis",
+          "meşhur hadis",
+          "mevkuf hadis",
+          "mevzû hadis",
+          "mütevatir hadis",
+          "sahih hadis",
+          "zayıf hadis"
+        ],
+        "ogrenme_ciktilari": [
+          {
+            "kod": "HDS.10.3.1",
+            "baslik": "Kaynağına göre hadis çeşitlerini sınıflandırabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Kaynağına göre hadis çeşitlerini belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Kaynağına göre hadis çeşitlerini ayrıştırır."
+              },
+              {
+                "harf": "c",
+                "metin": "Kaynağına göre hadis çeşitlerini tasnif eder."
+              },
+              {
+                "harf": "ç",
+                "metin": "Kaynağına göre hadis çeşitlerini etiketler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.3.2",
+            "baslik": "Ravi sayısına göre hadis çeşitlerini ayırt edebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Ravi sayısına göre hadis çeşitlerini tespit eder."
+              },
+              {
+                "harf": "b",
+                "metin": "Belirlenen hadis çeşitlerinin hadis ilmindeki yeri ve önemini araştırır."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadis çeşitlerini ilişkili olduğu alana göre etiketler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.3.3",
+            "baslik": "Sıhhat derecesine göre hadis çeşitlerini özetleyebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Sıhhat derecesine göre hadis çeşitleri ile ilgili çözümleme yapar."
+              },
+              {
+                "harf": "b",
+                "metin": "Sıhhat derecesine göre hadis çeşitleri ile ilgili sınıflandırma yapar."
+              },
+              {
+                "harf": "c",
+                "metin": "Sıhhat derecesine göre hadis çeşitlerini kendi cümleleriyle aktarır."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.3.4",
+            "baslik": "Ahlakla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Ahlakla ilgili hadisleri tespit eder."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadisleri içeriklerine göre sınıflandırır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar."
+              },
+              {
+                "harf": "d",
+                "metin": "Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.3.5",
+            "baslik": "Ahlakla ilgili hadisi yorumlayabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis usulüne göre ahlakla ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Belirlenen ilke ve usuller çerçevesinde ahlakla ilgili hadisi inceler."
+              },
+              {
+                "harf": "c",
+                "metin": "Ahlakla ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+              }
+            ]
+          }
+        ],
+        "ogrenme_kanitlari": {
+          "olcme_araclari": [
+            "açık uçlu sorular",
+            "boşluk doldurma soruları",
+            "yapılandırılmış grid",
+            "öz değerlendirme formu",
+            "eşleştirme soruları",
+            "kısa cevaplı sorular",
+            "çıkış kartı",
+            "öğrenme günlüğü"
+          ],
+          "performans_gorevi": {
+            "aciklama": "Kaynağına, ravi sayısına ve sıhhatine göre hadis çeşitlerini gösteren bir kavram haritası hazırlamaları istenebilir.",
+            "degerlendirme_olcutleri": [
+              "çözümleme",
+              "sınıflandırma",
+              "özgünlük",
+              "verilerin doğruluğu",
+              "sunma"
+            ],
+            "degerlendirme_araci": "dereceli puanlama anahtarı"
+          }
+        },
+        "ogrenme_ogretme_yasantilari": {
+          "temel_kabuller": "Öğrencilerin hadislerin bazı kriterlere göre sınıflandırıldığını bildikleri kabul edilmektedir.",
+          "on_degerlendirme": [
+            "Öğrencilere hadislerin sınıflandırılmasına dair sorular sorulabilir."
+          ],
+          "kopru_kurma": "Öğrencilere sahabiye ait bir söz verilir; bu sözün benzeri veya tamamlayıcısı olabilecek ayet ve hadisleri tespit etmeleri istenir ve bunların günlük yaşama yansımaları paylaşılır.",
+          "uygulamalar": [
+            {
+              "cikti_kodu": "HDS.10.3.1",
+              "uygulama_metni": "Hadislerin farklı kriterlere göre sınıflandırıldığı vurgulanır; rivayetin Hz. Peygamber’e, sahabiye veya tâbiiye dayanıyor olabileceği açıklanır; kutsi, merfu, mevkuf ve maktu hadisler örnekler üzerinden tasnif edilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Kavram Kontrolü",
+                  "nerede": "kaynağa göre hadis çeşitlerini ayırt etme ve etiketleme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E1.1",
+                "DAB3.1"
+              ],
+              "olcme_onerileri": [
+                "yapılandırılmış grid"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.3.2",
+              "uygulama_metni": "Senette yer alan ravi sayısının değişebileceği vurgulanır; mütevatir, ahad ve meşhur hadis kavramları tanımlanır ve hadis usulündeki yerleri araştırılır.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Kavram Haritası",
+                  "nerede": "kavramlar arası ilişki kurma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "OB1"
+              ],
+              "olcme_onerileri": [
+                "eşleştirme soruları",
+                "kısa cevaplı sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.3.3",
+              "uygulama_metni": "Sıhhat kavramı açıklanır; hadislerin sahih, hasen, zayıf ve mevzû olarak sınıflandırılması, ravinin adaleti ve zabtı ile senet ve metin tenkidinin ana hatları üzerinde durulur.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Zihinsel Haritalama",
+                  "nerede": "sıhhat derecelerini sistematik sınıflandırma aşamasında"
+                },
+                {
+                  "ad": "Beyin Fırtınası",
+                  "nerede": "adalet ve dürüstlükle ilgili çıkarım üretme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E3.7",
+                "D1",
+                "D6"
+              ],
+              "olcme_onerileri": [
+                "çıkış kartı",
+                "açık uçlu sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.3.4",
+              "uygulama_metni": "Ahlakla ilgili hadisler güvenilir hadis kaynaklarından tespit edilir; olay/şahıs/yer/konu/kavramlar belirlenir ve içeriklerine göre sınıflandırılarak çıkarımlar öğrenme günlüğüne kaydedilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Düşün-Eşleş-Paylaş",
+                  "nerede": "çıkarımları eşleştirerek tartışma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E3.2"
+              ],
+              "olcme_onerileri": [
+                "açık uçlu sorular"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.3.5",
+              "uygulama_metni": "Ahlakla ilgili seçilen hadisin sahabi ravisi tanıtılır; hadisin anlamı Kur’an ve sünnete uygunluk ilkesiyle incelenir ve mesajlarının öğrencinin davranışlarına etkisi değerlendirilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Zıt Panel",
+                  "nerede": "hadisin rehberliğinde problemle ilgili akıl yürütme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "SDB1.3",
+                "KB2.14",
+                "E3.8",
+                "SDB2.1",
+                "OB1"
+              ],
+              "olcme_onerileri": [
+                "boşluk doldurma soruları",
+                "açık uçlu sorular",
+                "öğrenme günlüğü"
+              ]
+            }
+          ]
+        },
+        "farklilastirma": {
+          "zenginlestirme": [
+            "Karekodda verilen hadisleri Arapça metin ve Türkçe anlamıyla ezberleyip okuma; bilişsel çıraklık tekniğinden yararlanma.",
+            "Hadis çeşitlerine ilişkin dijital çalışma hazırlayıp sınıfta sunma."
+          ],
+          "destekleme": [
+            "Karekodda yer alan hadislerden birini Arapça ve Türkçe olarak okuma.",
+            "Hadis çeşitleriyle ilgili bilgi kartları hazırlama."
+          ]
+        }
+      },
+      {
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "unite_aciklamasi": "Bu ünitede hadis ve sünnetin anlaşılmasını konu edinen ilimlerin çözümlenmesi, hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünülmesi, hadis kaynaklarına başvurulması ve ilimle ilgili hadis metninin yorumlanması amaçlanmaktadır.",
+        "ders_saati": 14,
+        "yuzde_orani": 19,
+        "alan_becerileri": [
+          {
+            "kod": "DAB1.2",
+            "ad": "Hadis Kaynaklarına Başvurma"
+          },
+          {
+            "kod": "DAB3.3",
+            "ad": "Dinî Metinleri Yorumlama"
+          },
+          {
+            "kod": "DAB4.4",
+            "ad": "Dinî Konularda Analitik Düşünme"
+          }
+        ],
+        "kavramsal_beceriler": [
+          {
+            "kod": "KB2.4",
+            "ad": "Çözümleme"
+          }
+        ],
+        "egilimler": [
+          {
+            "kod": "E3.1",
+            "ad": "Muhakeme"
+          }
+        ],
+        "programlar_arasi_bilesenler": {
+          "sosyal_duygusal_ogrenme": [
+            {
+              "kod": "SDB1.3",
+              "ad": "Kendine Uyarlama (Öz Yansıtma)"
+            },
+            {
+              "kod": "SDB2.2",
+              "ad": "İş Birliği"
+            }
+          ],
+          "degerler": [
+            {
+              "kod": "D3",
+              "ad": "Çalışkanlık"
+            }
+          ],
+          "okuryazarlik_becerileri": [
+            {
+              "kod": "OB1",
+              "ad": "Bilgi Okuryazarlığı"
+            }
+          ]
+        },
+        "disiplinler_arasi_iliskiler": [],
+        "beceriler_arasi_iliskiler": [
+          {
+            "kod": "DAB2.2",
+            "ad": "Dinî Kaynakların İlişkisini Değerlendirme"
+          }
+        ],
+        "icerik_cercevesi": [
+          "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+          "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+          "Hadis Kaynaklarında İlim",
+          "Hadislerden Mesajlar: İlim"
+        ],
+        "anahtar_kavramlar": [
+          "Esbabü vürudilhadis"
+        ],
+        "ogrenme_ciktilari": [
+          {
+            "kod": "HDS.10.4.1",
+            "baslik": "Hadis ve sünnetin anlaşılmasını konu edinen ilimleri çözümleyebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis ve sünnetin anlaşılmasını konu edinen ilimlere ilişkin unsurları açıklar."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadis ve sünnetin anlaşılmasını konu edinen ilimlere dair unsurlar arasındaki ilişkileri belirler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.4.2",
+            "baslik": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis ve sünnetin anlaşılmasında kullanılan esaslar arasında ilişki kurar."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadis ve sünnetin anlaşılmasında kullanılan esaslar arasında kurduğu ilişkiyle ilgili akıl yürütür."
+              },
+              {
+                "harf": "c",
+                "metin": "Akıl yürütme ile ulaştığı çıkarımları tartışır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Tercih edilebilir görüş ve argümanları gerekçeleriyle belirler."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.4.3",
+            "baslik": "İlimle ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "İlimle ilgili hadisleri tespit eder."
+              },
+              {
+                "harf": "b",
+                "metin": "Hadislerde geçen olay/şahıs/yer/konu/kavramları belirler."
+              },
+              {
+                "harf": "c",
+                "metin": "Hadisleri içeriklerine göre sınıflandırır."
+              },
+              {
+                "harf": "ç",
+                "metin": "Hadisler doğrultusunda olay/konu/durumla ilgili çıkarım yapar."
+              },
+              {
+                "harf": "d",
+                "metin": "Hadislerle ilgili yaptığı çıkarımlara olay/konu/durumlarda yer verir."
+              }
+            ]
+          },
+          {
+            "kod": "HDS.10.4.4",
+            "baslik": "İlimle ilgili hadisi yorumlayabilme",
+            "surec_bilesenleri": [
+              {
+                "harf": "a",
+                "metin": "Hadis usulüne göre ilimle ilgili hadisi yorumlamada yararlanılacak ilke ve ölçütleri belirler."
+              },
+              {
+                "harf": "b",
+                "metin": "Belirlenen ilke ve usuller çerçevesinde ilimle ilgili hadisi inceler."
+              },
+              {
+                "harf": "c",
+                "metin": "İlimle ilgili hadisi bağlamı içinde kendi cümleleri ile ifade eder."
+              }
+            ]
+          }
+        ],
+        "ogrenme_kanitlari": {
+          "olcme_araclari": [
+            "dereceli puanlama anahtarı",
+            "grup değerlendirme formu",
+            "kontrol listesi",
+            "öğrenme günlüğü",
+            "3-2-1 kartı",
+            "Frayer diyagramı",
+            "doğru-yanlış soruları",
+            "açık uçlu sorular"
+          ],
+          "performans_gorevi": {
+            "aciklama": "Hadislerin anlaşılmasında dikkat edilmesi gereken esaslara dair etkileşimli pano hazırlamaları istenebilir.",
+            "degerlendirme_olcutleri": [
+              "veri toplama",
+              "ilişki kurma",
+              "yapılandırma",
+              "dil ve anlatım"
+            ],
+            "degerlendirme_araci": "dereceli puanlama anahtarı ve grup değerlendirme formu"
+          }
+        },
+        "ogrenme_ogretme_yasantilari": {
+          "temel_kabuller": "Öğrencilerin sünnetin Kur’an-ı Kerim’i açıklayan temel kaynak olduğunu bildikleri kabul edilmektedir.",
+          "on_degerlendirme": [
+            "Bir olay veya bilginin bütüncül olmayan ve anlık bir bakış açısıyla değerlendirilmesinin doğuracağı sonuçlara ilişkin düşüncelerini paylaşmaları istenebilir."
+          ],
+          "kopru_kurma": "Hadislerin anlaşılmasında dikkat edilmesi gereken esasları içeren bir metin verilir; öğrencilerden metindeki temel mesajı analiz etmeleri ve bu mesajı kendi düşünce, tutum ve davranışlarına günlük hayatta nasıl yansıtabileceklerini ifade etmeleri istenir.",
+          "uygulamalar": [
+            {
+              "cikti_kodu": "HDS.10.4.1",
+              "uygulama_metni": "Esbabü vürudilhadis, garibül hadis, fıkhül hadis ve muhtelifül hadis gibi ilimler örnek olaylar üzerinden tanıtılır; bu ilimlerin rivayetlerin doğru anlaşılmasına katkısı açıklanır.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Örnek Olay Yöntemi",
+                  "nerede": "hadis ilimlerinin işlevini somut durumlarla ilişkilendirme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "E3.1"
+              ],
+              "olcme_onerileri": [
+                "açık uçlu sorular",
+                "öğrenme günlüğü"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.4.2",
+              "uygulama_metni": "Kur’an-sünnet bütünlüğü, söylenme sebebini dikkate alma, Arapçaya hâkimiyet, tarih-coğrafya ve genel kültür bilgisi, siyer-tefsir-fıkıh gibi ilimlerden yararlanma esasları arasındaki ilişki incelenir; tercih edilebilir görüş ve argümanlar tartışılır.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Fikir Taraması",
+                  "nerede": "hadis ve sünnetin anlaşılmasında esasları ilişkilendirme aşamasında"
+                },
+                {
+                  "ad": "Çember",
+                  "nerede": "çıkarımları tartışma ve ortaklaştırma aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "D3",
+                "SDB2.2"
+              ],
+              "olcme_onerileri": [
+                "3-2-1 kartı"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.4.3",
+              "uygulama_metni": "İlimle ilgili hadisler güvenilir kaynaklardan tespit edilir; içeriklerine göre sınıflandırılır ve bunlardan çıkarımlar yapılarak broşür gibi ürünlere dönüştürülür.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Tereyağı-Ekmek",
+                  "nerede": "çıkarımları kademeli olarak ürünleştirme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "DAB1.2"
+              ],
+              "olcme_onerileri": [
+                "öğrenme günlüğü"
+              ]
+            },
+            {
+              "cikti_kodu": "HDS.10.4.4",
+              "uygulama_metni": "İlimle ilgili seçilen hadisin anlamı ve ravisi tanıtılır; Kur’an ve sünnete uygunluk ilkesiyle incelenir ve hadisin mesajları öğrencinin davranışlarına uyarlanarak kendi cümleleriyle ifade ettirilir.",
+              "kullanilan_teknikler": [
+                {
+                  "ad": "Yumruktan Beşe",
+                  "nerede": "öğrencinin öğrenme düzeyini görünür kılma ve hadisi değerlendirme aşamasında"
+                }
+              ],
+              "iliskilendirilen_kodlar": [
+                "SDB1.3",
+                "OB1"
+              ],
+              "olcme_onerileri": [
+                "açık uçlu sorular",
+                "doğru-yanlış soruları"
+              ]
+            }
+          ]
+        },
+        "farklilastirma": {
+          "zenginlestirme": [
+            "İlimle ilgili karekodda verilen hadisleri ezbere okuma ve bilişsel çıraklıkla ezber çalışmaları yürütme.",
+            "Ezberlenen hadisleri poster üzerinde görselleştirme.",
+            "Yorumlanan hadisin ravisinin hadis ilmine katkılarını araştırıp sunma."
+          ],
+          "destekleme": [
+            "Hadislerin anlaşılmasını konu edinen ilimleri listeleme.",
+            "Hadislerin anlaşılmasında dikkat edilmesi gereken esaslardan birini sözlü ya da yazılı olarak özetleme.",
+            "İlimle ilgili bir hadisi sözlü şekilde ifade etme."
+          ]
+        }
+      }
+    ]
+  },
+  "kitap": {
+    "meta": {
+      "kitap_adi": "Anadolu İmam Hatip Lisesi Hadis 10. Sınıf Ders Kitabı",
+      "yayinevi": "Millî Eğitim Bakanlığı Yayınları",
+      "yazarlar": [
+        "Dr. Elif DAVUN",
+        "Dr. Tuğçe GÜNAYDIN",
+        "Aynur ÇİFTÇİ",
+        "Ayşe SAĞLAM",
+        "Gülişe GÜNDÜZ"
+      ],
+      "isbn": "978-975-11-8970-7",
+      "baski_yili": "2025",
+      "toplam_sayfa": 159
+    },
+    "bolumler": [
+      {
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "baslangic_sayfa": 10,
+        "bitis_sayfa": 43,
+        "alt_bolumler": [
+          {
+            "baslik": "Hadis İlminin Konusu ve Önemi",
+            "baslangic_sayfa": 12,
+            "bitis_sayfa": 14,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.1"
+            ]
+          },
+          {
+            "baslik": "Hadis İlmiyle İlgili Kavramlar",
+            "baslangic_sayfa": 15,
+            "bitis_sayfa": 21,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.2"
+            ]
+          },
+          {
+            "baslik": "Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+            "baslangic_sayfa": 22,
+            "bitis_sayfa": 25,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.3"
+            ]
+          },
+          {
+            "baslik": "Sünnetin Evrenselliği",
+            "baslangic_sayfa": 26,
+            "bitis_sayfa": 27,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.4"
+            ]
+          },
+          {
+            "baslik": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+            "baslangic_sayfa": 28,
+            "bitis_sayfa": 35,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.5"
+            ]
+          },
+          {
+            "baslik": "1. Ünite Ölçme ve Değerlendirme Soruları",
+            "baslangic_sayfa": 36,
+            "bitis_sayfa": 42,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.1.1",
+              "HDS.10.1.2",
+              "HDS.10.1.3",
+              "HDS.10.1.4",
+              "HDS.10.1.5"
+            ]
+          }
+        ]
+      },
+      {
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "baslangic_sayfa": 44,
+        "bitis_sayfa": 79,
+        "alt_bolumler": [
+          {
+            "baslik": "Hadislerin Sözlü ve Yazılı Aktarımı",
+            "baslangic_sayfa": 46,
+            "bitis_sayfa": 52,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.1"
+            ]
+          },
+          {
+            "baslik": "Hadislerin Tedvin ve Tasnifi",
+            "baslangic_sayfa": 53,
+            "bitis_sayfa": 59,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.2"
+            ]
+          },
+          {
+            "baslik": "Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+            "baslangic_sayfa": 60,
+            "bitis_sayfa": 62,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.3"
+            ]
+          },
+          {
+            "baslik": "Hadis Kaynaklarında İman",
+            "baslangic_sayfa": 63,
+            "bitis_sayfa": 65,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.4"
+            ]
+          },
+          {
+            "baslik": "Hadislerden Mesajlar: İman",
+            "baslangic_sayfa": 66,
+            "bitis_sayfa": 73,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.5"
+            ]
+          },
+          {
+            "baslik": "2. Ünite Ölçme ve Değerlendirme Soruları",
+            "baslangic_sayfa": 74,
+            "bitis_sayfa": 78,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.2.1",
+              "HDS.10.2.2",
+              "HDS.10.2.3",
+              "HDS.10.2.4",
+              "HDS.10.2.5"
+            ]
+          }
+        ]
+      },
+      {
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "baslangic_sayfa": 80,
+        "bitis_sayfa": 109,
+        "alt_bolumler": [
+          {
+            "baslik": "Kaynağına Göre Hadis Çeşitleri",
+            "baslangic_sayfa": 82,
+            "bitis_sayfa": 85,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.1"
+            ]
+          },
+          {
+            "baslik": "Ravi Sayısına Göre Hadis Çeşitleri",
+            "baslangic_sayfa": 86,
+            "bitis_sayfa": 88,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.2"
+            ]
+          },
+          {
+            "baslik": "Sıhhat Derecesine Göre Hadis Çeşitleri",
+            "baslangic_sayfa": 89,
+            "bitis_sayfa": 94,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.3"
+            ]
+          },
+          {
+            "baslik": "Hadis Kaynaklarında Ahlak",
+            "baslangic_sayfa": 95,
+            "bitis_sayfa": 97,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.4"
+            ]
+          },
+          {
+            "baslik": "Hadislerden Mesajlar: Ahlak",
+            "baslangic_sayfa": 98,
+            "bitis_sayfa": 103,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.5"
+            ]
+          },
+          {
+            "baslik": "3. Ünite Ölçme ve Değerlendirme Soruları",
+            "baslangic_sayfa": 104,
+            "bitis_sayfa": 108,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.3.1",
+              "HDS.10.3.2",
+              "HDS.10.3.3",
+              "HDS.10.3.4",
+              "HDS.10.3.5"
+            ]
+          }
+        ]
+      },
+      {
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "baslangic_sayfa": 110,
+        "bitis_sayfa": 133,
+        "alt_bolumler": [
+          {
+            "baslik": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+            "baslangic_sayfa": 112,
+            "bitis_sayfa": 115,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.4.1"
+            ]
+          },
+          {
+            "baslik": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+            "baslangic_sayfa": 116,
+            "bitis_sayfa": 119,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.4.2"
+            ]
+          },
+          {
+            "baslik": "Hadis Kaynaklarında İlim",
+            "baslangic_sayfa": 120,
+            "bitis_sayfa": 121,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.4.3"
+            ]
+          },
+          {
+            "baslik": "Hadislerden Mesajlar: İlim",
+            "baslangic_sayfa": 122,
+            "bitis_sayfa": 127,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.4.4"
+            ]
+          },
+          {
+            "baslik": "4. Ünite Ölçme ve Değerlendirme Soruları",
+            "baslangic_sayfa": 128,
+            "bitis_sayfa": 132,
+            "iliskili_cikti_kodlari": [
+              "HDS.10.4.1",
+              "HDS.10.4.2",
+              "HDS.10.4.3",
+              "HDS.10.4.4"
+            ]
+          }
+        ]
+      }
+    ],
+    "materyaller": [
+      {
+        "id": "MAT-001",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.1 - Hadis İlminin Konusu ve Önemi",
+        "sayfa": 12,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlminin Konusu ve Önemi konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-002",
+        "tur": "etkinlik",
+        "baslik": "Üniteye Başlarken - Hadis İlmine Giriş",
+        "sayfa": 12,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmine Giriş ünitesine hazırlık ve ön değerlendirme etkinliği."
+      },
+      {
+        "id": "MAT-003",
+        "tur": "okuma_metni",
+        "baslik": "Bağlantı Noktası - Hadis İlminin Konusu ve Önemi",
+        "sayfa": 12,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlminin Konusu ve Önemi konusuna giriş için hazırlık soruları ve köprü kurma metni."
+      },
+      {
+        "id": "MAT-004",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 1.1 - Hadis İlminin Konusu ve Önemi",
+        "sayfa": 13,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlminin Konusu ve Önemi konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-005",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-1 - Hadis ilminin önemini açıklayabilme",
+        "sayfa": 14,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ilminin önemini açıklayabilme"
+      },
+      {
+        "id": "MAT-006",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis İlminin Konusu ve Önemi",
+        "sayfa": 14,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlminin Konusu ve Önemi konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-007",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 1.2 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 15,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-008",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.2 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 16,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-009",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.3 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 16,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-010",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.4 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 17,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-011",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 17,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-012",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 1.3 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 18,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-013",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.5 - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 19,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-014",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-2 - Hadis ilmiyle ilgili kavramları sınıflandırabilme",
+        "sayfa": 19,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ilmiyle ilgili kavramları sınıflandırabilme"
+      },
+      {
+        "id": "MAT-015",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis İlmiyle İlgili Kavramlar",
+        "sayfa": 21,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis İlmiyle İlgili Kavramlar konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-016",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.6 - Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "sayfa": 22,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Dindeki Yeri ve Bağlayıcılığı konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-017",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 1.4 - Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "sayfa": 22,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Dindeki Yeri ve Bağlayıcılığı konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-018",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.7 - Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "sayfa": 23,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Dindeki Yeri ve Bağlayıcılığı konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-019",
+        "tur": "gorsel",
+        "baslik": "Görsel 1.8 - Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "sayfa": 23,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Dindeki Yeri ve Bağlayıcılığı konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-020",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-3 - Sünnetin İslam dinindeki yerini ve bağlayıcılığını anlayabilme",
+        "sayfa": 24,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin İslam dinindeki yerini ve bağlayıcılığını anlayabilme"
+      },
+      {
+        "id": "MAT-021",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "sayfa": 24,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Dindeki Yeri ve Bağlayıcılığı konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-022",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-4 - Sünnetin evrenselliğini analitik düşünebilme",
+        "sayfa": 26,
+        "iliskili_cikti_kodu": "HDS.10.1.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin evrenselliğini analitik düşünebilme"
+      },
+      {
+        "id": "MAT-023",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Sünnetin Evrenselliği",
+        "sayfa": 27,
+        "iliskili_cikti_kodu": "HDS.10.1.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin Evrenselliği konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-024",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 1.5 - Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+        "sayfa": 29,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-025",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+        "sayfa": 30,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-026",
+        "tur": "bilgi_kutusu",
+        "baslik": "Hadisten Notlar - Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+        "sayfa": 30,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık bölümündeki hadisten çıkarılan temel ilkeleri özetleyen bilgi kutusu."
+      },
+      {
+        "id": "MAT-027",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-5 - Kur’an ve sünnete bağlılıkla ilgili bir hadisişerifi anlayabilme",
+        "sayfa": 31,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kur’an ve sünnete bağlılıkla ilgili bir hadisişerifi anlayabilme"
+      },
+      {
+        "id": "MAT-028",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-6 - Kur’an ve sünnete bağlılıkla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme",
+        "sayfa": 32,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kur’an ve sünnete bağlılıkla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme"
+      },
+      {
+        "id": "MAT-029",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+        "sayfa": 33,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-030",
+        "tur": "proje_gorevi",
+        "baslik": "Sünnetin dindeki yeri ve bağlayıcılığını anlatan broşür",
+        "sayfa": 34,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sünnetin dindeki yeri ve bağlayıcılığını anlatan broşür"
+      },
+      {
+        "id": "MAT-031",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "1. Ünite Ölçme ve Değerlendirme Soruları",
+        "sayfa": 36,
+        "iliskili_cikti_kodu": "HDS.10.1.1,HDS.10.1.2,HDS.10.1.3,HDS.10.1.4,HDS.10.1.5",
+        "soru_sayisi": 24,
+        "soru_turleri": [
+          "çoktan seçmeli",
+          "doğru-yanlış",
+          "eşleştirme",
+          "açık uçlu"
+        ],
+        "aciklama": "Hadis İlmine Giriş ünitesinin sonunda yer alan karma değerlendirme soruları."
+      },
+      {
+        "id": "MAT-032",
+        "tur": "etkinlik",
+        "baslik": "Üniteye Başlarken - Hadis Tarihi",
+        "sayfa": 46,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Tarihi ünitesine hazırlık ve ön değerlendirme etkinliği."
+      },
+      {
+        "id": "MAT-033",
+        "tur": "okuma_metni",
+        "baslik": "Bağlantı Noktası - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 46,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusuna giriş için hazırlık soruları ve köprü kurma metni."
+      },
+      {
+        "id": "MAT-034",
+        "tur": "gorsel",
+        "baslik": "Görsel 2.1 - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 47,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-035",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.1 - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 48,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-036",
+        "tur": "gorsel",
+        "baslik": "Görsel 2.2 - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 49,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-037",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.2 - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 49,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-038",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.3 - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 50,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-039",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-1 - Hadislerin sözlü ve yazılı aktarımını tarihsel bağlamsallaştırabilme",
+        "sayfa": 50,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin sözlü ve yazılı aktarımını tarihsel bağlamsallaştırabilme"
+      },
+      {
+        "id": "MAT-040",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-2 - Hadislerin sözlü ve yazılı aktarım yöntemlerini açıklayabilme",
+        "sayfa": 51,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin sözlü ve yazılı aktarım yöntemlerini açıklayabilme"
+      },
+      {
+        "id": "MAT-041",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerin Sözlü ve Yazılı Aktarımı",
+        "sayfa": 52,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Sözlü ve Yazılı Aktarımı konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-042",
+        "tur": "gorsel",
+        "baslik": "Görsel 2.3 - Hadislerin Tedvin ve Tasnifi",
+        "sayfa": 53,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Tedvin ve Tasnifi konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-043",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.4 - Hadislerin Tedvin ve Tasnifi",
+        "sayfa": 54,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Tedvin ve Tasnifi konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-044",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-3 - Tedvin ve tasnif dönemlerinin benzer ve farklı özelliklerini tespit edebilme",
+        "sayfa": 55,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Tedvin ve tasnif dönemlerinin benzer ve farklı özelliklerini tespit edebilme"
+      },
+      {
+        "id": "MAT-045",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.5 - Hadislerin Tedvin ve Tasnifi",
+        "sayfa": 56,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Tedvin ve Tasnifi konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-046",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.6 - Hadislerin Tedvin ve Tasnifi",
+        "sayfa": 58,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Tedvin ve Tasnifi konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-047",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerin Tedvin ve Tasnifi",
+        "sayfa": 59,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin Tedvin ve Tasnifi konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-048",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+        "sayfa": 60,
+        "iliskili_cikti_kodu": "HDS.10.2.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Tedvin ve Tasnif Sonrası Hadis Çalışmaları kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-049",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-4 - Tedvin ve tasnif sonrası hadis çalışmalarını ve önemini açıklayabilme",
+        "sayfa": 61,
+        "iliskili_cikti_kodu": "HDS.10.2.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Tedvin ve tasnif sonrası hadis çalışmalarını ve önemini açıklayabilme"
+      },
+      {
+        "id": "MAT-050",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+        "sayfa": 62,
+        "iliskili_cikti_kodu": "HDS.10.2.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Tedvin ve Tasnif Sonrası Hadis Çalışmaları konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-051",
+        "tur": "gorsel",
+        "baslik": "Görsel 2.4 - Hadis Kaynaklarında İman",
+        "sayfa": 63,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İman konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-052",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadis Kaynaklarında İman",
+        "sayfa": 63,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İman kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-053",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.7 - Hadis Kaynaklarında İman",
+        "sayfa": 64,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İman konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-054",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-5 - Hadis kaynaklarını imanla ilgili hadis rivayetlerinde kullanabilme",
+        "sayfa": 65,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis kaynaklarını imanla ilgili hadis rivayetlerinde kullanabilme"
+      },
+      {
+        "id": "MAT-055",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis Kaynaklarında İman",
+        "sayfa": 65,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İman konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-056",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 2.8 - Hadislerden Mesajlar: İman",
+        "sayfa": 67,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İman konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-057",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadislerden Mesajlar: İman",
+        "sayfa": 68,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İman kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-058",
+        "tur": "bilgi_kutusu",
+        "baslik": "Hadisten Notlar - Hadislerden Mesajlar: İman",
+        "sayfa": 68,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İman bölümündeki hadisten çıkarılan temel ilkeleri özetleyen bilgi kutusu."
+      },
+      {
+        "id": "MAT-059",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-6 - İmanla ilgili bir hadisişerifi anlayabilme",
+        "sayfa": 69,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "İmanla ilgili bir hadisişerifi anlayabilme"
+      },
+      {
+        "id": "MAT-060",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-7 - İmanla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme",
+        "sayfa": 70,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "İmanla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme"
+      },
+      {
+        "id": "MAT-061",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerden Mesajlar: İman",
+        "sayfa": 71,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İman konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-062",
+        "tur": "proje_gorevi",
+        "baslik": "Hadis tarihinin belli başlı dönemlerini gösteren tarihsel akış şeması",
+        "sayfa": 72,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis tarihinin belli başlı dönemlerini gösteren tarihsel akış şeması"
+      },
+      {
+        "id": "MAT-063",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "2. Ünite Ölçme ve Değerlendirme Soruları",
+        "sayfa": 74,
+        "iliskili_cikti_kodu": "HDS.10.2.1,HDS.10.2.2,HDS.10.2.3,HDS.10.2.4,HDS.10.2.5",
+        "soru_sayisi": 23,
+        "soru_turleri": [
+          "boşluk doldurma",
+          "eşleştirme",
+          "açık uçlu",
+          "çoktan seçmeli"
+        ],
+        "aciklama": "Hadis Tarihi ünitesinin sonunda yer alan karma değerlendirme soruları."
+      },
+      {
+        "id": "MAT-064",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 3.1 - Kaynağına Göre Hadis Çeşitleri",
+        "sayfa": 82,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kaynağına Göre Hadis Çeşitleri konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-065",
+        "tur": "etkinlik",
+        "baslik": "Üniteye Başlarken - Hadis Çeşitleri",
+        "sayfa": 82,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Çeşitleri ünitesine hazırlık ve ön değerlendirme etkinliği."
+      },
+      {
+        "id": "MAT-066",
+        "tur": "okuma_metni",
+        "baslik": "Bağlantı Noktası - Kaynağına Göre Hadis Çeşitleri",
+        "sayfa": 82,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kaynağına Göre Hadis Çeşitleri konusuna giriş için hazırlık soruları ve köprü kurma metni."
+      },
+      {
+        "id": "MAT-067",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Kaynağına Göre Hadis Çeşitleri",
+        "sayfa": 84,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kaynağına Göre Hadis Çeşitleri kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-068",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-1 - Hadisleri kaynağına göre sınıflandırabilme",
+        "sayfa": 85,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadisleri kaynağına göre sınıflandırabilme"
+      },
+      {
+        "id": "MAT-069",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Kaynağına Göre Hadis Çeşitleri",
+        "sayfa": 85,
+        "iliskili_cikti_kodu": "HDS.10.3.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kaynağına Göre Hadis Çeşitleri konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-070",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 3.2 - Ravi Sayısına Göre Hadis Çeşitleri",
+        "sayfa": 86,
+        "iliskili_cikti_kodu": "HDS.10.3.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ravi Sayısına Göre Hadis Çeşitleri konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-071",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-2 - Ravi sayısına göre hadis çeşitlerini ve hadis ilmindeki yerini belirleyebilme",
+        "sayfa": 87,
+        "iliskili_cikti_kodu": "HDS.10.3.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ravi sayısına göre hadis çeşitlerini ve hadis ilmindeki yerini belirleyebilme"
+      },
+      {
+        "id": "MAT-072",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Ravi Sayısına Göre Hadis Çeşitleri",
+        "sayfa": 88,
+        "iliskili_cikti_kodu": "HDS.10.3.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ravi Sayısına Göre Hadis Çeşitleri konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-073",
+        "tur": "gorsel",
+        "baslik": "Görsel 3.1 - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 89,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-074",
+        "tur": "gorsel",
+        "baslik": "Görsel 3.2 - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 90,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-075",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-3 - Davranışlarda dengeli olmanın günlük hayatımıza etkisini belirleyebilme",
+        "sayfa": 90,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Davranışlarda dengeli olmanın günlük hayatımıza etkisini belirleyebilme"
+      },
+      {
+        "id": "MAT-076",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 3.3 - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 91,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-077",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 3.4 - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 92,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-078",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 93,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-079",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-4 - Sıhhat derecesine göre hadis çeşitlerini zihin haritasında gösterebilme",
+        "sayfa": 94,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat derecesine göre hadis çeşitlerini zihin haritasında gösterebilme"
+      },
+      {
+        "id": "MAT-080",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "sayfa": 94,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Sıhhat Derecesine Göre Hadis Çeşitleri konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-081",
+        "tur": "gorsel",
+        "baslik": "Görsel 3.3 - Hadis Kaynaklarında Ahlak",
+        "sayfa": 95,
+        "iliskili_cikti_kodu": "HDS.10.3.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında Ahlak konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-082",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-5 - Ahlakla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilmeyi öğrenebilme",
+        "sayfa": 96,
+        "iliskili_cikti_kodu": "HDS.10.3.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ahlakla ilgili hadis rivayetlerinde hadis kaynaklarına başvurabilmeyi öğrenebilme"
+      },
+      {
+        "id": "MAT-083",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis Kaynaklarında Ahlak",
+        "sayfa": 97,
+        "iliskili_cikti_kodu": "HDS.10.3.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında Ahlak konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-084",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 3.6 - Hadislerden Mesajlar: Ahlak",
+        "sayfa": 99,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Ahlak konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-085",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-6 - Ahlakla ilgili bir hadisişerifi anlayabilme",
+        "sayfa": 100,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ahlakla ilgili bir hadisişerifi anlayabilme"
+      },
+      {
+        "id": "MAT-086",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadislerden Mesajlar: Ahlak",
+        "sayfa": 100,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Ahlak kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-087",
+        "tur": "bilgi_kutusu",
+        "baslik": "Hadisten Notlar - Hadislerden Mesajlar: Ahlak",
+        "sayfa": 100,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Ahlak bölümündeki hadisten çıkarılan temel ilkeleri özetleyen bilgi kutusu."
+      },
+      {
+        "id": "MAT-088",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-7 - Ahlakla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme",
+        "sayfa": 101,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Ahlakla ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme"
+      },
+      {
+        "id": "MAT-089",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerden Mesajlar: Ahlak",
+        "sayfa": 101,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: Ahlak konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-090",
+        "tur": "proje_gorevi",
+        "baslik": "Kaynağına, ravi sayısına ve sıhhat derecesine göre hadis çeşitlerini gösteren kavram haritası",
+        "sayfa": 102,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Kaynağına, ravi sayısına ve sıhhat derecesine göre hadis çeşitlerini gösteren kavram haritası"
+      },
+      {
+        "id": "MAT-091",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "3. Ünite Ölçme ve Değerlendirme Soruları",
+        "sayfa": 104,
+        "iliskili_cikti_kodu": "HDS.10.3.1,HDS.10.3.2,HDS.10.3.3,HDS.10.3.4,HDS.10.3.5",
+        "soru_sayisi": 22,
+        "soru_turleri": [
+          "tanılayıcı dallanmış ağaç",
+          "eşleştirme",
+          "açık uçlu",
+          "çoktan seçmeli"
+        ],
+        "aciklama": "Hadis Çeşitleri ünitesinin sonunda yer alan karma değerlendirme soruları."
+      },
+      {
+        "id": "MAT-092",
+        "tur": "etkinlik",
+        "baslik": "Üniteye Başlarken - Hadis ve Sünnetin Anlaşılması",
+        "sayfa": 112,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılması ünitesine hazırlık ve ön değerlendirme etkinliği."
+      },
+      {
+        "id": "MAT-093",
+        "tur": "okuma_metni",
+        "baslik": "Bağlantı Noktası - Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+        "sayfa": 112,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler konusuna giriş için hazırlık soruları ve köprü kurma metni."
+      },
+      {
+        "id": "MAT-094",
+        "tur": "gorsel",
+        "baslik": "Görsel 4.1 - Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+        "sayfa": 113,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-095",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 4.1 - Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+        "sayfa": 113,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-096",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-1 - Hadis ve sünnetin anlaşılmasını konu edinen ilimleri ve bu ilimlerin katkılarını açıklayabilme",
+        "sayfa": 114,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve sünnetin anlaşılmasını konu edinen ilimleri ve bu ilimlerin katkılarını açıklayabilme"
+      },
+      {
+        "id": "MAT-097",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+        "sayfa": 115,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-098",
+        "tur": "gorsel",
+        "baslik": "Görsel 4.1 - Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "sayfa": 116,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-099",
+        "tur": "gorsel",
+        "baslik": "Görsel 4.2 - Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "sayfa": 116,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-100",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-2 - Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme",
+        "sayfa": 116,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme"
+      },
+      {
+        "id": "MAT-101",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "sayfa": 117,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-102",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-3 - Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme",
+        "sayfa": 118,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme"
+      },
+      {
+        "id": "MAT-103",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "sayfa": 119,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-104",
+        "tur": "gorsel",
+        "baslik": "Görsel 4.2 - Hadis Kaynaklarında İlim",
+        "sayfa": 120,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İlim konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-105",
+        "tur": "gorsel",
+        "baslik": "Görsel 4.3 - Hadis Kaynaklarında İlim",
+        "sayfa": 120,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İlim konusunu destekleyen görsel."
+      },
+      {
+        "id": "MAT-106",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadis Kaynaklarında İlim",
+        "sayfa": 120,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İlim kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-107",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-4 - Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme",
+        "sayfa": 121,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslarla ilgili analitik düşünebilme"
+      },
+      {
+        "id": "MAT-108",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadis Kaynaklarında İlim",
+        "sayfa": 121,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadis Kaynaklarında İlim konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-109",
+        "tur": "tablo",
+        "baslik": "Grafik Bilgi 4.2 - Hadislerden Mesajlar: İlim",
+        "sayfa": 123,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İlim konusundaki ilişkileri veya sınıflandırmaları gösteren grafik bilgi/şema."
+      },
+      {
+        "id": "MAT-110",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-5 - İlimle ilgili bir hadisişerifi anlayabilme",
+        "sayfa": 124,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "İlimle ilgili bir hadisişerifi anlayabilme"
+      },
+      {
+        "id": "MAT-111",
+        "tur": "etkinlik",
+        "baslik": "Sıra Sizde - Hadislerden Mesajlar: İlim",
+        "sayfa": 124,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İlim kapsamında öğrenciye bireysel düşünme/yazma görevi veren uygulama."
+      },
+      {
+        "id": "MAT-112",
+        "tur": "bilgi_kutusu",
+        "baslik": "Hadisten Notlar - Hadislerden Mesajlar: İlim",
+        "sayfa": 124,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İlim bölümündeki hadisten çıkarılan temel ilkeleri özetleyen bilgi kutusu."
+      },
+      {
+        "id": "MAT-113",
+        "tur": "etkinlik",
+        "baslik": "Etkinlik-6 - İlimle ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme",
+        "sayfa": 125,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "İlimle ilgili hadisişerifi inceleyip kendi hayatı için anlamlı hâle getirebilme"
+      },
+      {
+        "id": "MAT-114",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "Kontrol Noktası - Hadislerden Mesajlar: İlim",
+        "sayfa": 125,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerden Mesajlar: İlim konusunu yoklayan kısa ölçme ve değerlendirme soruları."
+      },
+      {
+        "id": "MAT-115",
+        "tur": "proje_gorevi",
+        "baslik": "Hadislerin anlaşılmasında dikkat edilmesi gereken esaslara dair etkileşimli pano",
+        "sayfa": 126,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_surec_bileseni": null,
+        "aciklama": "Hadislerin anlaşılmasında dikkat edilmesi gereken esaslara dair etkileşimli pano"
+      },
+      {
+        "id": "MAT-116",
+        "tur": "degerlendirme_sorusu",
+        "baslik": "4. Ünite Ölçme ve Değerlendirme Soruları",
+        "sayfa": 128,
+        "iliskili_cikti_kodu": "HDS.10.4.1,HDS.10.4.2,HDS.10.4.3,HDS.10.4.4",
+        "soru_sayisi": 20,
+        "soru_turleri": [
+          "tanılayıcı dallanmış ağaç",
+          "boşluk doldurma",
+          "açık uçlu",
+          "çoktan seçmeli"
+        ],
+        "aciklama": "Hadis ve Sünnetin Anlaşılması ünitesinin sonunda yer alan karma değerlendirme soruları."
+      }
+    ],
+    "qr_kodlar": [
+      {
+        "sayfa": 10,
+        "konum_aciklama": "sol alt",
+        "baslik": "1. Ünite karekodu",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=U21005_5769a6de",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis İlmine Giriş (genel)",
+        "aciklama": "Ünitenin dijital nüshasına/ünite giriş içeriğine yönlendiren karekod.",
+        "id": "QR-001",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 10,
+        "konum_aciklama": "sağ alt",
+        "baslik": "1. Ünite sunusu",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEX383b6144",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis İlmine Giriş (genel)",
+        "aciklama": "1. ünite için EBA sunu içeriğine yönlendiren karekod.",
+        "id": "QR-002",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 13,
+        "konum_aciklama": "sağ orta",
+        "baslik": "Hadis ilminin konusu ve önemi e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": "HDS.10.1.1",
+        "iliskili_konu": "Hadis İlminin Konusu ve Önemi",
+        "aciklama": "Hadis ilminin konusu ve önemine ilişkin e-içerik bağlantısı.",
+        "id": "QR-003",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 18,
+        "konum_aciklama": "sol alt",
+        "baslik": "Hadis ilmi ile ilgili kavramlar e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": "HDS.10.1.2",
+        "iliskili_konu": "Hadis İlmiyle İlgili Kavramlar",
+        "aciklama": "Hadis ilmiyle ilgili kavramlara dair e-içerik bağlantısı.",
+        "id": "QR-004",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 26,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Sünnetin evrenselliği e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": "HDS.10.1.4",
+        "iliskili_konu": "Sünnetin Evrenselliği",
+        "aciklama": "Sünnetin evrenselliği konusunu destekleyen e-içerik.",
+        "id": "QR-005",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 30,
+        "konum_aciklama": "alt sol",
+        "baslik": "Kur’an ve sünnete bağlılıkla ilgili ek hadis metinleri",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEX5aff3e4f",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": "HDS.10.1.5",
+        "iliskili_konu": "Hadislerden Mesajlar: Kur’an ve Sünnete Bağlılık",
+        "aciklama": "Kur’an ve sünnete bağlılıkla ilgili ek hadis metinlerine veya kitabın sonundaki ilgili dijital içeriğe yönlendirir.",
+        "id": "QR-006",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 34,
+        "konum_aciklama": "sağ alt",
+        "baslik": "1. ünite performans görevi dereceli puanlama anahtarı",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": "HDS.10.1.3",
+        "iliskili_konu": "Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+        "aciklama": "Sünnetin dindeki yeri ve bağlayıcılığı konulu broşür performans görevi için dereceli puanlama anahtarına yönlendirir.",
+        "id": "QR-007",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 42,
+        "konum_aciklama": "sol alt",
+        "baslik": "1. ünite ek değerlendirme soruları",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 1,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "1. Ünite Ölçme ve Değerlendirme",
+        "aciklama": "1. ünite ile ilgili daha fazla soruya yönlendiren karekod.",
+        "id": "QR-008",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 44,
+        "konum_aciklama": "sol alt",
+        "baslik": "2. Ünite karekodu",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis Tarihi (genel)",
+        "aciklama": "2. ünitenin dijital nüshasına yönlendiren karekod.",
+        "id": "QR-009",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 44,
+        "konum_aciklama": "sağ alt",
+        "baslik": "2. Ünite sunusu",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis Tarihi (genel)",
+        "aciklama": "2. ünite sunu içeriğine yönlendiren karekod.",
+        "id": "QR-010",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 49,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Hadislerin sözlü ve yazılı aktarımı e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.1",
+        "iliskili_konu": "Hadislerin Sözlü ve Yazılı Aktarımı",
+        "aciklama": "Hadislerin sözlü ve yazılı aktarımı konusunda e-içerik bağlantısı.",
+        "id": "QR-011",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 58,
+        "konum_aciklama": "sol alt",
+        "baslik": "Hadislerin tedvin ve tasnifi e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.2",
+        "iliskili_konu": "Hadislerin Tedvin ve Tasnifi",
+        "aciklama": "Tedvin ve tasnif konusunu destekleyen e-içerik bağlantısı.",
+        "id": "QR-012",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 60,
+        "konum_aciklama": "sol alt",
+        "baslik": "Tedvin ve tasnif sonrası hadis çalışmaları videosu",
+        "tur": "video",
+        "url": "https://www.eba.gov.tr/c?q=UEXbd0c2838",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.3",
+        "iliskili_konu": "Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+        "aciklama": "Tedvin ve tasnif sonrası yapılan hadis çalışmalarıyla ilgili video içeriği.",
+        "id": "QR-013",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 63,
+        "konum_aciklama": "sol alt",
+        "baslik": "Hadislerle İslam eseri hakkında e-içerik",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=UEX1caad93a",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_konu": "Hadis Kaynaklarında İman",
+        "aciklama": "Hadislerle İslam eseri ve özellikleri hakkında tanıtıcı e-içerik.",
+        "id": "QR-014",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 63,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Hadislerle İslam dijital sayfası",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=UEX976a5666",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.4",
+        "iliskili_konu": "Hadis Kaynaklarında İman",
+        "aciklama": "Hadislerle İslam kitabının dijital ortamdaki sayfasına yönlendirir.",
+        "id": "QR-015",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 68,
+        "konum_aciklama": "alt sol",
+        "baslik": "İmanla ilgili ek hadis metinleri",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.5",
+        "iliskili_konu": "Hadislerden Mesajlar: İman",
+        "aciklama": "İmanla ilgili daha fazla hadise veya kitap sonundaki Hadis Metinleri bölümüne yönlendiren karekod.",
+        "id": "QR-016",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 72,
+        "konum_aciklama": "sağ alt",
+        "baslik": "2. ünite performans görevi dereceli puanlama anahtarı",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": "HDS.10.2.3",
+        "iliskili_konu": "Tedvin ve Tasnif Sonrası Hadis Çalışmaları",
+        "aciklama": "Hadis tarihinin dönemlerini gösteren tarihsel akış şeması için dereceli puanlama anahtarına yönlendirir.",
+        "id": "QR-017",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 78,
+        "konum_aciklama": "alt sağ/alt sol",
+        "baslik": "2. ünite ek değerlendirme soruları",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 2,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "2. Ünite Ölçme ve Değerlendirme",
+        "aciklama": "2. ünite ile ilgili daha fazla soruya yönlendiren karekod.",
+        "id": "QR-018",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 80,
+        "konum_aciklama": "sol alt",
+        "baslik": "3. Ünite karekodu",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=U21003_1f306140",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis Çeşitleri (genel)",
+        "aciklama": "3. ünitenin dijital nüshasına/ünite giriş içeriğine yönlendiren karekod.",
+        "id": "QR-019",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 80,
+        "konum_aciklama": "sağ alt",
+        "baslik": "3. Ünite sunusu",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEXd22e69a9",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis Çeşitleri (genel)",
+        "aciklama": "3. ünite sunu içeriğine yönlendiren karekod.",
+        "id": "QR-020",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 93,
+        "konum_aciklama": "alt sağ/sol",
+        "baslik": "Hadis çeşitleri e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": "HDS.10.3.3",
+        "iliskili_konu": "Sıhhat Derecesine Göre Hadis Çeşitleri",
+        "aciklama": "Hadis çeşitleri konusunda e-içeriğe yönlendiren karekod.",
+        "id": "QR-021",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 95,
+        "konum_aciklama": "sol alt",
+        "baslik": "Riyazü’s-Salihin eseri hakkında e-içerik",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=UEX17f75720",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": "HDS.10.3.4",
+        "iliskili_konu": "Hadis Kaynaklarında Ahlak",
+        "aciklama": "Riyazü’s-Salihin eseri hakkında tanıtıcı e-içerik.",
+        "id": "QR-022",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 95,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Riyazü’s-Salihin dijital sayfası",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": "HDS.10.3.4",
+        "iliskili_konu": "Hadis Kaynaklarında Ahlak",
+        "aciklama": "Riyazü’s-Salihin kitabının dijital sayfasına yönlendiren karekod.",
+        "id": "QR-023",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 100,
+        "konum_aciklama": "alt sol",
+        "baslik": "Ahlakla ilgili ek hadis metinleri",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEX6d63b54c",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": "HDS.10.3.5",
+        "iliskili_konu": "Hadislerden Mesajlar: Ahlak",
+        "aciklama": "Ahlakla ilgili daha fazla hadise veya kitap sonundaki Hadis Metinleri bölümüne yönlendiren karekod.",
+        "id": "QR-024",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 102,
+        "konum_aciklama": "sağ alt",
+        "baslik": "3. ünite performans görevi dereceli puanlama anahtarı",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": "HDS.10.3.1,HDS.10.3.2,HDS.10.3.3",
+        "iliskili_konu": "Hadis Çeşitleri",
+        "aciklama": "Hadis çeşitlerini gösteren kavram haritası performans görevi için dereceli puanlama anahtarına yönlendirir.",
+        "id": "QR-025",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 108,
+        "konum_aciklama": "alt sol",
+        "baslik": "3. ünite ek değerlendirme soruları",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 3,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "3. Ünite Ölçme ve Değerlendirme",
+        "aciklama": "3. ünite ile ilgili daha fazla soruya yönlendiren karekod.",
+        "id": "QR-026",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 110,
+        "konum_aciklama": "sol alt",
+        "baslik": "4. Ünite karekodu",
+        "tur": "web_sayfasi",
+        "url": "https://www.eba.gov.tr/c?q=U21002_d9f8fdcc",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis ve Sünnetin Anlaşılması (genel)",
+        "aciklama": "4. ünitenin dijital nüshasına/ünite giriş içeriğine yönlendiren karekod.",
+        "id": "QR-027",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 110,
+        "konum_aciklama": "sağ alt",
+        "baslik": "4. Ünite sunusu",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEXa5f0c6da",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Hadis ve Sünnetin Anlaşılması (genel)",
+        "aciklama": "4. ünite sunu içeriğine yönlendiren karekod.",
+        "id": "QR-028",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 113,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Hadis ve sünnetin anlaşılmasını konu edinen ilimler e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": "HDS.10.4.1",
+        "iliskili_konu": "Hadis ve Sünnetin Anlaşılmasını Konu Edinen İlimler",
+        "aciklama": "Geleneksel hadis ilimleri ve hadislerin anlaşılmasıyla ilgili e-içerik bağlantısı.",
+        "id": "QR-029",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 116,
+        "konum_aciklama": "sol alt",
+        "baslik": "Hadis ve sünnetin anlaşılmasında dikkat edilmesi gereken esaslar e-içeriği",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_konu": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "aciklama": "Konuyla ilgili e-içerik bağlantısı.",
+        "id": "QR-030",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 121,
+        "konum_aciklama": "sağ alt",
+        "baslik": "Tecrid-i Sarih dijital erişimi",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": "HDS.10.4.3",
+        "iliskili_konu": "Hadis Kaynaklarında İlim",
+        "aciklama": "Sahih-i Buhari Muhtasarı Tecrid-i Sarih Tercümesi ve Şerhi eserine yönlendiren karekod.",
+        "id": "QR-031",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 124,
+        "konum_aciklama": "alt sol",
+        "baslik": "İlimle ilgili ek hadis metinleri",
+        "tur": "dokuman",
+        "url": "https://www.eba.gov.tr/c?q=UEX35c74155",
+        "url_tespit_edildi": true,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": "HDS.10.4.4",
+        "iliskili_konu": "Hadislerden Mesajlar: İlim",
+        "aciklama": "İlimle ilgili daha fazla hadise veya kitap sonundaki Hadis Metinleri bölümüne yönlendiren karekod.",
+        "id": "QR-032",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 126,
+        "konum_aciklama": "sağ alt",
+        "baslik": "4. ünite performans görevi dereceli puanlama anahtarı",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": "HDS.10.4.2",
+        "iliskili_konu": "Hadis ve Sünnetin Anlaşılmasında Dikkat Edilmesi Gereken Esaslar",
+        "aciklama": "Etkileşimli pano performans görevi için dereceli puanlama anahtarına yönlendirir.",
+        "id": "QR-033",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 132,
+        "konum_aciklama": "alt sol",
+        "baslik": "4. ünite ek değerlendirme soruları",
+        "tur": "web_sayfasi",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": 4,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "4. Ünite Ölçme ve Değerlendirme",
+        "aciklama": "4. ünite ile ilgili daha fazla soruya yönlendiren karekod.",
+        "id": "QR-034",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 157,
+        "konum_aciklama": "alt sol",
+        "baslik": "Cevap anahtarı karekodu",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": null,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Kitap sonu genel materyaller",
+        "aciklama": "Kitaptaki ölçme-değerlendirme sorularının cevap anahtarına yönlendirir.",
+        "id": "QR-035",
+        "kaynak": "kitap"
+      },
+      {
+        "sayfa": 157,
+        "konum_aciklama": "alt sağ",
+        "baslik": "Görsel, genel ağ ve e-içerik kaynakçası karekodu",
+        "tur": "dokuman",
+        "url": null,
+        "url_tespit_edildi": false,
+        "iliskili_unite": null,
+        "iliskili_cikti_kodu": null,
+        "iliskili_konu": "Kitap sonu genel materyaller",
+        "aciklama": "Görsel, genel ağ ve e-içerik kaynakçasına yönlendirir.",
+        "id": "QR-036",
+        "kaynak": "kitap"
+      }
+    ]
+  },
+  "eslestirme": {
+    "cikti_kitap": [
+      {
+        "cikti_kodu": "HDS.10.1.1",
+        "kitap_sayfa_araligi": "12-14",
+        "iliskili_materyaller": [
+          "MAT-001",
+          "MAT-002",
+          "MAT-003",
+          "MAT-004",
+          "MAT-005",
+          "MAT-006",
+          "MAT-031"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "hadis": 13,
+          "hadis ilmi": 13,
+          "rehberlik": 12
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.1.2",
+        "kitap_sayfa_araligi": "15-21",
+        "iliskili_materyaller": [
+          "MAT-007",
+          "MAT-008",
+          "MAT-009",
+          "MAT-010",
+          "MAT-011",
+          "MAT-012",
+          "MAT-013",
+          "MAT-014",
+          "MAT-015",
+          "MAT-031"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "muhaddis": 15,
+          "rivayet": 16,
+          "ravi": 16,
+          "senet": 17,
+          "isnat": 17,
+          "metin": 19,
+          "sünnet": 16
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.1.3",
+        "kitap_sayfa_araligi": "22-25",
+        "iliskili_materyaller": [
+          "MAT-016",
+          "MAT-017",
+          "MAT-018",
+          "MAT-019",
+          "MAT-020",
+          "MAT-021",
+          "MAT-031"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "sünnet": 22,
+          "tebliğ": 22,
+          "tebyin": 22,
+          "teşri": 23,
+          "temsil": 23,
+          "tekit": 23
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.1.4",
+        "kitap_sayfa_araligi": "26-27",
+        "iliskili_materyaller": [
+          "MAT-022",
+          "MAT-023",
+          "MAT-031"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "evrensellik": 26,
+          "nübüvvet": 26,
+          "sünnet": 26
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.1.5",
+        "kitap_sayfa_araligi": "28-35",
+        "iliskili_materyaller": [
+          "MAT-024",
+          "MAT-025",
+          "MAT-026",
+          "MAT-027",
+          "MAT-028",
+          "MAT-029",
+          "MAT-030",
+          "MAT-031"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "itaat": 29,
+          "emir": 29,
+          "yasak": 29
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.2.1",
+        "kitap_sayfa_araligi": "46-52",
+        "iliskili_materyaller": [
+          "MAT-032",
+          "MAT-033",
+          "MAT-034",
+          "MAT-035",
+          "MAT-036",
+          "MAT-037",
+          "MAT-038",
+          "MAT-039",
+          "MAT-040",
+          "MAT-041",
+          "MAT-063"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "sahabi": 46,
+          "tâbiin": 49,
+          "rihle": 49
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.2.2",
+        "kitap_sayfa_araligi": "53-59",
+        "iliskili_materyaller": [
+          "MAT-042",
+          "MAT-043",
+          "MAT-044",
+          "MAT-045",
+          "MAT-046",
+          "MAT-047",
+          "MAT-063"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "tedvin": 53,
+          "tasnif": 53,
+          "tebeüttâbiin": 53,
+          "câmi": 54,
+          "sünen": 54,
+          "müsned": 54,
+          "Kütübisitte": 54,
+          "Kütübitisa": 58
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.2.3",
+        "kitap_sayfa_araligi": "60-62",
+        "iliskili_materyaller": [
+          "MAT-048",
+          "MAT-049",
+          "MAT-050",
+          "MAT-063"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "şerh": 60,
+          "Riyazü’s-Salihin": 60,
+          "et-Tergib ve’t-Terhib": 60
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.2.4",
+        "kitap_sayfa_araligi": "63-65",
+        "iliskili_materyaller": [
+          "MAT-051",
+          "MAT-052",
+          "MAT-053",
+          "MAT-054",
+          "MAT-055",
+          "MAT-063"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "Hadislerle İslam": 63,
+          "iman": 63
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.2.5",
+        "kitap_sayfa_araligi": "66-73",
+        "iliskili_materyaller": [
+          "MAT-056",
+          "MAT-057",
+          "MAT-058",
+          "MAT-059",
+          "MAT-060",
+          "MAT-061",
+          "MAT-062",
+          "MAT-063"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "iman": 66,
+          "ihsan": 66,
+          "Hz. Ömer": 67
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.3.1",
+        "kitap_sayfa_araligi": "82-85",
+        "iliskili_materyaller": [
+          "MAT-064",
+          "MAT-065",
+          "MAT-066",
+          "MAT-067",
+          "MAT-068",
+          "MAT-069",
+          "MAT-091"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "kutsi hadis": 83,
+          "merfu hadis": 83,
+          "mevkuf hadis": 83,
+          "maktu hadis": 84
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.3.2",
+        "kitap_sayfa_araligi": "86-88",
+        "iliskili_materyaller": [
+          "MAT-070",
+          "MAT-071",
+          "MAT-072",
+          "MAT-091"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "mütevatir hadis": 86,
+          "ahad hadis": 86,
+          "meşhur hadis": 87
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.3.3",
+        "kitap_sayfa_araligi": "89-94",
+        "iliskili_materyaller": [
+          "MAT-073",
+          "MAT-074",
+          "MAT-075",
+          "MAT-076",
+          "MAT-077",
+          "MAT-078",
+          "MAT-079",
+          "MAT-080",
+          "MAT-091"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "sahih hadis": 89,
+          "adalet": 89,
+          "zabt": 90,
+          "hasen hadis": 91,
+          "zayıf hadis": 91,
+          "mevzû hadis": 91
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.3.4",
+        "kitap_sayfa_araligi": "95-97",
+        "iliskili_materyaller": [
+          "MAT-081",
+          "MAT-082",
+          "MAT-083",
+          "MAT-091"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "Riyazü’s-Salihin": 95,
+          "ahlak": 95
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.3.5",
+        "kitap_sayfa_araligi": "98-103",
+        "iliskili_materyaller": [
+          "MAT-084",
+          "MAT-085",
+          "MAT-086",
+          "MAT-087",
+          "MAT-088",
+          "MAT-089",
+          "MAT-090",
+          "MAT-091"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "helal": 98,
+          "haram": 98,
+          "şüpheli": 98,
+          "kalp": 99
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.4.1",
+        "kitap_sayfa_araligi": "112-115",
+        "iliskili_materyaller": [
+          "MAT-092",
+          "MAT-093",
+          "MAT-094",
+          "MAT-095",
+          "MAT-096",
+          "MAT-097",
+          "MAT-116"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "esbabü vürudilhadis": 112,
+          "fıkhül hadis": 113,
+          "garibül hadis": 113,
+          "muhtelifül hadis": 113
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.4.2",
+        "kitap_sayfa_araligi": "116-119",
+        "iliskili_materyaller": [
+          "MAT-098",
+          "MAT-099",
+          "MAT-100",
+          "MAT-101",
+          "MAT-102",
+          "MAT-103",
+          "MAT-116"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "Kur’an-sünnet bütünlüğü": 116,
+          "Arapçaya hâkimiyet": 116,
+          "siyer": 116,
+          "tefsir": 116,
+          "fıkıh": 116
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.4.3",
+        "kitap_sayfa_araligi": "120-121",
+        "iliskili_materyaller": [
+          "MAT-104",
+          "MAT-105",
+          "MAT-106",
+          "MAT-107",
+          "MAT-108",
+          "MAT-116"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "Tecrid-i Sarih": 121,
+          "ilim": 120
+        }
+      },
+      {
+        "cikti_kodu": "HDS.10.4.4",
+        "kitap_sayfa_araligi": "122-127",
+        "iliskili_materyaller": [
+          "MAT-109",
+          "MAT-110",
+          "MAT-111",
+          "MAT-112",
+          "MAT-113",
+          "MAT-114",
+          "MAT-115",
+          "MAT-116"
+        ],
+        "kitaptaki_anahtar_kavramlar_sayfalari": {
+          "ilim": 122,
+          "hikmet": 123,
+          "yağmur benzetmesi": 123
+        }
+      }
+    ],
+    "haftalik_plan": [
+      {
+        "hafta": 1,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.1"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Üniteye giriş; hadisin günlük hayattaki yeri, hadis ilminin konusu ve önemi.",
+        "kitap_sayfalari": "10-13",
+        "onerilen_teknikler": [
+          "Kum Saati",
+          "Soru-Cevap"
+        ],
+        "hazirlik_notu": "Öğrencilerin hadise dair ön bilgilerini ortaya çıkaracak örnek hadis metinleri hazırlanmalı."
+      },
+      {
+        "hafta": 2,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.1",
+          "HDS.10.1.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis ilminin önemi; temel hadis kavramlarına geçiş ve kavramsal çerçevenin kurulması.",
+        "kitap_sayfalari": "14-17",
+        "onerilen_teknikler": [
+          "Soru-Cevap",
+          "Ayrılıp Birleşme (Jigsaw)"
+        ],
+        "hazirlik_notu": "Hadis, sünnet, ravi ve senet örneklerinin yer aldığı kısa kartlar hazırlanmalı."
+      },
+      {
+        "hafta": 3,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis ilmiyle ilgili kavramların sınıflandırılması; senet, isnat ve metin ilişkisi.",
+        "kitap_sayfalari": "18-21",
+        "onerilen_teknikler": [
+          "Ayrılıp Birleşme (Jigsaw)",
+          "Kavram Haritası"
+        ],
+        "hazirlik_notu": "Senet zincirlerini gösteren örnekler ve kavram haritası şablonları getirilmeli."
+      },
+      {
+        "hafta": 4,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Sünnetin dindeki yeri ve bağlayıcılığına giriş; Hz. Peygamber’in tebliğ ve tebyin görevi.",
+        "kitap_sayfalari": "22-23",
+        "onerilen_teknikler": [
+          "Kar Topu",
+          "Soru-Cevap"
+        ],
+        "hazirlik_notu": "Ayet ve hadislerin birlikte incelenebileceği kısa çalışma metinleri hazırlanmalı."
+      },
+      {
+        "hafta": 5,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.3",
+          "HDS.10.1.4"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Sünnetin bağlayıcılığı, teşri-temsil-tekit kavramları ve sünnetin evrenselliğine geçiş.",
+        "kitap_sayfalari": "24-27",
+        "onerilen_teknikler": [
+          "Kar Topu",
+          "Beyin Fırtınası"
+        ],
+        "hazirlik_notu": "Sünnetin evrenselliğine ilişkin günlük yaşam örnekleri seçilmeli."
+      },
+      {
+        "hafta": 6,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.4",
+          "HDS.10.1.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Sünnetin evrenselliği ile Kur’an ve sünnete bağlılık mesajları arasında ilişki kurma.",
+        "kitap_sayfalari": "27-30",
+        "onerilen_teknikler": [
+          "Beyin Fırtınası",
+          "Burada Herkes Öğretmen"
+        ],
+        "hazirlik_notu": "İlgili hadisin ravisi ve bağlamı hakkında kısa bilgi notları hazırlanmalı."
+      },
+      {
+        "hafta": 7,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Kur’an ve sünnete bağlılıkla ilgili hadisin yorumlanması, hadisten mesajlar ve öz değerlendirme.",
+        "kitap_sayfalari": "31-35",
+        "onerilen_teknikler": [
+          "Burada Herkes Öğretmen",
+          "RAFT"
+        ],
+        "hazirlik_notu": "Öğrenci sorularının toplanacağı kâğıtlar ve öz değerlendirme formları hazır edilmeli."
+      },
+      {
+        "hafta": 8,
+        "unite_no": 1,
+        "unite_adi": "Hadis İlmine Giriş",
+        "cikti_kodlari": [
+          "HDS.10.1.1",
+          "HDS.10.1.2",
+          "HDS.10.1.3",
+          "HDS.10.1.4",
+          "HDS.10.1.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "1. ünite genel tekrar, broşür performans görevi paylaşımı ve ünite sonu değerlendirme.",
+        "kitap_sayfalari": "36-42",
+        "onerilen_teknikler": [
+          "İş Birlikli Öğrenme"
+        ],
+        "hazirlik_notu": "Performans görevi ürünleri ve değerlendirme rubriği hazır bulundurulmalı."
+      },
+      {
+        "hafta": 9,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.1"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Üniteye giriş; hadislerin sözlü ve yazılı aktarımının önemi, sahabe dönemine giriş.",
+        "kitap_sayfalari": "44-48",
+        "onerilen_teknikler": [
+          "Konuşma Halkası"
+        ],
+        "hazirlik_notu": "Sahabe ve rivayet örneklerinin yer aldığı kısa metinler getirilmeli."
+      },
+      {
+        "hafta": 10,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.1"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Sahabe ve tâbiin döneminde hadis aktarımı, rihle ve isnat bilinci.",
+        "kitap_sayfalari": "49-52",
+        "onerilen_teknikler": [
+          "Konuşma Halkası",
+          "Öğrenme Galerisi"
+        ],
+        "hazirlik_notu": "Sözlü-yazılı aktarım ile günümüz öğrenme yollarını karşılaştıran görseller hazırlanmalı."
+      },
+      {
+        "hafta": 11,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Tedvin kavramı ve hadisleri yazılı olarak bir araya getirme ihtiyacı.",
+        "kitap_sayfalari": "53-55",
+        "onerilen_teknikler": [
+          "T Diyagramı"
+        ],
+        "hazirlik_notu": "Tedvin ve tasnifin farkını gösteren karşılaştırma tablosu hazırlanmalı."
+      },
+      {
+        "hafta": 12,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Tasnif türleri, musannef eserler, Kütübisitte ve Kütübitisa.",
+        "kitap_sayfalari": "56-59",
+        "onerilen_teknikler": [
+          "T Diyagramı"
+        ],
+        "hazirlik_notu": "Temel hadis kitaplarının adlarını ve müelliflerini gösteren kartlar hazırlanmalı."
+      },
+      {
+        "hafta": 13,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Tedvin ve tasnif sonrası hadis çalışmaları; şerh, kırk hadis ve derleme geleneği.",
+        "kitap_sayfalari": "60-62",
+        "onerilen_teknikler": [
+          "Vızıltı Grupları"
+        ],
+        "hazirlik_notu": "Riyazü’s-Salihin ve benzeri eserlerden örnek sayfa görüntüleri hazırlanmalı."
+      },
+      {
+        "hafta": 14,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.4"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis kaynaklarında iman konusu; Hadislerle İslam eserini kullanma.",
+        "kitap_sayfalari": "63-65",
+        "onerilen_teknikler": [
+          "Kar Topu",
+          "Kavram Haritası"
+        ],
+        "hazirlik_notu": "Hadislerle İslam eserinden seçilmiş iman başlıklı metinler sınıfa getirilmeli."
+      },
+      {
+        "hafta": 15,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "İmanla ilgili hadisin metni, ravisi ve hadisten çıkarılan temel ilkeler.",
+        "kitap_sayfalari": "66-68",
+        "onerilen_teknikler": [
+          "İstasyon"
+        ],
+        "hazirlik_notu": "İman hadisinin farklı boyutlarını içeren istasyon kartları hazırlanmalı."
+      },
+      {
+        "hafta": 16,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "İman hadisinin yorumlanması, grup çalışmaları ve öz değerlendirme.",
+        "kitap_sayfalari": "69-71",
+        "onerilen_teknikler": [
+          "İstasyon"
+        ],
+        "hazirlik_notu": "Afiş, özdeyiş, metin ve broşür hazırlamak için temel malzemeler getirilmeli."
+      },
+      {
+        "hafta": 17,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.3",
+          "HDS.10.2.4",
+          "HDS.10.2.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Tarihsel akış şeması performans görevi ve ünite sonu hazırlık çalışmaları.",
+        "kitap_sayfalari": "72-76",
+        "onerilen_teknikler": [
+          "İş Birlikli Öğrenme"
+        ],
+        "hazirlik_notu": "Şema hazırlama için karton, zaman çizelgesi şablonları ve rubrik hazır edilmeli."
+      },
+      {
+        "hafta": 18,
+        "unite_no": 2,
+        "unite_adi": "Hadis Tarihi",
+        "cikti_kodlari": [
+          "HDS.10.2.1",
+          "HDS.10.2.2",
+          "HDS.10.2.3",
+          "HDS.10.2.4",
+          "HDS.10.2.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "2. ünite genel tekrar ve ölçme-değerlendirme uygulamaları.",
+        "kitap_sayfalari": "77-79",
+        "onerilen_teknikler": [
+          "Soru-Cevap"
+        ],
+        "hazirlik_notu": "Ünite sonu değerlendirme soruları ve cevaplama stratejileri için sınıf içi düzen kurulmalı."
+      },
+      {
+        "hafta": 19,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.1"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Üniteye giriş; kaynağına göre hadis çeşitleri ve temel tasnif mantığı.",
+        "kitap_sayfalari": "80-83",
+        "onerilen_teknikler": [
+          "Kavram Kontrolü"
+        ],
+        "hazirlik_notu": "Kutsi, merfu, mevkuf ve maktu örneklerinin yer aldığı kartlar hazırlanmalı."
+      },
+      {
+        "hafta": 20,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.1",
+          "HDS.10.3.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Kaynağına göre hadis çeşitlerinin pekiştirilmesi ve ravi sayısına göre tasnife geçiş.",
+        "kitap_sayfalari": "84-86",
+        "onerilen_teknikler": [
+          "Kavram Kontrolü",
+          "Kavram Haritası"
+        ],
+        "hazirlik_notu": "Örnek senet zincirleri ve ravi sayısı tabloları hazırlanmalı."
+      },
+      {
+        "hafta": 21,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.2",
+          "HDS.10.3.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Mütevatir, ahad ve meşhur hadis; sıhhat derecesine göre sınıflandırmaya giriş.",
+        "kitap_sayfalari": "87-89",
+        "onerilen_teknikler": [
+          "Kavram Haritası",
+          "Zihinsel Haritalama"
+        ],
+        "hazirlik_notu": "Meşhur ve mütevatir hadis örnekleri ile sınıf içi karşılaştırma çizelgesi hazırlanmalı."
+      },
+      {
+        "hafta": 22,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Sahih hadisin şartları; adalet, zabt, muttasıl isnat, şaz ve muallel kavramları.",
+        "kitap_sayfalari": "90-92",
+        "onerilen_teknikler": [
+          "Zihinsel Haritalama",
+          "Beyin Fırtınası"
+        ],
+        "hazirlik_notu": "Sahih hadisin şartlarını gösteren poster veya tablo hazır edilmeli."
+      },
+      {
+        "hafta": 23,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hasen, zayıf ve mevzû hadis; hadis uydurma sebepleri ve isnat sisteminin rolü.",
+        "kitap_sayfalari": "93-94",
+        "onerilen_teknikler": [
+          "Beyin Fırtınası"
+        ],
+        "hazirlik_notu": "Mevzû hadis örnekleri ve güvenilir kaynak kullanımıyla ilgili uyarı notları hazırlanmalı."
+      },
+      {
+        "hafta": 24,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.4"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis kaynaklarında ahlak konusu; Riyazü’s-Salihin üzerinden hadis bulma ve sınıflandırma.",
+        "kitap_sayfalari": "95-97",
+        "onerilen_teknikler": [
+          "Düşün-Eşleş-Paylaş"
+        ],
+        "hazirlik_notu": "Riyazü’s-Salihin’den ahlak başlığına ait seçilmiş hadisler getirilmeli."
+      },
+      {
+        "hafta": 25,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Ahlakla ilgili hadisin metni, ravisi ve hadisten notlar; helal, haram ve şüpheli kavramları.",
+        "kitap_sayfalari": "98-100",
+        "onerilen_teknikler": [
+          "Zıt Panel"
+        ],
+        "hazirlik_notu": "Günlük hayattan ahlaki ikilemlere ilişkin kısa senaryolar hazırlanmalı."
+      },
+      {
+        "hafta": 26,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Ahlak hadisinin yorumlanması, öğrenme günlüğü ve öz değerlendirme.",
+        "kitap_sayfalari": "101-103",
+        "onerilen_teknikler": [
+          "Zıt Panel"
+        ],
+        "hazirlik_notu": "Öğrencilerin yazılı yansıtma yapabileceği öğrenme günlüğü sayfaları çoğaltılmalı."
+      },
+      {
+        "hafta": 27,
+        "unite_no": 3,
+        "unite_adi": "Hadis Çeşitleri",
+        "cikti_kodlari": [
+          "HDS.10.3.1",
+          "HDS.10.3.2",
+          "HDS.10.3.3",
+          "HDS.10.3.4",
+          "HDS.10.3.5"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "3. ünite genel tekrar, kavram haritası performans görevi ve ölçme-değerlendirme.",
+        "kitap_sayfalari": "104-109",
+        "onerilen_teknikler": [
+          "İş Birlikli Öğrenme"
+        ],
+        "hazirlik_notu": "Kavram haritası için büyük boy kâğıtlar ve rubrik hazır edilmelidir."
+      },
+      {
+        "hafta": 28,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.1"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Üniteye giriş; hadis ve sünnetin anlaşılmasını konu edinen ilimlere genel bakış.",
+        "kitap_sayfalari": "110-113",
+        "onerilen_teknikler": [
+          "Örnek Olay Yöntemi"
+        ],
+        "hazirlik_notu": "Esbabü vürudilhadis, garibül hadis ve muhtelifül hadise ilişkin kısa örnekler hazırlanmalı."
+      },
+      {
+        "hafta": 29,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.1",
+          "HDS.10.4.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis ilimlerinin katkısı ve hadislerin anlaşılmasında dikkat edilmesi gereken esaslara geçiş.",
+        "kitap_sayfalari": "114-116",
+        "onerilen_teknikler": [
+          "Örnek Olay Yöntemi",
+          "Fikir Taraması"
+        ],
+        "hazirlik_notu": "Birbirine benzer fakat bağlamı farklı iki hadis örneği seçilmeli."
+      },
+      {
+        "hafta": 30,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Kur’an-sünnet bütünlüğü, bağlam, dil ve genel kültür bilgisinin hadis yorumuna etkisi.",
+        "kitap_sayfalari": "117-119",
+        "onerilen_teknikler": [
+          "Fikir Taraması",
+          "Çember"
+        ],
+        "hazirlik_notu": "Kur’an-hadis ilişkisinin gösterildiği karşılaştırma etkinlikleri hazırlanmalı."
+      },
+      {
+        "hafta": 31,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.3"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "Hadis kaynaklarında ilim konusu; Tecrid-i Sarih üzerinden hadis bulma ve sınıflandırma.",
+        "kitap_sayfalari": "120-121",
+        "onerilen_teknikler": [
+          "Tereyağı-Ekmek"
+        ],
+        "hazirlik_notu": "Tecrid-i Sarih veya dijital erişiminden ilim başlıklı rivayet örnekleri seçilmeli."
+      },
+      {
+        "hafta": 32,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.4"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "İlimle ilgili hadisin metni, ravisi ve hadisten notlar.",
+        "kitap_sayfalari": "122-124",
+        "onerilen_teknikler": [
+          "Yumruktan Beşe"
+        ],
+        "hazirlik_notu": "İlim hadisinin ravisi ve bağlamına dair bilgi notları hazırlanmalı."
+      },
+      {
+        "hafta": 33,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.4",
+          "HDS.10.4.2"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "İlimle ilgili hadisin yorumlanması ve etkileşimli pano performans görevinin geliştirilmesi.",
+        "kitap_sayfalari": "125-127",
+        "onerilen_teknikler": [
+          "Yumruktan Beşe",
+          "İş Birlikli Öğrenme"
+        ],
+        "hazirlik_notu": "Pano tasarımı için karton, yapışkan not ve işaretleyiciler getirilmeli."
+      },
+      {
+        "hafta": 34,
+        "unite_no": 4,
+        "unite_adi": "Hadis ve Sünnetin Anlaşılması",
+        "cikti_kodlari": [
+          "HDS.10.4.1",
+          "HDS.10.4.2",
+          "HDS.10.4.3",
+          "HDS.10.4.4"
+        ],
+        "ders_saati": 2,
+        "konu_ozeti": "4. ünite genel tekrar ve ölçme-değerlendirme uygulamaları.",
+        "kitap_sayfalari": "128-133",
+        "onerilen_teknikler": [
+          "Soru-Cevap"
+        ],
+        "hazirlik_notu": "Ünite sonu değerlendirme soruları ve performans görevi çıktılarına göre sınıf içi sergi alanı hazırlanmalı."
+      },
+      {
+        "hafta": 35,
+        "unite_no": null,
+        "unite_adi": "Okul Temelli Planlama",
+        "cikti_kodlari": [],
+        "ders_saati": 2,
+        "konu_ozeti": "Okul dışı öğrenme etkinliği, okuma çalışmaları, yerel çalışmalar veya proje uygulamaları için ayrılan planlama haftası.",
+        "kitap_sayfalari": null,
+        "onerilen_teknikler": [],
+        "hazirlik_notu": "Zümre kararıyla okulun ihtiyaçlarına göre etkinlik planı netleştirilmeli."
+      },
+      {
+        "hafta": 36,
+        "unite_no": null,
+        "unite_adi": "Okul Temelli Planlama",
+        "cikti_kodlari": [],
+        "ders_saati": 2,
+        "konu_ozeti": "Araştırma, gözlem, sosyal etkinlik veya telafi/zenginleştirme çalışmaları için ayrılan esnek planlama haftası.",
+        "kitap_sayfalari": null,
+        "onerilen_teknikler": [],
+        "hazirlik_notu": "Bir önceki uygulamaların çıktıları değerlendirilip yıl sonu kazanım izleme çalışmaları yapılmalı."
+      }
+    ],
+    "deger_beceri_matrisi": {
+      "degerler": {
+        "D1_Adalet": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "D14_Saygi": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            1,
+            2
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5"
+          ]
+        },
+        "D3_Caliskanlik": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            2,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "D4_Dostluk": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            1
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5"
+          ]
+        },
+        "D6_Durustluk": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        }
+      },
+      "beceriler": {
+        "DAB1.2_Hadis_Kaynaklarina_Basvurma": {
+          "gecis_sayisi": 3,
+          "uniteler": [
+            2,
+            3,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "DAB2.2_Dini_Kaynaklarin_Iliskisini_Degerlendirme": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "DAB3.1_Dini_Kavramlari_Ayirt_Etme": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "DAB3.3_Dini_Metinleri_Yorumlama": {
+          "gecis_sayisi": 4,
+          "uniteler": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "DAB4.4_Dini_Konularda_Analitik_Dusunme": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            1,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "KB2.14_Yorumlama": {
+          "gecis_sayisi": 3,
+          "uniteler": [
+            1,
+            2,
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "KB2.18_Tartisma": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            1
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5"
+          ]
+        },
+        "KB2.20_Sentezleme": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            1
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5"
+          ]
+        },
+        "KB2.3_Ozetleme": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            2,
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "KB2.4_Cozumleme": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            1,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "KB2.5_Siniflandirma": {
+          "gecis_sayisi": 2,
+          "uniteler": [
+            1,
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "KB2.7_Karsilastirma": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            2
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5"
+          ]
+        },
+        "OB1_Bilgi_Okuryazarligi": {
+          "gecis_sayisi": 4,
+          "uniteler": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "OB5_Kultur_Okuryazarligi": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            2
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5"
+          ]
+        },
+        "SBAB3.1_Tarihsel_Baglamsallastirma": {
+          "gecis_sayisi": 1,
+          "uniteler": [
+            2
+          ],
+          "ciktilar": [
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5"
+          ]
+        },
+        "SDB1.3_Kendine_Uyarlama_Oz_Yansitma": {
+          "gecis_sayisi": 4,
+          "uniteler": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        },
+        "SDB2.1_Iletisim": {
+          "gecis_sayisi": 3,
+          "uniteler": [
+            1,
+            2,
+            3
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.3.1",
+            "HDS.10.3.2",
+            "HDS.10.3.3",
+            "HDS.10.3.4",
+            "HDS.10.3.5"
+          ]
+        },
+        "SDB2.2_Is_Birligi": {
+          "gecis_sayisi": 3,
+          "uniteler": [
+            1,
+            2,
+            4
+          ],
+          "ciktilar": [
+            "HDS.10.1.1",
+            "HDS.10.1.2",
+            "HDS.10.1.3",
+            "HDS.10.1.4",
+            "HDS.10.1.5",
+            "HDS.10.2.1",
+            "HDS.10.2.2",
+            "HDS.10.2.3",
+            "HDS.10.2.4",
+            "HDS.10.2.5",
+            "HDS.10.4.1",
+            "HDS.10.4.2",
+            "HDS.10.4.3",
+            "HDS.10.4.4"
+          ]
+        }
+      }
+    },
+    "teknikler_kutuphanesi": [
+      {
+        "id": "TEK-001",
+        "ad": "Kum Saati Tekniği",
+        "aciklama": "Öğrencilerin ön bilgilerini görünür hâle getiren bir tekniktir. Önce bireysel çağrışımlar alınır, ardından öğretmen rehberliğinde doğru ve ilgili olanlar seçilir.",
+        "nasil_uygulanir": "1) Konuya ilişkin anahtar bir kavram verilir. 2) Öğrenciler ilk çağrışımlarını yazar. 3) Öğretmenle birlikte ilgili olanlar seçilir. 4) Seçilen kavramlar yeni bilgiyle ilişkilendirilir.",
+        "uygun_oldugu_durumlar": "Ön değerlendirme, kavram çağrışımı, hazırbulunuşluk belirleme",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Kum saati şablonu veya boş kâğıt",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.1"
+        ]
+      },
+      {
+        "id": "TEK-002",
+        "ad": "Bilişsel Çıraklık",
+        "aciklama": "Öğretmenin ya da uzman öğrencinin düşünme sürecini modelleyerek beceriyi adım adım göstermesine dayanan tekniktir.",
+        "nasil_uygulanir": "1) Model davranış gösterilir. 2) Öğrenci kontrollü biçimde uygular. 3) Süreç boyunca ipucu ve geri bildirim verilir. 4) Destek giderek azaltılır.",
+        "uygun_oldugu_durumlar": "Ezber, model alma, uygulamalı rehberlik gerektiren çalışmalar",
+        "sure_tahmini": "15-25 dakika",
+        "gerekli_materyal": "Konuya göre metin, şablon veya örnek çalışma",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.5",
+          "HDS.10.2.5",
+          "HDS.10.3.5",
+          "HDS.10.4.4"
+        ]
+      },
+      {
+        "id": "TEK-003",
+        "ad": "Soru-Cevap",
+        "aciklama": "Öğrencilerin düşünmesini, ilişki kurmasını ve anlama düzeylerini görünür kılmasını sağlayan temel etkileşimli tekniktir.",
+        "nasil_uygulanir": "1) Konuyla ilgili yapılandırılmış sorular hazırlanır. 2) Sorular sınıfa yöneltilir. 3) Öğrencilerin gerekçeli cevap vermeleri sağlanır. 4) Cevaplar üzerinden öğretmen dönüt verir.",
+        "uygun_oldugu_durumlar": "Konuya giriş, kavrama kontrolü, ilişki kurma",
+        "sure_tahmini": "10-20 dakika",
+        "gerekli_materyal": "Soru listesi",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.1"
+        ]
+      },
+      {
+        "id": "TEK-004",
+        "ad": "Burada Herkes Öğretmen",
+        "aciklama": "Öğrencilerin soru hazırlayıp birbirlerine açıklama yaptığı, herkesin kısa süreli öğretici rol üstlendiği paylaşımlı bir tekniktir.",
+        "nasil_uygulanir": "1) Öğrenciler konu hakkında soru yazar. 2) Sorular karıştırılır ve dağıtılır. 3) Öğrenciler soruları cevaplar. 4) Soru ve cevaplar sınıfla paylaşılır.",
+        "uygun_oldugu_durumlar": "Hadis yorumlama, akran öğrenmesi, tekrar",
+        "sure_tahmini": "15-20 dakika",
+        "gerekli_materyal": "Kâğıt-kalem",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.5"
+        ]
+      },
+      {
+        "id": "TEK-005",
+        "ad": "Ayrılıp Birleşme (Jigsaw)",
+        "aciklama": "Her öğrencinin bir alt konuda uzmanlaşıp daha sonra ana grubuna dönerek öğrendiklerini paylaştığı iş birlikli öğrenme tekniğidir.",
+        "nasil_uygulanir": "1) Konu alt başlıklara ayrılır. 2) Öğrenciler uzman gruplarında çalışır. 3) Ana gruplara dönülür. 4) Her öğrenci kendi uzmanlık alanını arkadaşlarına öğretir.",
+        "uygun_oldugu_durumlar": "Kavram sınıflandırma, alt başlıkları olan içerikler, iş birlikli öğrenme",
+        "sure_tahmini": "30-40 dakika",
+        "gerekli_materyal": "Alt konu kartları, bilgi notları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.2"
+        ]
+      },
+      {
+        "id": "TEK-006",
+        "ad": "RAFT",
+        "aciklama": "Öğrencinin belirli bir rol, hedef kitle, format ve konu çerçevesinde yazma ya da üretim yapmasını sağlayan yaratıcı anlatım tekniğidir.",
+        "nasil_uygulanir": "1) Rol belirlenir. 2) Hedef kitle seçilir. 3) Format kararlaştırılır. 4) Konu verilir. 5) Öğrenci ürününü oluşturur ve sunar.",
+        "uygun_oldugu_durumlar": "Yazılı anlatım, bakış açısı geliştirme, empati kurma",
+        "sure_tahmini": "20-30 dakika",
+        "gerekli_materyal": "RAFT şablonu, yazma kâğıdı",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.3"
+        ]
+      },
+      {
+        "id": "TEK-007",
+        "ad": "Kar Topu",
+        "aciklama": "Önce bireysel, sonra ikili ve daha büyük gruplarla fikirlerin genişletilerek ortaklaştırıldığı tartışma tekniğidir.",
+        "nasil_uygulanir": "1) Öğrenci bireysel düşünür. 2) İkili eşleşir. 3) Dörtlü ve daha büyük gruplar oluşturulur. 4) Ortak görüşler sınıfla paylaşılır.",
+        "uygun_oldugu_durumlar": "Görüş geliştirme, sentez, hadislerden çıkarım yapma",
+        "sure_tahmini": "20-30 dakika",
+        "gerekli_materyal": "Soru veya problem durumu",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.3",
+          "HDS.10.2.4"
+        ]
+      },
+      {
+        "id": "TEK-008",
+        "ad": "Beyin Fırtınası",
+        "aciklama": "Belirli bir konu hakkında kısa sürede çok sayıda fikir üretmeyi hedefleyen yaratıcı düşünme tekniğidir.",
+        "nasil_uygulanir": "1) Problem veya soru verilir. 2) Eleştirmeden fikirler toplanır. 3) Fikirler gruplanır. 4) Uygun görüşler değerlendirilir.",
+        "uygun_oldugu_durumlar": "Analitik düşünme, görüş üretme, örnek bulma",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Tahta veya not kâğıtları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.4",
+          "HDS.10.3.3"
+        ]
+      },
+      {
+        "id": "TEK-009",
+        "ad": "Konuşma Halkası",
+        "aciklama": "Öğrencilerin halka düzeninde sırayla konuşarak düşüncelerini paylaştığı ve birbirini dikkatle dinlediği tekniktir.",
+        "nasil_uygulanir": "1) Sınıf halka olur. 2) Konuşma sırası belirlenir. 3) Her öğrenci kısa ve odaklı konuşur. 4) Ortak sonuçlar çıkarılır.",
+        "uygun_oldugu_durumlar": "Tarihsel bağlamı değerlendirme, duygu ve görüş paylaşımı",
+        "sure_tahmini": "15-20 dakika",
+        "gerekli_materyal": "Konuşma nesnesi veya sıra belirleyici araç",
+        "kullanildigi_ciktilar": [
+          "HDS.10.2.1"
+        ]
+      },
+      {
+        "id": "TEK-010",
+        "ad": "Öğrenme Galerisi",
+        "aciklama": "Grupların hazırladıkları ürünleri sınıfta sergileyip diğer grupların bunları dolaşarak incelemesine dayanan tekniktir.",
+        "nasil_uygulanir": "1) Gruplar ürün hazırlar. 2) Ürünler sınıfa asılır. 3) Gruplar dolaşarak diğer ürünleri inceler. 4) Gözlem ve notlar paylaşılır.",
+        "uygun_oldugu_durumlar": "Karşılaştırma, akran öğrenmesi, ürün inceleme",
+        "sure_tahmini": "20-25 dakika",
+        "gerekli_materyal": "Afiş, pano, çalışma kâğıtları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.2.1"
+        ]
+      },
+      {
+        "id": "TEK-011",
+        "ad": "T Diyagramı",
+        "aciklama": "Benzerlik ve farklılıkları ya da iki farklı özelliği karşılaştırmalı biçimde göstermeye yarayan görsel düzenleyicidir.",
+        "nasil_uygulanir": "1) Sayfa iki sütuna ayrılır. 2) Karşılaştırılacak başlıklar yazılır. 3) Her sütuna uygun maddeler eklenir. 4) Sonuç değerlendirilir.",
+        "uygun_oldugu_durumlar": "Tedvin-tasnif gibi ikili karşılaştırmalar",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Şablon veya boş kâğıt",
+        "kullanildigi_ciktilar": [
+          "HDS.10.2.2"
+        ]
+      },
+      {
+        "id": "TEK-012",
+        "ad": "Vızıltı Grupları",
+        "aciklama": "Kısa süreli küçük grup konuşmalarıyla öğrencilerin çok sayıda fikir üretmesini ve bunları özetlemesini sağlayan tekniktir.",
+        "nasil_uygulanir": "1) Sınıf küçük gruplara ayrılır. 2) Her gruba kısa bir soru verilir. 3) Kısa tartışma yapılır. 4) Grup sözcüsü sonucu aktarır.",
+        "uygun_oldugu_durumlar": "Özetleme, kısa tartışma, sistematik yazma öncesi hazırlık",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Kısa soru kartları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.2.3"
+        ]
+      },
+      {
+        "id": "TEK-013",
+        "ad": "İstasyon",
+        "aciklama": "Sınıfın farklı noktalarında farklı görevlerin yer aldığı ve grupların sırayla bu görevleri tamamladığı tekniktir.",
+        "nasil_uygulanir": "1) İstasyonlar kurulur. 2) Her istasyona ayrı görev yerleştirilir. 3) Gruplar süre bitince istasyon değiştirir. 4) Sonuçlar bütünleştirilir.",
+        "uygun_oldugu_durumlar": "Metin inceleme, hadis yorumlama, çok boyutlu etkinlik",
+        "sure_tahmini": "25-35 dakika",
+        "gerekli_materyal": "İstasyon kartları ve görev sayfaları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.2.5"
+        ]
+      },
+      {
+        "id": "TEK-014",
+        "ad": "Kavram Kontrolü",
+        "aciklama": "Öğrencilerin bir kavramın kapsamını, sınırını ve ilişkili kavramlarla farkını belirlemelerine yardım eden tekniktir.",
+        "nasil_uygulanir": "1) Ana kavram seçilir. 2) İlgili ve ilgisiz örnekler verilir. 3) Öğrenciler sınıflandırma yapar. 4) Gerekçelerini açıklar.",
+        "uygun_oldugu_durumlar": "Kavram ayırt etme ve sınıflandırma",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Kavram kartları veya örnekler listesi",
+        "kullanildigi_ciktilar": [
+          "HDS.10.3.1"
+        ]
+      },
+      {
+        "id": "TEK-015",
+        "ad": "Zihinsel Haritalama",
+        "aciklama": "Merkezdeki ana kavramdan hareketle alt kavramların ve ilişkilerin görsel olarak düzenlendiği tekniktir.",
+        "nasil_uygulanir": "1) Ana kavram merkeze yazılır. 2) Alt kavramlar dallandırılır. 3) Bağlantılar belirtilir. 4) Harita açıklanır.",
+        "uygun_oldugu_durumlar": "Sınıflandırma, özetleme, kavram ilişkileri kurma",
+        "sure_tahmini": "15-20 dakika",
+        "gerekli_materyal": "Kâğıt, renkli kalemler",
+        "kullanildigi_ciktilar": [
+          "HDS.10.3.3"
+        ]
+      },
+      {
+        "id": "TEK-016",
+        "ad": "Düşün-Eşleş-Paylaş",
+        "aciklama": "Öğrencinin önce bireysel düşünmesini, sonra bir eşle fikirlerini paylaşmasını ve son olarak sınıfa sunmasını sağlayan tekniktir.",
+        "nasil_uygulanir": "1) Soru verilir. 2) Bireysel düşünme süresi tanınır. 3) İkili eşleşme yapılır. 4) Paylaşımlar sınıf geneline açılır.",
+        "uygun_oldugu_durumlar": "Çıkarım yapma, kısa tartışma, katılım artırma",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Soru kartı veya metin",
+        "kullanildigi_ciktilar": [
+          "HDS.10.3.4"
+        ]
+      },
+      {
+        "id": "TEK-017",
+        "ad": "Zıt Panel",
+        "aciklama": "Karşıt görüş veya örneklerin belirli kurallar içinde tartışıldığı, öğrencinin gerekçeli konuşma becerisini geliştiren tekniktir.",
+        "nasil_uygulanir": "1) İki karşıt görüş belirlenir. 2) Gruplar hazırlanır. 3) Karşılıklı sunum ve soru-cevap yapılır. 4) Değerlendirme ile süreç tamamlanır.",
+        "uygun_oldugu_durumlar": "Argüman geliştirme, ahlaki ikilemler, yorumlama",
+        "sure_tahmini": "20-30 dakika",
+        "gerekli_materyal": "Görüş kartları",
+        "kullanildigi_ciktilar": [
+          "HDS.10.3.5"
+        ]
+      },
+      {
+        "id": "TEK-018",
+        "ad": "Örnek Olay Yöntemi",
+        "aciklama": "Gerçek ya da kurgusal bir olay üzerinden kavram, ilke ve sonuçların analiz edilmesini sağlayan yöntemdir.",
+        "nasil_uygulanir": "1) Olay metni verilir. 2) Sorun ve bağlam belirlenir. 3) Olay analiz edilir. 4) Sonuç ve ilkeler tartışılır.",
+        "uygun_oldugu_durumlar": "Hadis ilimlerinin işlevini somutlaştırma, problem çözme",
+        "sure_tahmini": "20-25 dakika",
+        "gerekli_materyal": "Örnek olay metni",
+        "kullanildigi_ciktilar": [
+          "HDS.10.4.1"
+        ]
+      },
+      {
+        "id": "TEK-019",
+        "ad": "Fikir Taraması",
+        "aciklama": "Sınıftaki farklı görüşleri hızlı biçimde toplamak ve ana eğilimleri görünür kılmak için kullanılan tekniktir.",
+        "nasil_uygulanir": "1) Tartışma sorusu sorulur. 2) Öğrenciler kısa görüşler belirtir. 3) Benzer görüşler gruplanır. 4) Güçlü gerekçeler tartışılır.",
+        "uygun_oldugu_durumlar": "Analitik düşünme, görüş çeşitliliğini görme",
+        "sure_tahmini": "10-15 dakika",
+        "gerekli_materyal": "Tahta veya dijital pano",
+        "kullanildigi_ciktilar": [
+          "HDS.10.4.2"
+        ]
+      },
+      {
+        "id": "TEK-020",
+        "ad": "Çember",
+        "aciklama": "Öğrencilerin yüz yüze gelerek fikirlerini sıra ile paylaşmalarını ve ortak yargı oluşturmalarını sağlayan tartışma tekniğidir.",
+        "nasil_uygulanir": "1) Öğrenciler çember olur. 2) Konu üzerinde sırayla konuşurlar. 3) Ortak noktalar belirlenir. 4) Sonuç yazılı hâle getirilir.",
+        "uygun_oldugu_durumlar": "Tartışma, ortaklaştırma, görüş geliştirme",
+        "sure_tahmini": "15-20 dakika",
+        "gerekli_materyal": "Açık oturma düzeni",
+        "kullanildigi_ciktilar": [
+          "HDS.10.4.2"
+        ]
+      },
+      {
+        "id": "TEK-021",
+        "ad": "Tereyağı-Ekmek",
+        "aciklama": "Bilginin aşamalı biçimde birbirine eklenerek ortak bir ürün oluşturulmasına dayanan iş birlikli tekniktir.",
+        "nasil_uygulanir": "1) Her öğrenci ya da grup bir parçayı hazırlar. 2) Parçalar sırayla birleştirilir. 3) Ortak ürün tamamlanır. 4) Bütüncül çıktı sunulur.",
+        "uygun_oldugu_durumlar": "Parça-bütün ilişkisi kurma, ürün geliştirme",
+        "sure_tahmini": "15-25 dakika",
+        "gerekli_materyal": "Çalışma kâğıdı veya poster",
+        "kullanildigi_ciktilar": [
+          "HDS.10.4.3"
+        ]
+      },
+      {
+        "id": "TEK-022",
+        "ad": "Yumruktan Beşe",
+        "aciklama": "Öğrencilerin konuya dair güven veya yeterlik düzeylerini 0-5 arasında hızlı biçimde göstermesini sağlayan geri bildirim tekniğidir.",
+        "nasil_uygulanir": "1) Değerlendirme sorusu sorulur. 2) Öğrenciler yumruk ya da parmaklarla düzey gösterir. 3) Öğretmen açıklama ister. 4) Eksik öğrenmeler desteklenir.",
+        "uygun_oldugu_durumlar": "Öz değerlendirme, hızlı yoklama, öğrenme düzeyini görünür kılma",
+        "sure_tahmini": "5-10 dakika",
+        "gerekli_materyal": "Ek materyal gerekmez",
+        "kullanildigi_ciktilar": [
+          "HDS.10.4.4"
+        ]
+      },
+      {
+        "id": "TEK-023",
+        "ad": "İş Birlikli Öğrenme",
+        "aciklama": "Öğrencilerin ortak hedef doğrultusunda sorumluluk paylaşarak ürün ortaya koyduğu öğrenme yaklaşımıdır.",
+        "nasil_uygulanir": "1) Ortak hedef belirlenir. 2) Görev dağılımı yapılır. 3) Grup içi etkileşim yürütülür. 4) Ortak ürün hazırlanır ve sunulur.",
+        "uygun_oldugu_durumlar": "Broşür, pano, kavram haritası ve ortak ürün hazırlama",
+        "sure_tahmini": "25-40 dakika",
+        "gerekli_materyal": "Grup çalışmasına uygun kaynak ve kâğıt",
+        "kullanildigi_ciktilar": [
+          "HDS.10.1.3"
+        ]
+      },
+      {
+        "id": "TEK-024",
+        "ad": "Sunuş Yoluyla Öğretim",
+        "aciklama": "Bilginin düzenli ve yapılandırılmış biçimde öğretmen tarafından sunulduğu öğretim stratejisidir.",
+        "nasil_uygulanir": "1) Ön örgütleyici verilir. 2) Konu sistemli biçimde sunulur. 3) Örneklerle pekiştirilir. 4) Sorularla kontrol edilir.",
+        "uygun_oldugu_durumlar": "Temel bilgi ve kavramların ilk kez öğretilmesi",
+        "sure_tahmini": "15-20 dakika",
+        "gerekli_materyal": "Sunum, tahta, ders notu",
+        "kullanildigi_ciktilar": []
+      },
+      {
+        "id": "TEK-025",
+        "ad": "Buluş Yoluyla Öğretim",
+        "aciklama": "Öğrencinin örneklerden hareketle kavram ve ilkelere kendisinin ulaşmasını amaçlayan öğretim stratejisidir.",
+        "nasil_uygulanir": "1) Örnekler sunulur. 2) Benzerlik ve farklılıklar fark ettirilir. 3) Öğrenci ilke ve kavrama ulaşır. 4) Öğretmen genellemeyi netleştirir.",
+        "uygun_oldugu_durumlar": "Kavram öğretimi, sınıflandırma, ilişki kurma",
+        "sure_tahmini": "20-25 dakika",
+        "gerekli_materyal": "Örnek metin, tablo, kavram kartı",
+        "kullanildigi_ciktilar": []
+      },
+      {
+        "id": "TEK-026",
+        "ad": "Araştırma-İnceleme Yoluyla Öğretim",
+        "aciklama": "Öğrencinin veri toplayarak, karşılaştırarak ve inceleyerek öğrenmesini esas alan öğretim stratejisidir.",
+        "nasil_uygulanir": "1) Problem veya konu belirlenir. 2) Kaynak taraması yapılır. 3) Bulgular düzenlenir. 4) Sonuçlar sunulur ve tartışılır.",
+        "uygun_oldugu_durumlar": "Kaynak kullanma, tarihsel bağlam, proje ve performans görevleri",
+        "sure_tahmini": "Bir ders saati veya daha fazla",
+        "gerekli_materyal": "Kaynak metinler, kütüphane veya dijital kaynaklar",
+        "kullanildigi_ciktilar": []
+      }
+    ],
+    "kavram_sozlugu": [
+      {
+        "kavram": "isnat",
+        "tanim": "Hadisin ravileri belirtilerek ilk söyleyenine nispet edilmesidir.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 17,
+        "iliskili_kavramlar": [
+          "senet",
+          "ravi",
+          "rivayet"
+        ]
+      },
+      {
+        "kavram": "metin",
+        "tanim": "Bir hadiste senedin bitiminden sonra başlayan söz kısmıdır.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 19,
+        "iliskili_kavramlar": [
+          "senet",
+          "isnat",
+          "hadis"
+        ]
+      },
+      {
+        "kavram": "muhaddis",
+        "tanim": "Hadis ilmi ve hadis rivayeti ile meşgul olan kişidir.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 15,
+        "iliskili_kavramlar": [
+          "hadis",
+          "rivayet",
+          "ravi"
+        ]
+      },
+      {
+        "kavram": "ravi",
+        "tanim": "Hadisi sözlü veya yazılı olarak aktaran kişidir.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 16,
+        "iliskili_kavramlar": [
+          "rivayet",
+          "senet",
+          "isnat"
+        ]
+      },
+      {
+        "kavram": "rivayet",
+        "tanim": "Hadisleri sonraki nesillere aktarma işidir.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 16,
+        "iliskili_kavramlar": [
+          "ravi",
+          "senet",
+          "isnat"
+        ]
+      },
+      {
+        "kavram": "senet",
+        "tanim": "Hadisin ilk kaynağına ulaşan ravi zinciridir.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 17,
+        "iliskili_kavramlar": [
+          "isnat",
+          "ravi",
+          "metin"
+        ]
+      },
+      {
+        "kavram": "sünnet",
+        "tanim": "Hadis ilminde Hz. Peygamber’in sözleri, fiilleri ve takrirleri için kullanılan kavramdır.",
+        "unite": [
+          1
+        ],
+        "kitap_sayfa": 16,
+        "iliskili_kavramlar": [
+          "hadis",
+          "tebliğ",
+          "tebyin"
+        ]
+      },
+      {
+        "kavram": "câmi",
+        "tanim": "Dinle ilgili çok farklı konuları bir araya getiren hadis eseridir.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 54,
+        "iliskili_kavramlar": [
+          "sünen",
+          "müsned",
+          "Kütübisitte"
+        ]
+      },
+      {
+        "kavram": "Kütübisitte",
+        "tanim": "Müslümanlar arasında en çok rağbet gören altı temel hadis kitabının ortak adıdır.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 54,
+        "iliskili_kavramlar": [
+          "Kütübitisa",
+          "câmi",
+          "sünen"
+        ]
+      },
+      {
+        "kavram": "Kütübitisa",
+        "tanim": "Dokuz temel hadis kitabını ifade eden kavramdır.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 58,
+        "iliskili_kavramlar": [
+          "Kütübisitte",
+          "el-Muvatta",
+          "el-Müsned"
+        ]
+      },
+      {
+        "kavram": "müsned",
+        "tanim": "Hadislerin sahabi ravilerine göre düzenlendiği eser türüdür.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 54,
+        "iliskili_kavramlar": [
+          "sahabi",
+          "câmi",
+          "sünen"
+        ]
+      },
+      {
+        "kavram": "rihle",
+        "tanim": "Hadis öğrenmek için yapılan ilmî yolculuktur.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 49,
+        "iliskili_kavramlar": [
+          "sahabi",
+          "tâbiin",
+          "rivayet"
+        ]
+      },
+      {
+        "kavram": "sahabi",
+        "tanim": "Müslüman olarak Hz. Peygamber’i gören ve iman üzere vefat eden kişidir.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 46,
+        "iliskili_kavramlar": [
+          "tâbiin",
+          "rihle",
+          "rivayet"
+        ]
+      },
+      {
+        "kavram": "sünen",
+        "tanim": "Ahkâm yani fıkhî hükümlerle ilgili hadislerin konu başlıklarına göre düzenlendiği eser türüdür.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 54,
+        "iliskili_kavramlar": [
+          "câmi",
+          "müsned",
+          "Kütübisitte"
+        ]
+      },
+      {
+        "kavram": "tâbiin",
+        "tanim": "Sahabeden birini mümin olarak görüp ondan ilim alan ve iman üzere ölen nesildir.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 49,
+        "iliskili_kavramlar": [
+          "sahabi",
+          "tebeüttâbiin",
+          "rihle"
+        ]
+      },
+      {
+        "kavram": "tasnif",
+        "tanim": "Toplanan hadisleri kolay bulunacak biçimde belirli başlıklar altında düzenleme işidir.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 53,
+        "iliskili_kavramlar": [
+          "tedvin",
+          "câmi",
+          "sünen"
+        ]
+      },
+      {
+        "kavram": "tebeüttâbiin",
+        "tanim": "Tâbiini gören ve iman üzere ölen nesildir.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 53,
+        "iliskili_kavramlar": [
+          "tâbiin",
+          "tedvin",
+          "tasnif"
+        ]
+      },
+      {
+        "kavram": "tedvin",
+        "tanim": "Ezberlenmiş veya yazılmış hadislerin sınıflandırılmadan bir araya toplanmasıdır.",
+        "unite": [
+          2
+        ],
+        "kitap_sayfa": 53,
+        "iliskili_kavramlar": [
+          "tasnif",
+          "tebeüttâbiin",
+          "hadis"
+        ]
+      },
+      {
+        "kavram": "ahad hadis",
+        "tanim": "Ravi sayısı mütevatir seviyesine ulaşmayan hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 86,
+        "iliskili_kavramlar": [
+          "mütevatir hadis",
+          "meşhur hadis",
+          "sahih hadis"
+        ]
+      },
+      {
+        "kavram": "hasen hadis",
+        "tanim": "Sahih hadisin şartlarını büyük ölçüde taşıyan; ancak ravilerinden bazısının zabtı daha zayıf olan hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 91,
+        "iliskili_kavramlar": [
+          "sahih hadis",
+          "zayıf hadis",
+          "zabt"
+        ]
+      },
+      {
+        "kavram": "kutsi hadis",
+        "tanim": "Manası Allah’a, lafzı ise Hz. Peygamber’e ait olarak rivayet edilen hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 83,
+        "iliskili_kavramlar": [
+          "merfu hadis",
+          "ayet",
+          "hadis"
+        ]
+      },
+      {
+        "kavram": "maktu hadis",
+        "tanim": "Tâbii veya tebeüttâbiine ait söz, fiil veya takrirdir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 84,
+        "iliskili_kavramlar": [
+          "mevkuf hadis",
+          "merfu hadis",
+          "tâbiin"
+        ]
+      },
+      {
+        "kavram": "merfu hadis",
+        "tanim": "Hz. Peygamber’e nispet edilen söz, fiil, takrir ve vasıfları içeren hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 83,
+        "iliskili_kavramlar": [
+          "kutsi hadis",
+          "mevkuf hadis",
+          "maktu hadis"
+        ]
+      },
+      {
+        "kavram": "meşhur hadis",
+        "tanim": "Başlangıçta az raviyle gelmiş olsa da sonraki tabakalarda yaygınlaşan ahad hadis türüdür.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 87,
+        "iliskili_kavramlar": [
+          "ahad hadis",
+          "mütevatir hadis",
+          "ravi"
+        ]
+      },
+      {
+        "kavram": "mevkuf hadis",
+        "tanim": "Sahabeye ait söz, fiil ve takrirleri içeren rivayettir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 83,
+        "iliskili_kavramlar": [
+          "merfu hadis",
+          "maktu hadis",
+          "sahabi"
+        ]
+      },
+      {
+        "kavram": "mevzû hadis",
+        "tanim": "Hz. Peygamber’e ait olmadığı hâlde ona isnat edilen uydurma sözdür.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 91,
+        "iliskili_kavramlar": [
+          "zayıf hadis",
+          "sahih hadis",
+          "isnat"
+        ]
+      },
+      {
+        "kavram": "mütevatir hadis",
+        "tanim": "Her nesilde çok sayıda ravi tarafından aktarılmış ve yalan üzere birleşmeleri düşünülemeyen hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 86,
+        "iliskili_kavramlar": [
+          "ahad hadis",
+          "meşhur hadis",
+          "ravi"
+        ]
+      },
+      {
+        "kavram": "sahih hadis",
+        "tanim": "Güvenilir ve hafızası kuvvetli ravilerin, kopuksuz senetle aktardığı ve gizli kusur taşımayan hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 89,
+        "iliskili_kavramlar": [
+          "hasen hadis",
+          "zayıf hadis",
+          "senet"
+        ]
+      },
+      {
+        "kavram": "zayıf hadis",
+        "tanim": "Sahih veya hasen hadiste aranan şartlardan biri ya da birkaçı eksik olan hadistir.",
+        "unite": [
+          3
+        ],
+        "kitap_sayfa": 91,
+        "iliskili_kavramlar": [
+          "sahih hadis",
+          "hasen hadis",
+          "mevzû hadis"
+        ]
+      },
+      {
+        "kavram": "Esbabü vürudilhadis",
+        "tanim": "Hadislerin ne zaman, hangi sebeple ve hangi bağlamda söylendiğini inceleyen ilimdir.",
+        "unite": [
+          4
+        ],
+        "kitap_sayfa": 112,
+        "iliskili_kavramlar": [
+          "fıkhül hadis",
+          "garibül hadis",
+          "muhtelifül hadis"
+        ]
+      }
+    ]
+  },
+  "program_qr_kodlar": [
+    {
+      "id": "PQR-001",
+      "kaynak": "program",
+      "sayfa": 16,
+      "konum_aciklama": "1. ünite sonu öğretmen yansıtma bölümü",
+      "url": "https://meb.ai/oDQB1o",
+      "url_tespit_edildi": true,
+      "tur": "ogretmen_yansitma",
+      "baslik": "1. Ünite Öğretmen Yansıtma Formu",
+      "iliskili_unite": 1,
+      "iliskili_cikti_kodu": null,
+      "iliskili_konu": "Hadis İlmine Giriş (genel)",
+      "aciklama": "Programa yönelik görüş ve önerileri toplamak için öğretmen yansıtma bağlantısı."
+    },
+    {
+      "id": "PQR-002",
+      "kaynak": "program",
+      "sayfa": 20,
+      "konum_aciklama": "2. ünite sonu öğretmen yansıtma bölümü",
+      "url": "https://meb.ai/U23dSlX",
+      "url_tespit_edildi": true,
+      "tur": "ogretmen_yansitma",
+      "baslik": "2. Ünite Öğretmen Yansıtma Formu",
+      "iliskili_unite": 2,
+      "iliskili_cikti_kodu": null,
+      "iliskili_konu": "Hadis Tarihi (genel)",
+      "aciklama": "Programa yönelik görüş ve önerileri toplamak için öğretmen yansıtma bağlantısı."
+    },
+    {
+      "id": "PQR-003",
+      "kaynak": "program",
+      "sayfa": 24,
+      "konum_aciklama": "3. ünite sonu öğretmen yansıtma bölümü",
+      "url": "https://meb.ai/UuDY4en",
+      "url_tespit_edildi": true,
+      "tur": "ogretmen_yansitma",
+      "baslik": "3. Ünite Öğretmen Yansıtma Formu",
+      "iliskili_unite": 3,
+      "iliskili_cikti_kodu": null,
+      "iliskili_konu": "Hadis Çeşitleri (genel)",
+      "aciklama": "Programa yönelik görüş ve önerileri toplamak için öğretmen yansıtma bağlantısı."
+    },
+    {
+      "id": "PQR-004",
+      "kaynak": "program",
+      "sayfa": 28,
+      "konum_aciklama": "4. ünite sonu öğretmen yansıtma bölümü",
+      "url": "https://meb.ai/71RCJM",
+      "url_tespit_edildi": true,
+      "tur": "ogretmen_yansitma",
+      "baslik": "4. Ünite Öğretmen Yansıtma Formu",
+      "iliskili_unite": 4,
+      "iliskili_cikti_kodu": null,
+      "iliskili_konu": "Hadis ve Sünnetin Anlaşılması (genel)",
+      "aciklama": "Programa yönelik görüş ve önerileri toplamak için öğretmen yansıtma bağlantısı."
+    }
+  ]
+}
