@@ -45,7 +45,7 @@ const UI = {
           <p class="text-sm opacity-90">${m.sinif}. Sinif</p>
         </div>
       </div>
-      <div class="p-3 flex items-center justify-between text-sm text-slate-500 dark:text-slate-400">
+      <div class="p-3 flex items-center justify-between text-sm text-slate-700 dark:text-slate-300 font-medium">
         <span>${uniteCount} Unite</span>
         <span>${m.toplam_ders_saati} saat</span>
       </div>
