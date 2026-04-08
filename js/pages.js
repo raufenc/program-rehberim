@@ -35,7 +35,7 @@ const Pages = {
     const dk = dersKodu.toLowerCase();
 
     return `
-      ${UI.buHaftaKarti(dersKodu, plan)}
+      ${UI.buHaftaKarti(dersKodu, plan, data)}
       <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-4">
         <a href="#/${dk}/haftalik" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4C5}<br>Haftalik Plan</a>
         <a href="#/${dk}/kavramlar" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4D6}<br>Kavramlar</a>
@@ -71,7 +71,7 @@ const Pages = {
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         </button>
       </div>
-      ${p ? UI.haftalikKart(dersKodu, p, true) : UI.empty('Bu hafta icin plan yok')}
+      ${p ? UI.haftalikKart(dersKodu, p, true, data) : UI.empty('Bu hafta icin plan yok')}
       <div class="mt-6">
         <h3 class="font-semibold text-sm mb-2 flex items-center gap-2 cursor-pointer" onclick="toggleAccordion('yillik')">
           \u{1F4C5} Tum Yil <svg id="acc-icon-yillik" class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>

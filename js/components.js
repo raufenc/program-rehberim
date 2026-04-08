@@ -53,27 +53,40 @@ const UI = {
   },
 
   // Bu Hafta karti
-  buHaftaKarti(dersKodu, haftalikPlan) {
+  buHaftaKarti(dersKodu, haftalikPlan, dersData) {
     const currentWeek = HaftaUtils.getCurrentWeek();
     const plan = haftalikPlan.find(h => h.hafta === currentWeek);
     if (!plan) return `<div class="card p-4 border-l-4 border-primary mb-4">
       <p class="text-sm text-slate-500">Donem disi</p>
     </div>`;
     const dateRange = HaftaUtils.formatDateRange(currentWeek);
-    return `<div class="card p-4 border-l-4 border-primary mb-4 card-clickable cursor-pointer" onclick="location.hash='#/${dersKodu.toLowerCase()}/haftalik/${currentWeek}'">
-      <div class="flex items-center justify-between mb-2">
-        <span class="badge badge-primary">\u{1F4C5} Bu Hafta: ${currentWeek}. hafta</span>
+    const dk = dersKodu.toLowerCase();
+    // Cikti basliklarini coz
+    let ciktiOzet = '';
+    if (dersData) {
+      ciktiOzet = plan.cikti_kodlari.map(kod => {
+        for (const u of dersData.program.uniteler) {
+          const c = u.ogrenme_ciktilari.find(x => x.kod === kod);
+          if (c) return c.baslik;
+        }
+        return kod;
+      }).join('; ');
+    }
+    return `<div class="card border-l-4 border-primary mb-4 overflow-hidden card-clickable cursor-pointer" onclick="location.hash='#/${dk}/haftalik/${currentWeek}'">
+      <div class="bg-primary/5 dark:bg-primary/10 px-4 py-2 flex items-center justify-between">
+        <span class="text-sm font-semibold text-primary">\u{1F4C5} Bu Hafta (${currentWeek}. hafta)</span>
         <span class="text-xs text-slate-400">${dateRange}</span>
       </div>
-      <h3 class="font-semibold mb-1">Unite ${plan.unite_no} - ${plan.unite_adi}</h3>
-      <div class="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-        ${plan.cikti_kodlari.map(k => `<span class="badge badge-blue mr-1">${k}</span>`).join('')}
+      <div class="p-4">
+        <div class="text-xs text-primary font-medium mb-1">Unite ${plan.unite_no} \u2022 ${plan.unite_adi}</div>
+        <h3 class="font-semibold text-base mb-2">${plan.konu_ozeti}</h3>
+        ${ciktiOzet ? `<p class="text-sm text-slate-500 dark:text-slate-400 mb-2">${ciktiOzet}</p>` : ''}
+        <div class="flex items-center gap-3 text-xs text-slate-500">
+          ${plan.kitap_sayfalari ? `<span>\u{1F4D6} s.${plan.kitap_sayfalari}</span>` : ''}
+          ${plan.onerilen_teknikler.length ? `<span>\u{1F527} ${plan.onerilen_teknikler.join(', ')}</span>` : ''}
+        </div>
+        ${plan.hazirlik_notu ? `<div class="mt-2 text-xs bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 p-2 rounded-lg">\u26A0\uFE0F ${plan.hazirlik_notu}</div>` : ''}
       </div>
-      <div class="mt-2 flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
-        ${plan.kitap_sayfalari ? `<span>\u{1F4D6} s.${plan.kitap_sayfalari}</span>` : ''}
-        ${plan.onerilen_teknikler.length ? `<span>\u{1F527} ${plan.onerilen_teknikler.slice(0, 2).join(', ')}</span>` : ''}
-      </div>
-      ${plan.hazirlik_notu ? `<div class="mt-2 text-xs bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 p-2 rounded-lg">\u26A0\uFE0F ${plan.hazirlik_notu}</div>` : ''}
     </div>`;
   },
 
@@ -109,22 +122,53 @@ const UI = {
     </div>`;
   },
 
-  // Haftalik plan karti
-  haftalikKart(dersKodu, plan, isActive) {
+  // Haftalik plan karti — ogretmen dostu, anlamli
+  haftalikKart(dersKodu, plan, isActive, dersData) {
     const dateRange = HaftaUtils.formatDateRange(plan.hafta);
-    return `<div class="card p-4 mb-3 ${isActive ? 'ring-2 ring-primary' : ''}">
-      <div class="flex items-center justify-between mb-2">
-        <span class="font-semibold text-sm">Hafta ${plan.hafta}</span>
-        <span class="text-xs text-slate-400">${dateRange}</span>
+    const dk = dersKodu.toLowerCase();
+    // Cikti kodlarini basliklarla eslestir
+    let ciktiDetaylari = '';
+    if (dersData && plan.cikti_kodlari.length) {
+      const uniteler = dersData.program.uniteler;
+      ciktiDetaylari = plan.cikti_kodlari.map(kod => {
+        for (const u of uniteler) {
+          const c = u.ogrenme_ciktilari.find(x => x.kod === kod);
+          if (c) return `<a href="#/${dk}/unite/${u.unite_no}/cikti/${kod}" class="block p-2 rounded-lg hover:bg-primary/5 dark:hover:bg-primary/10 transition text-sm">
+            <span class="text-xs text-primary font-mono">${kod}</span>
+            <span class="block text-slate-700 dark:text-slate-200 mt-0.5">${c.baslik}</span>
+          </a>`;
+        }
+        return '';
+      }).join('');
+    }
+    // Tatil uyarisi
+    const tatilInfo = HaftaUtils.getTatilInfo ? HaftaUtils.getTatilInfo(plan.hafta) : null;
+
+    return `<div class="card mb-3 overflow-hidden ${isActive ? 'ring-2 ring-primary' : ''}">
+      <div class="bg-primary/5 dark:bg-primary/10 px-4 py-3 border-b dark:border-slate-700">
+        <div class="flex items-center justify-between">
+          <span class="font-bold text-primary dark:text-primary-light">Unite ${plan.unite_no}: ${plan.unite_adi}</span>
+        </div>
       </div>
-      <div class="text-sm font-medium text-primary dark:text-primary-light mb-1">Unite ${plan.unite_no}: ${plan.unite_adi}</div>
-      <div class="mb-2">${plan.cikti_kodlari.map(k => `<a href="#/${dersKodu.toLowerCase()}/unite/${plan.unite_no}/cikti/${k}" class="badge badge-blue mr-1 mb-1 cursor-pointer hover:opacity-80">${k}</a>`).join('')}</div>
-      <div class="text-sm text-slate-600 dark:text-slate-300 mb-2">${plan.konu_ozeti}</div>
-      <div class="grid grid-cols-2 gap-2 text-xs">
-        ${plan.kitap_sayfalari ? `<div class="flex items-center gap-1"><span>\u{1F4D6}</span><a href="#/${dersKodu.toLowerCase()}/kitap/${plan.kitap_sayfalari.split('-')[0]}" class="text-primary hover:underline">s.${plan.kitap_sayfalari}</a></div>` : ''}
-        ${plan.onerilen_teknikler.length ? `<div class="flex items-center gap-1 flex-wrap"><span>\u{1F527}</span>${plan.onerilen_teknikler.map(t => `<span class="teknik-link" onclick="event.stopPropagation();openTeknikByName('${dersKodu}','${t.replace(/'/g, "\\'")}')">${t}</span>`).join(', ')}</div>` : ''}
+      <div class="p-4 space-y-3">
+        <div>
+          <h3 class="font-semibold text-base text-slate-800 dark:text-slate-100 mb-1">${plan.konu_ozeti}</h3>
+        </div>
+        ${ciktiDetaylari ? `<div>
+          <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Bu hafta islenecek kazanimlar</p>
+          <div class="space-y-1 border dark:border-slate-700 rounded-lg overflow-hidden divide-y dark:divide-slate-700">${ciktiDetaylari}</div>
+        </div>` : ''}
+        ${plan.kitap_sayfalari ? `<div class="flex items-center gap-2 text-sm">
+          <span class="text-slate-400">\u{1F4D6} Kitap:</span>
+          <a href="#/${dk}/kitap/${plan.kitap_sayfalari.split('-')[0]}" class="text-primary font-medium hover:underline">Sayfa ${plan.kitap_sayfalari}</a>
+        </div>` : ''}
+        ${plan.onerilen_teknikler.length ? `<div>
+          <p class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Onerilen teknikler</p>
+          <div class="flex flex-wrap gap-2">${plan.onerilen_teknikler.map(t => `<button onclick="event.stopPropagation();openTeknikByName('${dersKodu}','${t.replace(/'/g, "\\'")}')" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-700 text-sm hover:bg-primary/10 dark:hover:bg-primary/20 transition"><span>\u{1F527}</span>${t}</button>`).join('')}</div>
+        </div>` : ''}
+        ${plan.hazirlik_notu ? `<div class="bg-amber-50 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200 p-3 rounded-lg text-sm">\u26A0\uFE0F <strong>Hazirlik:</strong> ${plan.hazirlik_notu}</div>` : ''}
+        ${tatilInfo ? `<div class="bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 p-2 rounded-lg text-xs">\u{1F4C5} ${tatilInfo.join(' \u2022 ')}</div>` : ''}
       </div>
-      ${plan.hazirlik_notu ? `<div class="mt-2 text-xs bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 p-2 rounded-lg">\u26A0\uFE0F ${plan.hazirlik_notu}</div>` : ''}
     </div>`;
   },
 
@@ -210,10 +254,28 @@ function toggleAccordion(id) {
 }
 
 function openTeknikByName(dersKodu, ad) {
+  // Oncelikle verilen ders icinde ara
   const data = APP.getData(dersKodu);
-  if (!data) return;
-  const teknik = (data.eslestirme.teknikler_kutuphanesi || []).find(t => t.ad === ad);
-  if (teknik) showTeknikModal(teknik, dersKodu);
+  if (data) {
+    const teknik = (data.eslestirme.teknikler_kutuphanesi || []).find(t =>
+      t.ad === ad || t.ad.toLowerCase() === ad.toLowerCase()
+    );
+    if (teknik) { showTeknikModal(teknik, dersKodu); return; }
+  }
+  // Bulunamazsa tum derslerde ara
+  for (const [kod, d] of Object.entries(APP.data)) {
+    const teknik = (d.eslestirme.teknikler_kutuphanesi || []).find(t =>
+      t.ad === ad || t.ad.toLowerCase() === ad.toLowerCase()
+    );
+    if (teknik) { showTeknikModal(teknik, kod); return; }
+  }
+  // Hala bulunamazsa kismit eslesme dene
+  for (const [kod, d] of Object.entries(APP.data)) {
+    const teknik = (d.eslestirme.teknikler_kutuphanesi || []).find(t =>
+      t.ad.toLowerCase().includes(ad.toLowerCase()) || ad.toLowerCase().includes(t.ad.toLowerCase())
+    );
+    if (teknik) { showTeknikModal(teknik, kod); return; }
+  }
 }
 
 function openTeknikById(id) {

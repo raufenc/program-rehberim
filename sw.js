@@ -1,4 +1,4 @@
-const CACHE_NAME = 'program-rehberim-v1';
+const CACHE_NAME = 'program-rehberim-v2';
 const ASSETS = [
   './',
   './index.html',
