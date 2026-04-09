@@ -219,9 +219,16 @@ const UI = {
     </div>`;
   },
 
-  // Beceri/deger badge
+  // Beceri/deger badge — TIKLANABILIR yetkinlik modali
   beceridBadge(item, badgeClass) {
-    return `<span class="badge ${badgeClass} text-xs mr-1 mb-1" title="${item.ad || ''}">${item.kod ? item.kod + ' ' : ''}${item.ad || item}</span>`;
+    const kod = item.kod || '';
+    const ad = item.ad || item;
+    const hasYetkinlik = kod && typeof Yetkinlikler !== 'undefined' && Yetkinlikler.get(kod);
+    if (hasYetkinlik) {
+      const dynamicClass = Yetkinlikler.getBadgeClass(kod);
+      return `<span class="badge ${dynamicClass} text-xs mr-1 mb-1 cursor-pointer hover:ring-2 ring-offset-1 transition-all" onclick="event.stopPropagation();Yetkinlikler.showModal('${kod}')" title="Tikla: ${ad}">${kod} ${ad}</span>`;
+    }
+    return `<span class="badge ${badgeClass} text-xs mr-1 mb-1" title="${ad}">${kod ? kod + ' ' : ''}${ad}</span>`;
   },
 
   // Accordion

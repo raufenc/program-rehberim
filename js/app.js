@@ -18,7 +18,7 @@ const APP = {
     this.applyTheme(s.tema);
 
     // Verileri yukle
-    await this.loadData();
+    await Promise.all([this.loadData(), Yetkinlikler.load()]);
 
     // Router baslat
     window.addEventListener('hashchange', () => this.route());
@@ -79,6 +79,7 @@ const APP = {
     if (parts.length === 1) return { page: 'ders', dersKodu };
     if (parts[1] === 'haftalik') return { page: 'haftalik', dersKodu, hafta: parts[2] ? parseInt(parts[2]) : null };
     if (parts[1] === 'kavramlar') return { page: 'kavramlar', dersKodu };
+    if (parts[1] === 'materyaller') return { page: 'materyaller', dersKodu, matType: parts[2] || null };
     if (parts[1] === 'teknikler') return { page: 'teknikler', dersKodu };
     if (parts[1] === 'matris') return { page: 'matris', dersKodu };
     if (parts[1] === 'kitap') return { page: 'pdf', dersKodu, pdfTur: 'kitap', sayfa: parts[2] || null };
@@ -143,6 +144,12 @@ const APP = {
         const data = this.getData(r.dersKodu);
         title = data ? `${data.meta.ders_adi} - Kavramlar` : 'Kavramlar';
         content = Pages.kavramSozlugu(r.dersKodu);
+        break;
+      }
+      case 'materyaller': {
+        const data = this.getData(r.dersKodu);
+        title = data ? `${data.meta.ders_adi} - Materyaller` : 'Materyaller';
+        content = Pages.materyalKutuphanesi(r.dersKodu, r.matType);
         break;
       }
       case 'teknikler': {

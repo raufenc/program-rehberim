@@ -1,0 +1,2994 @@
+{
+  "version": "1.0",
+  "meta": {
+    "source": "TYMM Maarif Modeli 2026",
+    "count": 188
+  },
+  "yetkinlikler": {
+    "D1": {
+      "kod": "D1",
+      "ad": "Adalet",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Hak ve özgürlükleri, eşitliği, etik davranmayı, hakkaniyeti, ön yargısızlığı, ölçülülüğü ve liyakati kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D10": {
+      "kod": "D10",
+      "ad": "Mütevazılık",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendini bilmeyi; gösterişten ve kibirden uzak, sade, sabırlı, saygılı, duyarlı ve yapıcı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D11": {
+      "kod": "D11",
+      "ad": "Özgürlük",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Cesur, girişimci ve kararlı olmayı; özgürlüklerini kullanırken kişisel ve toplumsal haklara saygı göstermeyi, kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D12": {
+      "kod": "D12",
+      "ad": "Sabır",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Olumlu bakış açısına sahip olmayı, zor ve kötü durumlara karşı dayanmayı, istikrarlı davranmayı, süreci yönetmeyi, sorumlulukları yerine getirmeyi; duygu, düşünce ve eylemleri kontrol etmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D13": {
+      "kod": "D13",
+      "ad": "Sağlıklı Yaşam",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Yeterli, dengeli ve sağlıklı beslenmeyi; sosyal ve sportif etkinliklere katılmayı, bağımlılıktan kaçınmayı, bağımlılıkla mücadele etmeyi ve insan sağlığını önemsemeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D14": {
+      "kod": "D14",
+      "ad": "Saygı",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Nazik olmayı, ilkeli davranmayı, empati ve etkili iletişim kurmayı, sağlıklı yaşamayı; kendisine, çevresine, millî ve manevi değerlere önem vermeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D15": {
+      "kod": "D15",
+      "ad": "Sevgi",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Ailesine, dostlarına ve ülkesine karşı vefalı, dürüst, sadık ve özverili olmayı; barışçıl bakış açısına sahip olmayı; misafirperverliği, doğaya ve bütün canlılara karşı merhametli davranmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D16": {
+      "kod": "D16",
+      "ad": "Sorumluluk",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisine ve çevresine karşı görevlerini tam ve zamanında yerine getirmeyi; duygu, düşünce ve eylemlerinin sonucunu kabul etmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D17": {
+      "kod": "D17",
+      "ad": "Tasarruf",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Maddi kaynakları planlı ve kontrollü harcamayı, israftan kaçınmayı, tutumlu olmayı, birikim yapmayı, sahip olduklarının değerini bilmeyi ve bilinçli tüketici olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D18": {
+      "kod": "D18",
+      "ad": "Temizlik",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kişisel temizlik ve bakıma dikkat ederek kendisine ve topluma saygı duymayı, yaşadığı ortamın ve çevrenin temizliğine önem vererek toplumdaki genel yaşam kalitesine ve sürdürülebilirliğe katkıda bulunmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D19": {
+      "kod": "D19",
+      "ad": "Vatanseverlik",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Millî, manevi, insani, kültürel değerleri ve ülke varlıklarını korumayı, sevmeyi ve onlara saygı duymayı; bağımsızlığa önem vermeyi, ülkesi için sorumluluk almayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D2": {
+      "kod": "D2",
+      "ad": "Aile Bütünlüğü",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Aile içi iletişim ve iş birliğini güçlendirmeyi, ailede sorumlulukları yerine getirmeyi, aileyle vakit geçirmeyi; saygı, sevgi ve güvene dayalı ilişkiler kurmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D20": {
+      "kod": "D20",
+      "ad": "Yardımseverlik",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve canlılara duyarlı olmayı, onları sevmeyi, onlara merhamet etmeyi, cömertliği, dayanışmayı, fedakârlık yapmayı, iyiliksever olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D3": {
+      "kod": "D3",
+      "ad": "Çalışkanlık",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Disiplinli, planlı ve istikrarlı olmayı; bilimselliğe önem vermeyi, iç motivasyon ve öz denetim sahibi olmayı, hayat boyu öğrenmeyi, görev ve sorumluluk üstlenmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D4": {
+      "kod": "D4",
+      "ad": "Dostluk",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Sosyal ilişkilerde duyarlılık göstermeyi dayanışma içinde olmayı; etkili iletişimle sevgi, saygı ve güvene dayalı ilişkiler kurmayı; nitelikli vakit geçirmeyi ve evrensel bağ kurmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D5": {
+      "kod": "D5",
+      "ad": "Duyarlılık",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisine, içinde yaşadığı topluma, kültürel zenginliklere, tüm varlıklara değer vermeyi; sürdürülebilirliği önemsemeyi ve afetlere karşı hazırlıklı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D6": {
+      "kod": "D6",
+      "ad": "Dürüstlük",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Söz ve davranışlarında tutarlı, doğru ve güvenilir olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D7": {
+      "kod": "D7",
+      "ad": "Estetik",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Sanatsal bakış açısı kazanmayı, sanatsal ve kültürel varlığı koruyup zenginleştirmeyi, doğal güzelliklerin ve çevrenin korunması ile ilgili duyarlı olmayı ve sorumluluk üstlenmeyi, estetik aracılığıyla özgün üretkenliği ve ruhsal gelişimi desteklemeyi, sanatı hayatın bir parçası hâline getirmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D8": {
+      "kod": "D8",
+      "ad": "Mahremiyet",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisinin, ailesinin ve başkalarının kişisel alanını ve bilgilerini korumayı; başkalarının özgürlüklerini ihlal etmemeyi, kişisel sınırlarına saygı duymayı ve millî ve manevi değerlerde mahremiyetin sınırlarını kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D9": {
+      "kod": "D9",
+      "ad": "Merhamet",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve diğer canlılara karşı vicdanlı, şefkatli, sevgi dolu, duyarlı ve sorumlu olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB1": {
+      "kod": "DAB1",
+      "ad": "Temel Kaynakları Kullanma Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB2": {
+      "kod": "DAB2",
+      "ad": "Dinî Kaynakları Tetkik Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB3": {
+      "kod": "DAB3",
+      "ad": "Tahkik Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB4": {
+      "kod": "DAB4",
+      "ad": "Tefekkür Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB5": {
+      "kod": "DAB5",
+      "ad": "Dinî Delillere Başvurma Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB6": {
+      "kod": "DAB6",
+      "ad": "Tatbik Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB6.SB1",
+          "metin": "Dinî uygulama çeşitlerinin süreç ve kurallarını açıklamak"
+        },
+        {
+          "kod": "DAB6.SB2",
+          "metin": "Dinî uygulama çeşitleri için ön hazırlık yapmak"
+        },
+        {
+          "kod": "DAB6.SB3",
+          "metin": "Dinî uygulama çeşitlerini usulüne uygun biçimde icra etmek"
+        },
+        {
+          "kod": "DAB6.SB4",
+          "metin": "Dinî uygulama süreçlerini değerlendirmek Tatbik Becerisi (DAB6) Dinî bilgilerin uygulama çeşitlerini usulüne uygun olarak yerine getirebilmek için takip edilecek süreçleri ifade eder."
+        }
+      ],
+      "renk": "primary"
+    },
+    "DAB7": {
+      "kod": "DAB7",
+      "ad": "Tilavet Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "DAB8": {
+      "kod": "DAB8",
+      "ad": "Hitabet ve Mesleki Uygulama Becerisi",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "E1": {
+      "kod": "E1",
+      "ad": "Benlik Eğilimleri",
+      "aile": "Eğilimler",
+      "alt_aile": "Kategori",
+      "aciklama": "Kişinin içsel özelliklerini ve kişiliğini sergileyeceği becerilere yansıtması.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.1": {
+      "kod": "E1.1",
+      "ad": "Merak",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Yeni ve ilginç bilgi ya da nesneler karşısında gözlemleme, araştırma, keşfetme ve anlama arzusu.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.2": {
+      "kod": "E1.2",
+      "ad": "Bağımsızlık",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Düşünce, ifade ve eylemlerde özgür seçimler yaparak sorumluluk alabilmeye ilişkin zihinsel örüntüler.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.3": {
+      "kod": "E1.3",
+      "ad": "Azim ve Kararlılık",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Bir işi yerine getirme konusundaki gayreti ve kararları zorluklara rağmen sürdürebilme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.4": {
+      "kod": "E1.4",
+      "ad": "Kendine İnanma (Öz Yeterlilik)",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Belirlenen hedefleri gerçekleştirmek için gereken eylemleri planlama ve yürütme becerisine olan kişisel inanç.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.5": {
+      "kod": "E1.5",
+      "ad": "Kendine Güvenme (Öz Güven)",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Belirli bir hedefi, işi veya eylemi gerçekleştirebileceğine ilişkin yeteneğine ve kapasitesine inanma.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E1.6": {
+      "kod": "E1.6",
+      "ad": "Seçicilik",
+      "aile": "Eğilimler",
+      "alt_aile": "Benlik Eğilimi",
+      "aciklama": "Anlamlı ve etkili olanı ayırt ederek kendi amaç, değer ve ölçütlerine uygun tercihler yapma.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2": {
+      "kod": "E2",
+      "ad": "Sosyal Eğilimler",
+      "aile": "Eğilimler",
+      "alt_aile": "Kategori",
+      "aciklama": "Kişinin içsel özelliklerini ve kişiliğini sosyal bir ortamda sergileyeceği becerilere yansıtması.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2.1": {
+      "kod": "E2.1",
+      "ad": "Empati",
+      "aile": "Eğilimler",
+      "alt_aile": "Sosyal Eğilim",
+      "aciklama": "Başkalarının duygu ve düşüncelerini hissedip içselleştirerek dönüt verme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2.2": {
+      "kod": "E2.2",
+      "ad": "Sorumluluk",
+      "aile": "Eğilimler",
+      "alt_aile": "Sosyal Eğilim",
+      "aciklama": "Üstlenilen görev ve kararların sonuçlarını sahiplenme ve hesap verebilme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2.3": {
+      "kod": "E2.3",
+      "ad": "Girişkenlik",
+      "aile": "Eğilimler",
+      "alt_aile": "Sosyal Eğilim",
+      "aciklama": "Başkalarının haklarına saygı duyarak yapılmak istenileni belirleyebilme gücü ve enerjisi.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2.4": {
+      "kod": "E2.4",
+      "ad": "Güven",
+      "aile": "Eğilimler",
+      "alt_aile": "Sosyal Eğilim",
+      "aciklama": "Karşı tarafın niyet ve davranışlarının ahlaka uygun, adaletli ve yapıcı olacağına dair inanç.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E2.5": {
+      "kod": "E2.5",
+      "ad": "Oyunseverlik",
+      "aile": "Eğilimler",
+      "alt_aile": "Sosyal Eğilim",
+      "aciklama": "Öğrenme sürecini keyifli ve eğlenceli hâle getirebilme eğilimi.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3": {
+      "kod": "E3",
+      "ad": "Entelektüel Eğilimler",
+      "aile": "Eğilimler",
+      "alt_aile": "Kategori",
+      "aciklama": "Kişinin zihinsel ve düşünsel birikimlerini sergileyeceği becerilere yansıtması.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.1": {
+      "kod": "E3.1",
+      "ad": "Muhakeme",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Bilgi, veri ve unsurları dikkatle değerlendirip mantıklı ve tutarlı sonuçlara ulaşma eğilimi.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.10": {
+      "kod": "E3.10",
+      "ad": "Eleştirel Bakma",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Bir düşünce, argüman veya bilginin doğruluğunu, güvenilirliğini ve çelişkilerini sorgulama.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.2": {
+      "kod": "E3.2",
+      "ad": "Odaklanma",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Belirlenen hedefe ulaşmak için zihinsel ve bedensel enerjiyi en iyi düzeyde kullanma.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.3": {
+      "kod": "E3.3",
+      "ad": "Yaratıcılık",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Alışılagelmiş kalıpların dışında özgün fikir ve ürünler üretmeye yönelik eğilim.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.4": {
+      "kod": "E3.4",
+      "ad": "Gerçeği Arama",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Nesnel ve dürüst bir yaklaşımla doğruya ulaşmak için kararlılıkla hareket etme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.5": {
+      "kod": "E3.5",
+      "ad": "Açık Fikirlilik",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Olaylara kalıpların dışında, meraklı, saygılı ve ön yargısız şekilde bakabilme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.6": {
+      "kod": "E3.6",
+      "ad": "Analitiklik",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Problemlerin çözümünde nesnel kanıt ve akıl yürütme kullanarak çözüm üretme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.7": {
+      "kod": "E3.7",
+      "ad": "Sistematiklik",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Çeşitli durumları düzenli, örgütlü, odaklı ve gayretli biçimde ele alma.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.8": {
+      "kod": "E3.8",
+      "ad": "Soru Sorma",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Kendine, çevresine ve evrene ilişkin bilme ve anlama ihtiyacından hareketle özgürce sorgulama yapma.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "E3.9": {
+      "kod": "E3.9",
+      "ad": "Şüphe Duyma",
+      "aile": "Eğilimler",
+      "alt_aile": "Entelektüel Eğilim",
+      "aciklama": "Emin olamama durumunda bilgiyi parçalara ayırıp her aşamayı denetleme.",
+      "surec_bilesenleri": [],
+      "renk": "accent"
+    },
+    "KB1": {
+      "kod": "KB1",
+      "ad": "Temel Beceriler",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Kategori",
+      "aciklama": "Karmaşık bir süreç gerektirmeden edinilen ve gözlenebilen eylemler.",
+      "surec_bilesenleri": [],
+      "renk": "blue"
+    },
+    "KB2": {
+      "kod": "KB2",
+      "ad": "Bütünleşik Beceriler",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Kategori",
+      "aciklama": "Süreç modellemesi yapılabilen eylemler.",
+      "surec_bilesenleri": [],
+      "renk": "blue"
+    },
+    "KB2.1": {
+      "kod": "KB2.1",
+      "ad": "Çelişki Giderme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "İki veya daha fazla olay, konu veya durum arasındaki tutarsızlığı düzeltme çabası.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.1.SB1",
+          "metin": "Çelişkinin/tutarsızlığın nerede olduğunu belirlemek"
+        },
+        {
+          "kod": "KB2.1.SB2",
+          "metin": "İlgili hedefe ulaşmak için olası yolları araştırmak"
+        },
+        {
+          "kod": "KB2.1.SB3",
+          "metin": "Uygun yolu seçerek harekete geçmek ve takip etmek"
+        },
+        {
+          "kod": "KB2.1.SB4",
+          "metin": "Elde edilen çözümü değerlendirmek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.10": {
+      "kod": "KB2.10",
+      "ad": "Çıkarım Yapma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Önerme ve varsayımlara dayalı olarak sonuca ulaşma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.10.SB1",
+          "metin": "Mevcut bilgisi dâhilinde varsayımda bulunmak"
+        },
+        {
+          "kod": "KB2.10.SB2",
+          "metin": "Örüntüleri listelemek"
+        },
+        {
+          "kod": "KB2.10.SB3",
+          "metin": "Karşılaştırmak"
+        },
+        {
+          "kod": "KB2.10.SB4",
+          "metin": "Önerme sunmak"
+        },
+        {
+          "kod": "KB2.10.SB5",
+          "metin": "Değerlendirmek"
+        },
+        {
+          "kod": "KB2.10.SB1",
+          "metin": "Mevcut bilgisi dâhilinde varsayımda bulunmak"
+        },
+        {
+          "kod": "KB2.10.SB2",
+          "metin": "Örüntüleri listelemek"
+        },
+        {
+          "kod": "KB2.10.SB3",
+          "metin": "Karşılaştırmak"
+        },
+        {
+          "kod": "KB2.10.SB4",
+          "metin": "Önerme sunmak"
+        },
+        {
+          "kod": "KB2.10.SB5",
+          "metin": "Değerlendirmek EK-2"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.11": {
+      "kod": "KB2.11",
+      "ad": "Gözleme Dayalı Tahmin Etme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Ön gözlem ve deneyimlerden hareketle çıkarım yapma ve yargıda bulunma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.11.SB1",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ön gözlem ve/veya deneyimi ilişkilendirmek"
+        },
+        {
+          "kod": "KB2.11.SB2",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.11.SB3",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin yargıda bulunmak"
+        },
+        {
+          "kod": "KB2.11.SB1",
+          "metin": "Mevcut olaya/konuya/soruna/duruma ilişkin ön gözlem ve/veya deneyimi ilişkilendirmek"
+        },
+        {
+          "kod": "KB2.11.SB2",
+          "metin": "Mevcut olaya/konuya/soruna/duruma ilişkin çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.11.SB3",
+          "metin": "Mevcut olaya/konuya/soruna/duruma ilişkin yargıda bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.12": {
+      "kod": "KB2.12",
+      "ad": "Mevcut Bilgiye/Veriye Dayalı Tahmin Etme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Mevcut bilgi ve veriler üzerinden hesaplamalar yaparak ileriye dönük yargıda bulunma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.12.SB1",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin bilgi/veri toplamak ya da ön bilgileri kullanmak"
+        },
+        {
+          "kod": "KB2.12.SB2",
+          "metin": "Elde edilen veriler üzerinde kurala dayalı hesaplama yapmak"
+        },
+        {
+          "kod": "KB2.12.SB3",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ileriye yönelik yargıda bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.13": {
+      "kod": "KB2.13",
+      "ad": "Yapılandırma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Mevcut olay ya da durumdan hareketle ilişkileri görüp uyumlu bir bütün oluşturma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.13.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu inceleyerek hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koymak"
+        },
+        {
+          "kod": "KB2.13.SB2",
+          "metin": "Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün oluşturmak/ortaya koymak"
+        },
+        {
+          "kod": "KB2.13.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu inceleyerek hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koymak"
+        },
+        {
+          "kod": "KB2.13.SB2",
+          "metin": "Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün oluşturmak/ortaya koymak"
+        },
+        {
+          "kod": "KB2.13.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu inceleyerek hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koymak"
+        },
+        {
+          "kod": "KB2.13.SB2",
+          "metin": "Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir bütün oluşturmak/ortaya koymak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.14": {
+      "kod": "KB2.14",
+      "ad": "Yorumlama",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Mevcut olayı veya durumu bağlamından koparmadan yeniden açıklama.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.14.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu incelemek"
+        },
+        {
+          "kod": "KB2.14.SB2",
+          "metin": "Mevcut olayı/konuyu/durumu bağlamdan kopmadan dönüştürmek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade etmek"
+        },
+        {
+          "kod": "KB2.14.SB2",
+          "metin": "Mevcut olayı/konuyu/durumu bağlamdan kopmadan dönüştürmek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+        },
+        {
+          "kod": "KB2.14.SB2",
+          "metin": "Mevcut olayı/konuyu/durumu bağlamdan kopmadan dönüştürmek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+        },
+        {
+          "kod": "KB2.14.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu incelemek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+        },
+        {
+          "kod": "KB2.14.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu incelemek"
+        },
+        {
+          "kod": "KB2.14.SB2",
+          "metin": "Mevcut olayı/konuyu/durumu bağlamdan kopmadan dönüştürmek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel ve doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek Mantıksal Muhakeme Becerisi (SBAB12) Hayatın tüm unsurlarıyla farkında olabilme, bu farkın"
+        },
+        {
+          "kod": "KB2.14.SB1",
+          "metin": "Mevcut olayı/konuyu/durumu incelemek"
+        },
+        {
+          "kod": "KB2.14.SB2",
+          "metin": "Mevcut olayı/konuyu/durumu bağlamdan kopmadan dönüştürmek"
+        },
+        {
+          "kod": "KB2.14.SB3",
+          "metin": "Kendi ifadeleriyle olayı/konuyu/durumu nesnel ve doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.15": {
+      "kod": "KB2.15",
+      "ad": "Yansıtma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Bir deneyimi gelecekteki durumlara uygulamak için gözden geçirme, çıkarımda bulunma ve değerlendirme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.15.SB1",
+          "metin": "Deneyimi gözden geçirmek"
+        },
+        {
+          "kod": "KB2.15.SB2",
+          "metin": "Deneyime dayalı çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.15.SB3",
+          "metin": "Ulaşılan çıkarımları değerlendirmek"
+        },
+        {
+          "kod": "KB2.15.SB1",
+          "metin": "Deneyimi gözden geçirmek"
+        },
+        {
+          "kod": "KB2.15.SB2",
+          "metin": "Deneyime dayalı çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.15.SB3",
+          "metin": "Ulaşılan çıkarımları değerlendirmek"
+        },
+        {
+          "kod": "KB2.15.SB1",
+          "metin": "Deneyimi gözden geçirmek"
+        },
+        {
+          "kod": "KB2.15.SB2",
+          "metin": "Deneyime dayalı çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.15.SB3",
+          "metin": "Ulaşılan çıkarımları değerlendirmek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.16": {
+      "kod": "KB2.16",
+      "ad": "Muhakeme (Akıl Yürütme)",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Tümevarım, tümdengelim ve analoji kullanarak çıkarımlara ulaşma süreci.",
+      "surec_bilesenleri": [],
+      "renk": "blue"
+    },
+    "KB2.17": {
+      "kod": "KB2.17",
+      "ad": "Değerlendirme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Belirlenen ölçütler doğrultusunda ölçme yapıp yargıda bulunma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.17.SB1",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ölçüt belirlemek"
+        },
+        {
+          "kod": "KB2.17.SB2",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ölçme yapmak"
+        },
+        {
+          "kod": "KB2.17.SB3",
+          "metin": "Ölçme sonuçlarını belirlediği ölçütlerle karşılaştırmak"
+        },
+        {
+          "kod": "KB2.17.SB4",
+          "metin": "Karşılaştırmalarına ilişkin yargıda bulunmak Bütünleşik Beceriler"
+        },
+        {
+          "kod": "KB2.17.SB1",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ölçüt belirlemek"
+        },
+        {
+          "kod": "KB2.17.SB2",
+          "metin": "Mevcut olaya/konuya/duruma ilişkin ölçme yapmak"
+        },
+        {
+          "kod": "KB2.17.SB3",
+          "metin": "Ölçme sonuçlarını belirlediği ölçütlerle karşılaştırmak"
+        },
+        {
+          "kod": "KB2.17.SB4",
+          "metin": "Karşılaştırmalarına ilişkin yargıda bulunmak"
+        },
+        {
+          "kod": "KB2.17.SB3",
+          "metin": "Olayları/dönemleri/kavramları ölçütlerle karşılaştırmak"
+        },
+        {
+          "kod": "KB2.17.SB4",
+          "metin": "Karşılaştırmaya ilişkin yargıda bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.18": {
+      "kod": "KB2.18",
+      "ad": "Tartışma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Görüşleri mantıksal çerçevede sunma, dinleme ve kıyaslama.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.18.SB1",
+          "metin": "Mantıksal temellendirme yapmak"
+        },
+        {
+          "kod": "KB2.18.SB2",
+          "metin": "Mantıksal çelişkileri ve/veya tutarsızlıkları tespit etmek"
+        },
+        {
+          "kod": "KB2.18.SB3",
+          "metin": "Çürütmek veya kabul etmek"
+        },
+        {
+          "kod": "KB2.18.SB1",
+          "metin": "Mantıksal temellendirme yapmak"
+        },
+        {
+          "kod": "KB2.18.SB2",
+          "metin": "Mantıksal çelişkileri, tutarsızlıkları ve/veya geçersizlikleri tespit etmek"
+        },
+        {
+          "kod": "KB2.18.SB3",
+          "metin": "Çürütmek veya kabul etmek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.19": {
+      "kod": "KB2.19",
+      "ad": "Mantıksal Denetleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Bir önerme veya çıkarımı akıl ilkeleri ve akıl yürütme biçimlerine uygun şekilde sınama.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.19.SB1",
+          "metin": "Önermeleri dönüştürmek"
+        },
+        {
+          "kod": "KB2.19.SB2",
+          "metin": "Ölçüt bağlamında kuralları uygulamak"
+        },
+        {
+          "kod": "KB2.19.SB3",
+          "metin": "Ölçüt bağlamında yargıda bulunmak"
+        },
+        {
+          "kod": "KB2.19.SB1",
+          "metin": "Önermeleri dönüştürmek"
+        },
+        {
+          "kod": "KB2.19.SB2",
+          "metin": "Ölçüt bağlamında kuralları uygulamak"
+        },
+        {
+          "kod": "KB2.19.SB3",
+          "metin": "Ölçüt bağlamında yargıda bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.2": {
+      "kod": "KB2.2",
+      "ad": "Gözlemleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Doğal ortamdaki nesne ve olaylara ait özelliklerin duyular aracılığıyla belirlenmesi.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.2.SB1",
+          "metin": "Gözleme ilişkin amaç-ölçüt belirlemek"
+        },
+        {
+          "kod": "KB2.2.SB2",
+          "metin": "Uygun veri toplama aracı ile veri toplamak"
+        },
+        {
+          "kod": "KB2.2.SB3",
+          "metin": "Toplanan verileri sınıflandırmak ve kaydetmek Bir bütünü parçalarına ayırarak parçalar arasındaki ilişkileri belirlemeyi ifade eder."
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.20": {
+      "kod": "KB2.20",
+      "ad": "Sentezleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Parçaları ilişki kurarak özgün bir bütün hâline getirme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.20.SB1",
+          "metin": "Parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.20.SB2",
+          "metin": "Parçalar arası ilişki kurmak"
+        },
+        {
+          "kod": "KB2.20.SB3",
+          "metin": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+        },
+        {
+          "kod": "KB2.20.SB2",
+          "metin": "Parçalar arası ilişki kurmak"
+        },
+        {
+          "kod": "KB2.20.SB3",
+          "metin": "Parçaları birleştirerek özgün bir bütün oluşturmak Sosyal Katılım Becerisi (SBAB5) Öğrencilerin hem kendini hem de yakın çevresini etkileyen konularla ilgili bilgi sahibi olmasının yanında ihtiyaçları"
+        },
+        {
+          "kod": "KB2.20.SB1",
+          "metin": "Parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.20.SB2",
+          "metin": "Parçalar arası ilişki kurmak"
+        },
+        {
+          "kod": "KB2.20.SB3",
+          "metin": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+        },
+        {
+          "kod": "KB2.20.SB1",
+          "metin": "Parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.20.SB2",
+          "metin": "Parçalar arasında ilişki kurmak"
+        },
+        {
+          "kod": "KB2.20.SB3",
+          "metin": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.3": {
+      "kod": "KB2.3",
+      "ad": "Özetleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Bir metnin ya da konuşmanın özünü anlayıp ana hatlarıyla kısaltarak kendi cümleleriyle aktarma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.3.SB1",
+          "metin": "Metin/olay/konu/durum ile ilgili çözümleme yapmak"
+        },
+        {
+          "kod": "KB2.3.SB2",
+          "metin": "Metin/olay/konu/durum ile ilgili sınıflandırma yapmak"
+        },
+        {
+          "kod": "KB2.3.SB3",
+          "metin": "Metni/olayı/konuyu/durumu yorumlamak (kendi cümleleri ile aktarmak)"
+        },
+        {
+          "kod": "KB2.3.SB1",
+          "metin": "Metin/olay/konu/durum ile ilgili çözümleme yapmak"
+        },
+        {
+          "kod": "KB2.3.SB2",
+          "metin": "Metin/olay/konu/durum ile ilgili sınıflandırma yapmak"
+        },
+        {
+          "kod": "KB2.3.SB3",
+          "metin": "Metni/olayı/konuyu/durumu yorumlamak (kendi cümleleri ile aktarmak) Temel Kaynakları Kullanma Becerisi (DAB1) İslam dininin temel kaynakları olan Kur'an-ı Kerim ve hadis kaynaklarını kullanabilmek içi"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.4": {
+      "kod": "KB2.4",
+      "ad": "Çözümleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Bir bütünü parçalarına ayırarak parçalar arasındaki ilişkileri belirleme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB1",
+          "metin": "Nesne, olgu ve olaylara ilişkin parçaları belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek"
+        },
+        {
+          "kod": "KB2.4.SB2",
+          "metin": "Parçalar arasındaki ilişkileri belirlemek Felsefi Düşünce Ortaya Koyma Becerisi (SBAB15) Veriye dayalı bilgileri kullanarak mantıksal çıkarımlarda bulunma ve alternatif görüş üretme sürecini ifade ede"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.5": {
+      "kod": "KB2.5",
+      "ad": "Sınıflandırma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Nesne, olgu ve olayları belirlenen özelliklere göre gruplara ayırma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.5.SB1",
+          "metin": "Nesnelere/olgulara/olaylara ilişkin değişkenleri/ölçütleri belirlemek"
+        },
+        {
+          "kod": "KB2.5.SB2",
+          "metin": "Nesneleri/olguları/olayları ayrıştırmak veya bölmek"
+        },
+        {
+          "kod": "KB2.5.SB3",
+          "metin": "Nesneleri/olguları/olayları tasnif etmek"
+        },
+        {
+          "kod": "KB2.5.SB4",
+          "metin": "Nesneleri/olguları/olayları etiketlemek Bütünleşik Beceriler İki veya daha fazla olay/konu/durum arasındaki tutarsızlığı düzeltme çabasını ifade eder."
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.6": {
+      "kod": "KB2.6",
+      "ad": "Bilgi Toplama",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Olay, konu veya durum ile ilgili istenen bilgiyi çeşitli yöntemlerle elde etme, doğrulama ve kaydetme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.6.SB1",
+          "metin": "İstenen bilgiye ulaşmak için kullanacağı araçları belirlemek"
+        },
+        {
+          "kod": "KB2.6.SB2",
+          "metin": "Belirlediği aracı kullanarak olay/konu/durum hakkındaki bilgileri bulmak"
+        },
+        {
+          "kod": "KB2.6.SB3",
+          "metin": "Olayla/konuyla/durumla ilgili ulaşılan bilgileri doğrulamak"
+        },
+        {
+          "kod": "KB2.6.SB4",
+          "metin": "Olayla/konuyla/durumla ilgili ulaşılan bilgileri kaydetmek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.7": {
+      "kod": "KB2.7",
+      "ad": "Karşılaştırma",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Birden fazla kavram veya durum arasındaki benzerlik ve farklılıkların belirlenmesi.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.7.SB1",
+          "metin": "Birden fazla kavram veya duruma ilişkin özellikleri belirlemek"
+        },
+        {
+          "kod": "KB2.7.SB2",
+          "metin": "Belirlenen özelliklere ilişkin benzerlikleri listelemek"
+        },
+        {
+          "kod": "KB2.7.SB3",
+          "metin": "Belirlenen özelliklere ilişkin farklılıkları listelemek"
+        },
+        {
+          "kod": "KB2.7.SB1",
+          "metin": "Birden fazla kavram veya duruma ilişkin özellikleri belirlemek"
+        },
+        {
+          "kod": "KB2.7.SB2",
+          "metin": "Belirlenen özelliklere ilişkin benzerlikleri listelemek"
+        },
+        {
+          "kod": "KB2.7.SB3",
+          "metin": "Belirlenen özelliklere ilişkin farklılıkları listelemek"
+        },
+        {
+          "kod": "KB2.7.SB1",
+          "metin": "Birden fazla kavram veya duruma ilişkin özellikleri belirlemek"
+        },
+        {
+          "kod": "KB2.7.SB2",
+          "metin": "Belirlenen özelliklere ilişkin benzerlikleri listelemek"
+        },
+        {
+          "kod": "KB2.7.SB3",
+          "metin": "Belirlenen özelliklere ilişkin farklılıkları listelemek"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.8": {
+      "kod": "KB2.8",
+      "ad": "Sorgulama",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Olaya ya da konuya ilişkin anlamlı sorular sorma, bilgi edinme ve değerlendirme süreci.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        },
+        {
+          "kod": "KB2.8.SB1",
+          "metin": "Merak ettiği konuyu tanımlamak"
+        },
+        {
+          "kod": "KB2.8.SB2",
+          "metin": "İlgili konu hakkında sorular sormak"
+        },
+        {
+          "kod": "KB2.8.SB3",
+          "metin": "İlgili konu hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.8.SB4",
+          "metin": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+        },
+        {
+          "kod": "KB2.8.SB5",
+          "metin": "Toplanan bilgiler üzerinden çıkarım yapmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB2.9": {
+      "kod": "KB2.9",
+      "ad": "Genelleme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Bütünleşik Beceri",
+      "aciklama": "Çeşitli olaylar veya durumlar arasındaki ortak örüntülerden yargıya varma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB2.9.SB1",
+          "metin": "Olay/konu/durum hakkında bilgi toplamak"
+        },
+        {
+          "kod": "KB2.9.SB2",
+          "metin": "Ortak özellikleri belirlemek"
+        },
+        {
+          "kod": "KB2.9.SB3",
+          "metin": "Ortak olmayan özellikleri belirlemek"
+        },
+        {
+          "kod": "KB2.9.SB4",
+          "metin": "Örüntüler üzerinden önermede bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB3": {
+      "kod": "KB3",
+      "ad": "Üst Düzey Düşünme Becerileri",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Kategori",
+      "aciklama": "Birden fazla bütünleşik beceriyi içeren çok boyutlu zihinsel süreçler.",
+      "surec_bilesenleri": [],
+      "renk": "blue"
+    },
+    "KB3.1": {
+      "kod": "KB3.1",
+      "ad": "Karar Verme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Üst Düzey Beceri",
+      "aciklama": "Amaç belirleme, alternatif üretme, mantıksal denetleme yapma ve seçim sonucu üzerinde yansıtma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB3.1.SB1",
+          "metin": "Karar durumuna ilişkin amacı belirlemek"
+        },
+        {
+          "kod": "KB3.1.SB2",
+          "metin": "Karara ilişkin bilgi aramak/toplamak"
+        },
+        {
+          "kod": "KB3.1.SB3",
+          "metin": "Karara ilişkin olası alternatif önermeler/seçenekler oluşturmak"
+        },
+        {
+          "kod": "KB3.1.SB4",
+          "metin": "Alternatif önermeler/seçenekler üzerinde mantıksal denetleme yapmak"
+        },
+        {
+          "kod": "KB3.1.SB5",
+          "metin": "Ulaştığı yapıya dayalı seçim yapmak"
+        },
+        {
+          "kod": "KB3.1.SB6",
+          "metin": "Kararının sonuçları üzerinde yansıtma yapmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB3.2": {
+      "kod": "KB3.2",
+      "ad": "Problem Çözme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Üst Düzey Beceri",
+      "aciklama": "Bir sorunu yapılandırma, tahminde bulunma, akıl yürütme ve değerlendirme yoluyla çözme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB3.2.SB1",
+          "metin": "Problemi yapılandırmak"
+        },
+        {
+          "kod": "KB3.2.SB2",
+          "metin": "Problemi özetlemek"
+        },
+        {
+          "kod": "KB3.2.SB3",
+          "metin": "Problemin çözümüne yönelik gözleme dayalı/mevcut bilgiye/veriye dayalı tahminde bulunmak"
+        },
+        {
+          "kod": "KB3.2.SB4",
+          "metin": "Problemin çözümüne yönelik önermeler üzerinden akıl yürütmek"
+        },
+        {
+          "kod": "KB3.2.SB5",
+          "metin": "Problemin çözümüne ilişkin yansıtmada/değerlendirmede bulunmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "KB3.3": {
+      "kod": "KB3.3",
+      "ad": "Eleştirel Düşünme",
+      "aile": "Kavramsal Beceriler",
+      "alt_aile": "Üst Düzey Beceri",
+      "aciklama": "Karşılaşılan bilgi ve durumları sorgulama, akıl yürütme ve yansıtma ile değerlendirme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "KB3.3.SB1",
+          "metin": "Olayı/konuyu/problemi veya durumu sorgulamak"
+        },
+        {
+          "kod": "KB3.3.SB2",
+          "metin": "Sorgulanan olay/konu/problem veya durum ile ilgili akıl yürütmek"
+        },
+        {
+          "kod": "KB3.3.SB3",
+          "metin": "Akıl yürütmeyle ulaştığı çıkarımları yansıtmak"
+        },
+        {
+          "kod": "KB3.3.SB1",
+          "metin": "Olay/olgu/problem veya durumu sorgulamak"
+        },
+        {
+          "kod": "KB3.3.SB2",
+          "metin": "Sorgulanan olay/konu/problem veya durum ile ilgili akıl yürütmek"
+        },
+        {
+          "kod": "KB3.3.SB3",
+          "metin": "Akıl yürütmeyle ulaştığı çıkarımları yansıtmak"
+        }
+      ],
+      "renk": "blue"
+    },
+    "MAB1": {
+      "kod": "MAB1",
+      "ad": "Matematiksel Muhakeme Becerisi",
+      "aile": "Matematik Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "MAB2": {
+      "kod": "MAB2",
+      "ad": "Matematiksel Problem Çözme Becerisi",
+      "aile": "Matematik Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "MAB3": {
+      "kod": "MAB3",
+      "ad": "Matematiksel Temsil Becerisi",
+      "aile": "Matematik Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "MAB4": {
+      "kod": "MAB4",
+      "ad": "Veri ile Çalışma ve Veriye Dayalı Karar Verme Becerisi",
+      "aile": "Matematik Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "MAB5": {
+      "kod": "MAB5",
+      "ad": "Matematiksel Araç ve Teknoloji ile Çalışma Becerisi",
+      "aile": "Matematik Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "OB1": {
+      "kod": "OB1",
+      "ad": "Bilgi Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Bilgi ihtiyacını fark etme, bilgiyi toplama, özetleme, sentezleme ve eleştirel kullanma.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB2": {
+      "kod": "OB2",
+      "ad": "Dijital Okuryazarlık",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Dijital bilgi, dijital iletişim, fikrî mülkiyet, içerik üretimi, e-güvenlik ve dijital araç kullanımı.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB3": {
+      "kod": "OB3",
+      "ad": "Finansal Okuryazarlık",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Gelir, para yönetimi, bilinçli harcama, tasarruf/yatırım ve finansal teknolojileri anlama.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB4": {
+      "kod": "OB4",
+      "ad": "Görsel Okuryazarlık",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Görseli anlama, yorumlama, görsel iletişim uygulamaları üretme ve eleştirel değerlendirme.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB5": {
+      "kod": "OB5",
+      "ad": "Kültür Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Kültürü kavrama, sürdürme ve kültürel etkileşim kurma.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB6": {
+      "kod": "OB6",
+      "ad": "Vatandaşlık Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Vatandaşlığı, hak ve sorumlulukları anlama, sorgulama, kullanma ve hak arama.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB7": {
+      "kod": "OB7",
+      "ad": "Veri Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Soru sorma, veri oluşturma, ölçme, görselleştirme, örüntü analizi ve veri yorumlama.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB8": {
+      "kod": "OB8",
+      "ad": "Sürdürülebilirlik Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Sürdürülebilir ve sürdürülebilir olmayan sistemleri anlama, çözümleme ve eyleme dönüştürme.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "OB9": {
+      "kod": "OB9",
+      "ad": "Sanat Okuryazarlığı",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Sanat türleri ve tekniklerini anlama, sanat eserini inceleme ve sanatsal pratik geliştirme.",
+      "surec_bilesenleri": [],
+      "renk": "purple"
+    },
+    "SAB1": {
+      "kod": "SAB1",
+      "ad": "Sanatsal Algılama Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "SAB2": {
+      "kod": "SAB2",
+      "ad": "Görsel Mesajı Okuma Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "SAB3": {
+      "kod": "SAB3",
+      "ad": "Sanat Eserini İnceleme Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "SAB4": {
+      "kod": "SAB4",
+      "ad": "Sanatsal Üretim Yapma Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "SAB5": {
+      "kod": "SAB5",
+      "ad": "Sanatsal Tasarım Yapma Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "SAB6": {
+      "kod": "SAB6",
+      "ad": "Müziksel İşitme Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SAB6.SB1",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri tanımak"
+        },
+        {
+          "kod": "SAB6.SB2",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri işitsel olarak ayırt etmek"
+        },
+        {
+          "kod": "SAB6.SB3",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri ifade etmek Müziksel Okuma Becerisi (SAB7) Yazılı müzik eserinin ritmik/ezgisel/armonik bileşenlerinin ayırt edilerek bu bileşenlere uygun, akıcı ve bütüncül bir şek"
+        }
+      ],
+      "renk": "gray"
+    },
+    "SAB7": {
+      "kod": "SAB7",
+      "ad": "Müziksel Okuma Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SAB7.SB1",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri tanımak"
+        },
+        {
+          "kod": "SAB7.SB2",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri ayırt etmek"
+        },
+        {
+          "kod": "SAB7.SB3",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri uygulamak Müziksel Yazma Becerisi (SAB8) Bireyin dinlediği müzik cümlesinde/eserinde yer alan ritmik/ezgisel/armonik bileşenleri ayırt etmesi ve işittiği ritmik, ezg"
+        }
+      ],
+      "renk": "gray"
+    },
+    "SAB8": {
+      "kod": "SAB8",
+      "ad": "Müziksel Yazma Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SAB8.SB1",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri tanımak"
+        },
+        {
+          "kod": "SAB8.SB2",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri işitsel olarak ayırt etmek"
+        },
+        {
+          "kod": "SAB8.SB3",
+          "metin": "Ritmik/ezgisel/armonik bileşenleri uygulamak 1 Ritmik Bileşenler: Ölçü sayısı, usul, hız, ritmik kalıplar vb. Ezgisel/Armonik Bileşenler: Ses, aralık, akor, ton, makam vb."
+        }
+      ],
+      "renk": "gray"
+    },
+    "SAB9": {
+      "kod": "SAB9",
+      "ad": "Müziksel Dinleme Becerisi",
+      "aile": "Sanat Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SAB9.SB1",
+          "metin": "Müziksel bileşenleri tanımak"
+        },
+        {
+          "kod": "SAB9.SB2",
+          "metin": "Müziksel bileşenleri ayırt etmek"
+        },
+        {
+          "kod": "SAB9.SB3",
+          "metin": "Müziksel bileşenleri açıklamak Müziksel Söyleme Becerisi (SAB10) Müziksel söyleme becerisi; bireyin müzik eserini seslendirmeden önce bedenini hazır hâle getirmesini, eseri seslendirirken doğru nefes "
+        }
+      ],
+      "renk": "gray"
+    },
+    "SBAB1": {
+      "kod": "SBAB1",
+      "ad": "Zamanı Algılama ve Kronolojik Düşünme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB10": {
+      "kod": "SBAB10",
+      "ad": "Harita Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB11": {
+      "kod": "SBAB11",
+      "ad": "Tablo, Grafik, Şekil ve/veya Diyagram Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB12": {
+      "kod": "SBAB12",
+      "ad": "Mantıksal Muhakeme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB13": {
+      "kod": "SBAB13",
+      "ad": "Felsefi Sorgulama Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB14": {
+      "kod": "SBAB14",
+      "ad": "Felsefi Muhakeme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB15": {
+      "kod": "SBAB15",
+      "ad": "Felsefi Düşünce Ortaya Koyma Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB16": {
+      "kod": "SBAB16",
+      "ad": "Eleştirel Sosyolojik Düşünme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB17": {
+      "kod": "SBAB17",
+      "ad": "Tarihsel Sorun Analizi ve Karar Verme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB2": {
+      "kod": "SBAB2",
+      "ad": "Kanıta Dayalı Sorgulama ve Araştırma Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB3": {
+      "kod": "SBAB3",
+      "ad": "Tarihsel Empati Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB4": {
+      "kod": "SBAB4",
+      "ad": "Değişim ve Sürekliliği Algılama Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB5": {
+      "kod": "SBAB5",
+      "ad": "Sosyal Katılım Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB6": {
+      "kod": "SBAB6",
+      "ad": "Girişimcilik Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB7": {
+      "kod": "SBAB7",
+      "ad": "Mekânsal Düşünme Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB8": {
+      "kod": "SBAB8",
+      "ad": "Coğrafi Sorgulama Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SBAB9": {
+      "kod": "SBAB9",
+      "ad": "Coğrafi Gözlem ve Saha Çalışması Becerisi",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "primary"
+    },
+    "SDB1": {
+      "kod": "SDB1",
+      "ad": "Benlik Becerileri",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Kategori",
+      "aciklama": "Kişinin kişisel kaynaklarını geliştirip kullanabilmesiyle ilgili beceriler.",
+      "surec_bilesenleri": [],
+      "renk": "pink"
+    },
+    "SDB1.1": {
+      "kod": "SDB1.1",
+      "ad": "Kendini Tanıma (Öz Farkındalık)",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Benlik Becerisi",
+      "aciklama": "Kişisel özelliklerin duygu, düşünce ve davranışlara yansımasının bilincinde olunması.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB1.1.SB1",
+          "metin": "Öğreneceği yeni konuyu/ kavramı veya bilgiyi nasıl öğrendiğini belirlemek"
+        },
+        {
+          "kod": "SDB1.1.SB2",
+          "metin": "Olaylar/durumlar karşısında hangi duyguları yaşadığını fark etmek"
+        },
+        {
+          "kod": "SDB1.1.SB3",
+          "metin": "Kendi duygularına ilişkin farkındalığını artırmaya yönelik çalışmalar yapmak"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB1.2": {
+      "kod": "SDB1.2",
+      "ad": "Kendini Düzenleme (Öz Düzenleme)",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Benlik Becerisi",
+      "aciklama": "Kişisel hedeflere ulaşabilmek için duygu, davranış ve bilişsel stratejileri izleyip yönetme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB1.2.SB1",
+          "metin": "İhtiyaçlarını karşılamaya yönelik hedef belirlemek"
+        },
+        {
+          "kod": "SDB1.2.SB2",
+          "metin": "Motivasyonunu ayarlamak"
+        },
+        {
+          "kod": "SDB1.2.SB3",
+          "metin": "Bir hedefi gerçekleştirebilmek için kendi duygu, düşünce ve davranışlarını izlemek ve yönetmek"
+        },
+        {
+          "kod": "SDB1.2.SB4",
+          "metin": "Bir hedefi gerçekleştirebilme sürecinde kendini değerlendirmek"
+        },
+        {
+          "kod": "SDB1.2.SB5",
+          "metin": "Kendi öğrenme durumunu geliştirmeye yönelik çalışmalar yapmak"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB1.3": {
+      "kod": "SDB1.3",
+      "ad": "Kendine Uyarlama (Öz Yansıtma)",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Benlik Becerisi",
+      "aciklama": "Duygu, düşünce ve davranışları geliştirici değerlendirmeler yapıp tepki oluşturma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB1.3.SB1",
+          "metin": "Kendini değerlendirmek"
+        },
+        {
+          "kod": "SDB1.3.SB2",
+          "metin": "Duygu, düşünce ve davranışlarını dönüştürmek"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB2": {
+      "kod": "SDB2",
+      "ad": "Sosyal Yaşam Becerileri",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Kategori",
+      "aciklama": "Toplumsal hayata etkin katılım ve günlük problemlerin üstesinden gelme becerileri.",
+      "surec_bilesenleri": [],
+      "renk": "pink"
+    },
+    "SDB2.1": {
+      "kod": "SDB2.1",
+      "ad": "İletişim",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Sosyal Yaşam Becerisi",
+      "aciklama": "Duygu, düşünce veya bilgilerin sözlü ya da sözsüz olarak başkalarına iletilmesi.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB2.1.SB1",
+          "metin": "Başkalarını etkin şekilde dinlemek"
+        },
+        {
+          "kod": "SDB2.1.SB2",
+          "metin": "Duygu ve düşünceleri ifade etmek"
+        },
+        {
+          "kod": "SDB2.1.SB3",
+          "metin": "Sözlü ya da sözsüz olarak etkileşim sağlamak"
+        },
+        {
+          "kod": "SDB2.1.SB4",
+          "metin": "Grup iletişimine katılmak"
+        },
+        {
+          "kod": "SDB2.1.SB5",
+          "metin": "İletişimin önündeki engelleri ortadan kaldırmak"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB2.2": {
+      "kod": "SDB2.2",
+      "ad": "İş Birliği",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Sosyal Yaşam Becerisi",
+      "aciklama": "Ortak bir hedefe ulaşmak için iki veya daha fazla kişinin birlikte çalışabilmesi.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB2.2.SB1",
+          "metin": "Kişi ve gruplarla iş birliği yapmak"
+        },
+        {
+          "kod": "SDB2.2.SB2",
+          "metin": "Düşüncelerini başkalarıyla tartışmak/ müzakere etmek"
+        },
+        {
+          "kod": "SDB2.2.SB3",
+          "metin": "Farklı düşünceler üzerinde uzlaşma sağlayıp ortaklıklar kurmak"
+        },
+        {
+          "kod": "SDB2.2.SB4",
+          "metin": "Ekip (takım) çalışması yapmak ve yardımlaşmak"
+        },
+        {
+          "kod": "SDB2.2.SB5",
+          "metin": "Sosyal etkileşimlerle elde edilen çıktıları eyleme dönüştürmek"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB2.3": {
+      "kod": "SDB2.3",
+      "ad": "Sosyal Farkındalık",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Sosyal Yaşam Becerisi",
+      "aciklama": "Başkalarının bakış açılarını anlama ve onlarla hemhâl olma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB2.3.SB1",
+          "metin": "Sosyal ipuçlarını dikkate almak"
+        },
+        {
+          "kod": "SDB2.3.SB2",
+          "metin": "Başkalarının duygularını, düşüncelerini ve bakış açılarını anlamak"
+        },
+        {
+          "kod": "SDB2.3.SB3",
+          "metin": "Başkalarına karşı anlayış geliştirerek saygı göstermek"
+        },
+        {
+          "kod": "SDB2.3.SB4",
+          "metin": "Toplumsal normlar hakkında bir anlayış geliştirmek"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB3": {
+      "kod": "SDB3",
+      "ad": "Ortak/Birleşik Beceriler",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Kategori",
+      "aciklama": "Benlik ve sosyal yaşam becerilerinin kesişiminde yer alan özgün beceri seti.",
+      "surec_bilesenleri": [],
+      "renk": "pink"
+    },
+    "SDB3.1": {
+      "kod": "SDB3.1",
+      "ad": "Uyum",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Ortak/Birleşik Beceri",
+      "aciklama": "Hem benlik hem çevreyle dengeli ilişki kurup sürdürebilme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB3.1.SB1",
+          "metin": "Yeni, değişen ve belirsiz durumları anlamak"
+        },
+        {
+          "kod": "SDB3.1.SB2",
+          "metin": "Yeni, değişen ve belirsiz durumlar karşısında değişime açık ve istekli olmak"
+        },
+        {
+          "kod": "SDB3.1.SB3",
+          "metin": "Yeni, değişen ve belirsiz durumlarla başa çıkmak için düşünce biçimini ayarlamak"
+        },
+        {
+          "kod": "SDB3.1.SB4",
+          "metin": "Yeni, değişen ve belirsiz durumlarda davranış veya eylemin doğasını, seviyesini ve derecesini ayarlamak"
+        },
+        {
+          "kod": "SDB3.1.SB5",
+          "metin": "Yeni, değişen ve belirsiz bir çevreyle başarılı bir şekilde etkileşime geçmek için duygusal tepkileri ayarlamak"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB3.2": {
+      "kod": "SDB3.2",
+      "ad": "Esneklik",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Ortak/Birleşik Beceri",
+      "aciklama": "Yeni durumlara uyum sağlayıp farklı çözümler üretebilme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB3.2.SB1",
+          "metin": "Zor durumlara farklı çözümler bulmak"
+        },
+        {
+          "kod": "SDB3.2.SB2",
+          "metin": "Yeni durumlara uyum sağlamak"
+        }
+      ],
+      "renk": "pink"
+    },
+    "SDB3.3": {
+      "kod": "SDB3.3",
+      "ad": "Sorumlu Karar Verme",
+      "aile": "Sosyal-Duygusal Öğrenme Becerileri",
+      "alt_aile": "Ortak/Birleşik Beceri",
+      "aciklama": "Ahlaki sorumluluk çerçevesinde yapıcı seçimler yapabilme.",
+      "surec_bilesenleri": [
+        {
+          "kod": "SDB3.3.SB1",
+          "metin": "Problemleri tanımlayıp çözmek"
+        },
+        {
+          "kod": "SDB3.3.SB2",
+          "metin": "Eylemlerinin sonuçlarını öngörmek"
+        },
+        {
+          "kod": "SDB3.3.SB3",
+          "metin": "Gerekçeli yargıda bulunmak"
+        },
+        {
+          "kod": "SDB3.3.SB4",
+          "metin": "Alınan kararların ahlaki olarak uygunluğunu değerlendirmek"
+        },
+        {
+          "kod": "SDB3.3.SB5",
+          "metin": "Derinlemesine düşünmek"
+        }
+      ],
+      "renk": "pink"
+    },
+    "TAB1": {
+      "kod": "TAB1",
+      "ad": "Dinleme/İzleme Becerisi",
+      "aile": "Türkçe Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "TAB2": {
+      "kod": "TAB2",
+      "ad": "Okuma Becerisi",
+      "aile": "Türkçe Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "TAB3": {
+      "kod": "TAB3",
+      "ad": "Konuşma Becerisi",
+      "aile": "Türkçe Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "TAB4": {
+      "kod": "TAB4",
+      "ad": "Yazma Becerisi",
+      "aile": "Türkçe Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [],
+      "renk": "gray"
+    },
+    "D5.1": {
+      "kod": "D5.1",
+      "ad": "Duyarlılık (D5.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisine, içinde yaşadığı topluma, kültürel zenginliklere, tüm varlıklara değer vermeyi; sürdürülebilirliği önemsemeyi ve afetlere karşı hazırlıklı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D20.1": {
+      "kod": "D20.1",
+      "ad": "Yardımseverlik (D20.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve canlılara duyarlı olmayı, onları sevmeyi, onlara merhamet etmeyi, cömertliği, dayanışmayı, fedakârlık yapmayı, iyiliksever olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D12.2": {
+      "kod": "D12.2",
+      "ad": "Sabır (D12.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Olumlu bakış açısına sahip olmayı, zor ve kötü durumlara karşı dayanmayı, istikrarlı davranmayı, süreci yönetmeyi, sorumlulukları yerine getirmeyi; duygu, düşünce ve eylemleri kontrol etmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB1.2": {
+      "kod": "DAB1.2",
+      "ad": "Temel Kaynakları Kullanma Becerisi (DAB1.2)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB1.2.SB1",
+          "metin": "Olayla/konuyla/durumla ilgili hadisleri tespit etmek"
+        },
+        {
+          "kod": "DAB1.2.SB2",
+          "metin": "Hadislerde geçen olayları/şahısları/yerleri/konuları/kavramları belirlemek"
+        },
+        {
+          "kod": "DAB1.2.SB3",
+          "metin": "Hadisleri içeriklerine göre sınıflandırmak"
+        },
+        {
+          "kod": "DAB1.2.SB4",
+          "metin": "Hadisler doğrultusunda olayla/konuyla/durumla ilgili çıkarım yapmak"
+        },
+        {
+          "kod": "DAB1.2.SB5",
+          "metin": "Hadislerle ilgili yaptığı çıkarımlara olaylarda/konularda/durumlarda yer vermek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D9.2": {
+      "kod": "D9.2",
+      "ad": "Merhamet (D9.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve diğer canlılara karşı vicdanlı, şefkatli, sevgi dolu, duyarlı ve sorumlu olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D2.2": {
+      "kod": "D2.2",
+      "ad": "Aile Bütünlüğü (D2.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Aile içi iletişim ve iş birliğini güçlendirmeyi, ailede sorumlulukları yerine getirmeyi, aileyle vakit geçirmeyi; saygı, sevgi ve güvene dayalı ilişkiler kurmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB5.2": {
+      "kod": "DAB5.2",
+      "ad": "Dinî Delillere Başvurma Becerisi (DAB5.2)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB5.2.SB1",
+          "metin": "Birden fazla dinî olguya/olaya/konuya/kavrama/meseleye ilişkin özellikleri belirlemek"
+        },
+        {
+          "kod": "DAB5.2.SB2",
+          "metin": "Belirlenen özelliklere ilişkin benzerlikleri ortaya koymak"
+        },
+        {
+          "kod": "DAB5.2.SB3",
+          "metin": "Belirlenen özelliklere ilişkin farklılıkları ortaya koymak"
+        },
+        {
+          "kod": "DAB5.2.SB4",
+          "metin": "Belirlenen özellikler arasında ilişki kurmak"
+        },
+        {
+          "kod": "DAB5.2.SB5",
+          "metin": "Ortaya konulan benzerlik ve farklılıklara dayalı olarak çıkarım yapmak Dinî Delillere Başvurma Becerisi (DAB5) Akli/naklî delillerin kullanılmasıyla birlikte bir sonuca varılması için takip edilecek s"
+        }
+      ],
+      "renk": "primary"
+    },
+    "DAB4.4": {
+      "kod": "DAB4.4",
+      "ad": "Tefekkür Becerisi (DAB4.4)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB4.4.SB1",
+          "metin": "Dinî olgular/olaylar/konular/kavramlar/meseleler arasında ilişki kurmak"
+        },
+        {
+          "kod": "DAB4.4.SB2",
+          "metin": "Dinî olgular/olaylar/konular/kavramlar/meseleler arasında kurduğu ilişkiyle ilgili akıl yürütmek"
+        },
+        {
+          "kod": "DAB4.4.SB3",
+          "metin": "Akıl yürütme ile ulaştığı çıkarımları tartışmak"
+        }
+      ],
+      "renk": "primary"
+    },
+    "DAB5.1": {
+      "kod": "DAB5.1",
+      "ad": "Dinî Delillere Başvurma Becerisi (DAB5.1)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB5.1.SB1",
+          "metin": "Olgularla/olaylarla/konularla/kavramlarla/meselelerle ilgili akli/naklî delilleri toplamak"
+        },
+        {
+          "kod": "DAB5.1.SB2",
+          "metin": "Olgularla/olaylarla/konularla/kavramlarla/meselelerle ilgili topladığı akli/ naklî deliller arasında ilişki kurmak"
+        },
+        {
+          "kod": "DAB5.1.SB3",
+          "metin": "Olgularla/olaylarla/konularla/kavramlarla/meselelerle ilgili akli/naklî delile dayalı değerlendirme yapmak"
+        },
+        {
+          "kod": "DAB5.1.SB4",
+          "metin": "İlişki kurduğu akli/naklî delillere olgularda/olaylarda/konularda/ kavramlarda/meselelerde amaca uygun olarak yer vermek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D15.3": {
+      "kod": "D15.3",
+      "ad": "Sevgi (D15.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Ailesine, dostlarına ve ülkesine karşı vefalı, dürüst, sadık ve özverili olmayı; barışçıl bakış açısına sahip olmayı; misafirperverliği, doğaya ve bütün canlılara karşı merhametli davranmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "OB1.3": {
+      "kod": "OB1.3",
+      "ad": "Bilgi Okuryazarlığı (OB1.3)",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Bilgi ihtiyacını fark etme, bilgiyi toplama, özetleme, sentezleme ve eleştirel kullanma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "OB1.3.SB1",
+          "metin": "Bilgiyi çözümlemek"
+        },
+        {
+          "kod": "OB1.3.SB2",
+          "metin": "Bilgiyi sınıflandırmak"
+        },
+        {
+          "kod": "OB1.3.SB3",
+          "metin": "Bilgiyi yorumlamak (kendi cümleleri ile aktarmak)"
+        }
+      ],
+      "renk": "purple"
+    },
+    "D19.2": {
+      "kod": "D19.2",
+      "ad": "Vatanseverlik (D19.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Millî, manevi, insani, kültürel değerleri ve ülke varlıklarını korumayı, sevmeyi ve onlara saygı duymayı; bağımsızlığa önem vermeyi, ülkesi için sorumluluk almayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D14.3": {
+      "kod": "D14.3",
+      "ad": "Saygı (D14.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Nazik olmayı, ilkeli davranmayı, empati ve etkili iletişim kurmayı, sağlıklı yaşamayı; kendisine, çevresine, millî ve manevi değerlere önem vermeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "OB5.3": {
+      "kod": "OB5.3",
+      "ad": "Kültür Okuryazarlığı (OB5.3)",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Kültürü kavrama, sürdürme ve kültürel etkileşim kurma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "OB5.3.SB1",
+          "metin": "Dil-kültür ilişkisini fark etmek"
+        },
+        {
+          "kod": "OB5.3.SB2",
+          "metin": "Farklı kültürleri keşfetmek"
+        },
+        {
+          "kod": "OB5.3.SB3",
+          "metin": "Empati yapmak"
+        },
+        {
+          "kod": "OB5.3.SB4",
+          "metin": "Çoğul kültürlü ortamda yaşamak"
+        }
+      ],
+      "renk": "purple"
+    },
+    "D2.1": {
+      "kod": "D2.1",
+      "ad": "Aile Bütünlüğü (D2.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Aile içi iletişim ve iş birliğini güçlendirmeyi, ailede sorumlulukları yerine getirmeyi, aileyle vakit geçirmeyi; saygı, sevgi ve güvene dayalı ilişkiler kurmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "OB1.5": {
+      "kod": "OB1.5",
+      "ad": "Bilgi Okuryazarlığı (OB1.5)",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Bilgi ihtiyacını fark etme, bilgiyi toplama, özetleme, sentezleme ve eleştirel kullanma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "OB1.5.SB1",
+          "metin": "Bilgiyi sorgulamak"
+        },
+        {
+          "kod": "OB1.5.SB2",
+          "metin": "Bilgiyi kullanarak olay/konu/durum veya problem ile ilgili akıl yürütmek"
+        },
+        {
+          "kod": "OB1.5.SB3",
+          "metin": "Bilgiyi kullanarak yaptığı akıl yürütme ile ulaştığı çıkarımları yansıtmak EK-13 OKURYAZARLIK BECERİLERİ TABLOLARI"
+        }
+      ],
+      "renk": "purple"
+    },
+    "D11.1": {
+      "kod": "D11.1",
+      "ad": "Özgürlük (D11.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Cesur, girişimci ve kararlı olmayı; özgürlüklerini kullanırken kişisel ve toplumsal haklara saygı göstermeyi, kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB3.2": {
+      "kod": "DAB3.2",
+      "ad": "Tahkik Becerisi (DAB3.2)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB3.2.SB1",
+          "metin": "Dinî kavramları fark etmek"
+        },
+        {
+          "kod": "DAB3.2.SB2",
+          "metin": "Dinî kavramlar arasında ilişki kurmak"
+        },
+        {
+          "kod": "DAB3.2.SB3",
+          "metin": "Dinî kavramların benzerliklerini ve farklılıklarını açıklamak"
+        },
+        {
+          "kod": "DAB3.2.SB4",
+          "metin": "Dinî kavramlara sözlü ve yazılı iletişimde bağlamına uygun olarak yer vermek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D10.1": {
+      "kod": "D10.1",
+      "ad": "Mütevazılık (D10.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendini bilmeyi; gösterişten ve kibirden uzak, sade, sabırlı, saygılı, duyarlı ve yapıcı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D19.1": {
+      "kod": "D19.1",
+      "ad": "Vatanseverlik (D19.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Millî, manevi, insani, kültürel değerleri ve ülke varlıklarını korumayı, sevmeyi ve onlara saygı duymayı; bağımsızlığa önem vermeyi, ülkesi için sorumluluk almayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D13.4": {
+      "kod": "D13.4",
+      "ad": "Sağlıklı Yaşam (D13.4)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Yeterli, dengeli ve sağlıklı beslenmeyi; sosyal ve sportif etkinliklere katılmayı, bağımlılıktan kaçınmayı, bağımlılıkla mücadele etmeyi ve insan sağlığını önemsemeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "SBAB11.1": {
+      "kod": "SBAB11.1",
+      "ad": "Tablo, Grafik, Şekil ve/veya Diyagram Becerisi (SBAB11.1)",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SBAB11.1.SB1",
+          "metin": "Tablo, grafik, şekil ve/veya diyagram temsillerini bileşenleri ile tanımak ve anlamlandırmak"
+        },
+        {
+          "kod": "SBAB11.1.SB2",
+          "metin": "Tablo, grafik, şekil ve/veya diyagramı çözümlemek"
+        },
+        {
+          "kod": "SBAB11.1.SB3",
+          "metin": "Tablo, grafik, şekil ve/veya diyagramdan sonuç çıkarmak"
+        },
+        {
+          "kod": "SBAB11.1.SB4",
+          "metin": "Tablo, grafik, şekil ve/veya diyagramdan elde ettiği sonuçları karşılaştırmak"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D15.4": {
+      "kod": "D15.4",
+      "ad": "Sevgi (D15.4)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Ailesine, dostlarına ve ülkesine karşı vefalı, dürüst, sadık ve özverili olmayı; barışçıl bakış açısına sahip olmayı; misafirperverliği, doğaya ve bütün canlılara karşı merhametli davranmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D20.4": {
+      "kod": "D20.4",
+      "ad": "Yardımseverlik (D20.4)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve canlılara duyarlı olmayı, onları sevmeyi, onlara merhamet etmeyi, cömertliği, dayanışmayı, fedakârlık yapmayı, iyiliksever olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D18.1": {
+      "kod": "D18.1",
+      "ad": "Temizlik (D18.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kişisel temizlik ve bakıma dikkat ederek kendisine ve topluma saygı duymayı, yaşadığı ortamın ve çevrenin temizliğine önem vererek toplumdaki genel yaşam kalitesine ve sürdürülebilirliğe katkıda bulunmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB1.1": {
+      "kod": "DAB1.1",
+      "ad": "Temel Kaynakları Kullanma Becerisi (DAB1.1)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB1.1.SB1",
+          "metin": "Olayla/konuyla/durumla ilgili aradığı ayetlerin meallerini bulmak"
+        },
+        {
+          "kod": "DAB1.1.SB2",
+          "metin": "Ayetlerde geçen şahısları/olayları/yerleri/konuları/kavramları belirlemek"
+        },
+        {
+          "kod": "DAB1.1.SB3",
+          "metin": "Ayetleri içeriklerine göre sınıflandırmak"
+        },
+        {
+          "kod": "DAB1.1.SB4",
+          "metin": "Ayet mealleri doğrultusunda olayla/konuyla durumla ilgili çıkarım yapmak"
+        },
+        {
+          "kod": "DAB1.1.SB5",
+          "metin": "Ayetlerle ilgili yaptığı çıkarımlara olaylarda/konularda/durumlarda yer vermek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D7.2": {
+      "kod": "D7.2",
+      "ad": "Estetik (D7.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Sanatsal bakış açısı kazanmayı, sanatsal ve kültürel varlığı koruyup zenginleştirmeyi, doğal güzelliklerin ve çevrenin korunması ile ilgili duyarlı olmayı ve sorumluluk üstlenmeyi, estetik aracılığıyla özgün üretkenliği ve ruhsal gelişimi desteklemeyi, sanatı hayatın bir parçası hâline getirmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D4.3": {
+      "kod": "D4.3",
+      "ad": "Dostluk (D4.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Sosyal ilişkilerde duyarlılık göstermeyi dayanışma içinde olmayı; etkili iletişimle sevgi, saygı ve güvene dayalı ilişkiler kurmayı; nitelikli vakit geçirmeyi ve evrensel bağ kurmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB3.1": {
+      "kod": "DAB3.1",
+      "ad": "Tahkik Becerisi (DAB3.1)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB3.1.SB1",
+          "metin": "Metinlerde geçen dinî kavramları tespit etmek"
+        },
+        {
+          "kod": "DAB3.1.SB2",
+          "metin": "Belirlenen kavramların dinî ilimlerdeki yeri ve önemini araştırmak"
+        },
+        {
+          "kod": "DAB3.1.SB3",
+          "metin": "Kavramları ilişkili olduğu alana göre etiketlemek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "DAB3.3": {
+      "kod": "DAB3.3",
+      "ad": "Tahkik Becerisi (DAB3.3)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB3.3.SB1",
+          "metin": "Temel İslam bilimlerinin usullerine göre bir metni yorumlamada yararlanılacak ilke ve ölçütleri seçmek"
+        },
+        {
+          "kod": "DAB3.3.SB2",
+          "metin": "Belirlenen ilke ve usuller çerçevesinde bir metni incelemek"
+        },
+        {
+          "kod": "DAB3.3.SB3",
+          "metin": "Bir metni bağlamı içinde kendi cümleleri ile ifade etmek Tahkik Becerisi (DAB3) Dinî ilimler içerisinde yer alan önemli kavramları tanımayı, bu kavramları bağlamına uygun olarak kullanmayı ve dinî met"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D14.1": {
+      "kod": "D14.1",
+      "ad": "Saygı (D14.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Nazik olmayı, ilkeli davranmayı, empati ve etkili iletişim kurmayı, sağlıklı yaşamayı; kendisine, çevresine, millî ve manevi değerlere önem vermeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D20.2": {
+      "kod": "D20.2",
+      "ad": "Yardımseverlik (D20.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve canlılara duyarlı olmayı, onları sevmeyi, onlara merhamet etmeyi, cömertliği, dayanışmayı, fedakârlık yapmayı, iyiliksever olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D20.3": {
+      "kod": "D20.3",
+      "ad": "Yardımseverlik (D20.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "İnsanlara ve canlılara duyarlı olmayı, onları sevmeyi, onlara merhamet etmeyi, cömertliği, dayanışmayı, fedakârlık yapmayı, iyiliksever olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D17.2": {
+      "kod": "D17.2",
+      "ad": "Tasarruf (D17.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Maddi kaynakları planlı ve kontrollü harcamayı, israftan kaçınmayı, tutumlu olmayı, birikim yapmayı, sahip olduklarının değerini bilmeyi ve bilinçli tüketici olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB4.1": {
+      "kod": "DAB4.1",
+      "ad": "Tefekkür Becerisi (DAB4.1)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB4.1.SB1",
+          "metin": "Merak ettiği olguları/olayları/konuları/kavramları/meseleleri belirlemek"
+        },
+        {
+          "kod": "DAB4.1.SB2",
+          "metin": "Belirlenen olgular/olaylar/konular/kavramlar/meseleler hakkında soru sormak"
+        },
+        {
+          "kod": "DAB4.1.SB3",
+          "metin": "Merak ettiği olguları/olayları/konuları/kavramları/meseleleri incelemek"
+        },
+        {
+          "kod": "DAB4.1.SB4",
+          "metin": "İnceleme sonuçları hakkında çıkarım yapmak"
+        }
+      ],
+      "renk": "primary"
+    },
+    "OB1.2": {
+      "kod": "OB1.2",
+      "ad": "Bilgi Okuryazarlığı (OB1.2)",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Bilgi ihtiyacını fark etme, bilgiyi toplama, özetleme, sentezleme ve eleştirel kullanma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "OB1.2.SB1",
+          "metin": "İstenen bilgiye ulaşmak için kullanacağı araçları belirlemek"
+        },
+        {
+          "kod": "OB1.2.SB2",
+          "metin": "Belirlediği aracı kullanarak olay/konu/durum ile ilgili bilgileri bulmak"
+        },
+        {
+          "kod": "OB1.2.SB3",
+          "metin": "Bir olay/konu/durum ile ilgili ulaşılan bilgileri doğrulamak"
+        },
+        {
+          "kod": "OB1.2.SB4",
+          "metin": "Bir olay/konu/durum ile ilgili ulaşılan bilgileri kaydetmek"
+        }
+      ],
+      "renk": "purple"
+    },
+    "OB1.4": {
+      "kod": "OB1.4",
+      "ad": "Bilgi Okuryazarlığı (OB1.4)",
+      "aile": "Okuryazarlık Becerileri",
+      "alt_aile": "Okuryazarlık",
+      "aciklama": "Bilgi ihtiyacını fark etme, bilgiyi toplama, özetleme, sentezleme ve eleştirel kullanma.",
+      "surec_bilesenleri": [
+        {
+          "kod": "OB1.4.SB1",
+          "metin": "Bilgi parçalarını belirlemek"
+        },
+        {
+          "kod": "OB1.4.SB2",
+          "metin": "Bilgi parçaları arasında ilişki kurmak"
+        },
+        {
+          "kod": "OB1.4.SB3",
+          "metin": "Bilgi parçalarını birleştirerek özgün bir bütün oluşturmak"
+        }
+      ],
+      "renk": "purple"
+    },
+    "D10.2": {
+      "kod": "D10.2",
+      "ad": "Mütevazılık (D10.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendini bilmeyi; gösterişten ve kibirden uzak, sade, sabırlı, saygılı, duyarlı ve yapıcı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D11.2": {
+      "kod": "D11.2",
+      "ad": "Özgürlük (D11.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Cesur, girişimci ve kararlı olmayı; özgürlüklerini kullanırken kişisel ve toplumsal haklara saygı göstermeyi, kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB2.1": {
+      "kod": "DAB2.1",
+      "ad": "Dinî Kaynakları Tetkik Becerisi (DAB2.1)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB2.1.SB1",
+          "metin": "Bir olayı/konuyu/durumu incelemek veya bir meseleyi çözmek için gerekli dinî kaynakları tespit etmek"
+        },
+        {
+          "kod": "DAB2.1.SB2",
+          "metin": "Dinî kaynakları alana/konuya/özelliklerine göre sınıflandırmak"
+        },
+        {
+          "kod": "DAB2.1.SB3",
+          "metin": "Seçilen dinî kaynaklardan olay/konu/durum ile ilgili bilgileri bulmak"
+        },
+        {
+          "kod": "DAB2.1.SB4",
+          "metin": "Ulaşılan bilgiler ışığında seçtiği dinî kaynakları karşılaştırmak"
+        },
+        {
+          "kod": "DAB2.1.SB5",
+          "metin": "Ulaşılan bilgiler ışığında seçtiği dinî kaynakları değerlendirmek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "DAB4.3": {
+      "kod": "DAB4.3",
+      "ad": "Tefekkür Becerisi (DAB4.3)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB4.3.SB1",
+          "metin": "Görüşleri/argümanları tespit etmek"
+        },
+        {
+          "kod": "DAB4.3.SB2",
+          "metin": "Görüşleri/argümanları karşılaştırmak"
+        },
+        {
+          "kod": "DAB4.3.SB3",
+          "metin": "Görüşleri/argümanları temel dinî bilgi kaynaklarını ölçüt alarak incelemek"
+        },
+        {
+          "kod": "DAB4.3.SB4",
+          "metin": "Tercih edilebilir görüşleri//argümanları gerekçeleriyle belirlemek"
+        },
+        {
+          "kod": "DAB4.3.SB4",
+          "metin": "Tercih edilebilir görüş ve argümanları gerekçeleriyle belirlemek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D8.1": {
+      "kod": "D8.1",
+      "ad": "Mahremiyet (D8.1)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisinin, ailesinin ve başkalarının kişisel alanını ve bilgilerini korumayı; başkalarının özgürlüklerini ihlal etmemeyi, kişisel sınırlarına saygı duymayı ve millî ve manevi değerlerde mahremiyetin sınırlarını kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D17.3": {
+      "kod": "D17.3",
+      "ad": "Tasarruf (D17.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Maddi kaynakları planlı ve kontrollü harcamayı, israftan kaçınmayı, tutumlu olmayı, birikim yapmayı, sahip olduklarının değerini bilmeyi ve bilinçli tüketici olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "SBAB10.3": {
+      "kod": "SBAB10.3",
+      "ad": "Harita Becerisi (SBAB10.3)",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SBAB10.3.SB1",
+          "metin": "Haritada yer alan olaylar, olgular veya mekânların özellikleri, konumları, dağılımları, ilişkileri, değişimi ve/veya harita türü ile ilgili çıkarım yapmak"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D1.3": {
+      "kod": "D1.3",
+      "ad": "Adalet (D1.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Hak ve özgürlükleri, eşitliği, etik davranmayı, hakkaniyeti, ön yargısızlığı, ölçülülüğü ve liyakati kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D16.3": {
+      "kod": "D16.3",
+      "ad": "Sorumluluk (D16.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisine ve çevresine karşı görevlerini tam ve zamanında yerine getirmeyi; duygu, düşünce ve eylemlerinin sonucunu kabul etmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "SBAB7.5": {
+      "kod": "SBAB7.5",
+      "ad": "Mekânsal Düşünme Becerisi (SBAB7.5)",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SBAB7.5.SB1",
+          "metin": "Mekânın diğer mekânlar üzerindeki etkisi ile ilgili sorular sormak"
+        },
+        {
+          "kod": "SBAB7.5.SB2",
+          "metin": "Mekânın diğer mekânlar üzerindeki etkisi ile ilgili bilgi toplamak"
+        },
+        {
+          "kod": "SBAB7.5.SB3",
+          "metin": "Mekânın diğer mekânlar üzerindeki etkisi ile ilgili elde ettiği bilgileri düzenlemek"
+        },
+        {
+          "kod": "SBAB7.5.SB4",
+          "metin": "Mekânın diğer mekânlar üzerindeki etkisini çözümlemek"
+        },
+        {
+          "kod": "SBAB7.5.SB5",
+          "metin": "Mekânın diğer mekânlar üzerindeki etkisi ile ilgili çıkarımda bulunmak"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D3.2": {
+      "kod": "D3.2",
+      "ad": "Çalışkanlık (D3.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Disiplinli, planlı ve istikrarlı olmayı; bilimselliğe önem vermeyi, iç motivasyon ve öz denetim sahibi olmayı, hayat boyu öğrenmeyi, görev ve sorumluluk üstlenmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D5.2": {
+      "kod": "D5.2",
+      "ad": "Duyarlılık (D5.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Kendisine, içinde yaşadığı topluma, kültürel zenginliklere, tüm varlıklara değer vermeyi; sürdürülebilirliği önemsemeyi ve afetlere karşı hazırlıklı olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "D6.2": {
+      "kod": "D6.2",
+      "ad": "Dürüstlük (D6.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Söz ve davranışlarında tutarlı, doğru ve güvenilir olmayı kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "DAB4.2": {
+      "kod": "DAB4.2",
+      "ad": "Tefekkür Becerisi (DAB4.2)",
+      "aile": "Din Eğitimi ve Öğretimi Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "DAB4.2.SB1",
+          "metin": "Olguları/olayları/konuları/kavramları/meseleleri fark etmek"
+        },
+        {
+          "kod": "DAB4.2.SB2",
+          "metin": "Olguları/olayları/konuları/kavramları/meseleleri tanımlamak"
+        },
+        {
+          "kod": "DAB4.2.SB3",
+          "metin": "Olguların/olayların/konuların/kavramların/meselelerin ortaya çıkış sebeplerini açıklamak"
+        },
+        {
+          "kod": "DAB4.2.SB4",
+          "metin": "Olguların/olayların/konuların/kavramların/meselelerin özelliklerini belirlemek"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D1.2": {
+      "kod": "D1.2",
+      "ad": "Adalet (D1.2)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Hak ve özgürlükleri, eşitliği, etik davranmayı, hakkaniyeti, ön yargısızlığı, ölçülülüğü ve liyakati kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    },
+    "SBAB3.1": {
+      "kod": "SBAB3.1",
+      "ad": "Tarihsel Empati Becerisi (SBAB3.1)",
+      "aile": "Sosyal Bilimler Alan Becerileri",
+      "alt_aile": "Alan Becerisi",
+      "aciklama": "",
+      "surec_bilesenleri": [
+        {
+          "kod": "SBAB3.1.SB1",
+          "metin": "Tarihsel aktörü/olayı/durumu kanıtlara dayalı analiz etmek"
+        },
+        {
+          "kod": "SBAB3.1.SB2",
+          "metin": "Dönemin/zamanın/ mekânın koşullarını fark etmek"
+        },
+        {
+          "kod": "SBAB3.1.SB3",
+          "metin": "Tarihsel aktörü/olayı/durumu günümüz koşullarıyla karşılaştırmak"
+        },
+        {
+          "kod": "SBAB3.1.SB4",
+          "metin": "Tarihsel aktörü/olayı/durumu ait olduğu dönemin koşulları içerisinde açıklamak Değişim ve Sürekliliği Algılama Becerisi (SBAB4) Tarihin herhangi bir döneminde bazı şeylerin devam ettiğini ve bazıların"
+        }
+      ],
+      "renk": "primary"
+    },
+    "D12.3": {
+      "kod": "D12.3",
+      "ad": "Sabır (D12.3)",
+      "aile": "Erdem-Değer-Eylem",
+      "alt_aile": "Değer",
+      "aciklama": "Olumlu bakış açısına sahip olmayı, zor ve kötü durumlara karşı dayanmayı, istikrarlı davranmayı, süreci yönetmeyi, sorumlulukları yerine getirmeyi; duygu, düşünce ve eylemleri kontrol etmeyi kapsar.",
+      "surec_bilesenleri": [],
+      "renk": "green"
+    }
+  }
+}

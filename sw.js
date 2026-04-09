@@ -1,4 +1,4 @@
-const CACHE_NAME = 'program-rehberim-v2';
+const CACHE_NAME = 'program-rehberim-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -12,7 +12,9 @@ const ASSETS = [
   './data/FKH_10_database.json',
   './data/HDS_10_database.json',
   './data/SYR_10_database.json',
-  './data/TDB_9_database.json'
+  './data/TDB_9_database.json',
+  './data/yetkinlikler.json',
+  './js/yetkinlikler.js'
 ];
 
 self.addEventListener('install', e => {

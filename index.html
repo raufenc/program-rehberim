@@ -86,10 +86,25 @@
     </div>
   </div>
 
+  <!-- Yetkinlik Modal -->
+  <div id="yetkinlik-modal" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeYetkinlikModal()"></div>
+    <div class="absolute bottom-0 left-0 right-0 max-h-[85vh] bg-white dark:bg-slate-800 rounded-t-2xl shadow-2xl overflow-y-auto animate-slide-up">
+      <div class="sticky top-0 bg-white dark:bg-slate-800 border-b dark:border-slate-700 px-4 py-3 flex items-center justify-between">
+        <h3 id="yetkinlik-modal-title" class="font-semibold text-lg"></h3>
+        <button onclick="closeYetkinlikModal()" class="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="yetkinlik-modal-body" class="p-4"></div>
+    </div>
+  </div>
+
   <!-- Toast -->
   <div id="toast" class="fixed bottom-20 left-1/2 -translate-x-1/2 bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-800 px-4 py-2 rounded-lg shadow-lg text-sm transition-all duration-300 opacity-0 pointer-events-none z-50"></div>
 
   <script src="js/hafta.js"></script>
+  <script src="js/yetkinlikler.js"></script>
   <script src="js/components.js"></script>
   <script src="js/pages.js"></script>
   <script src="js/pdf-viewer.js"></script>

@@ -1,5 +1,62 @@
 /* ===== Sayfa Render Fonksiyonlari ===== */
 
+// ==================== OLCME ARACLARI SOZLUGU ====================
+const OLCME_ARACLARI = {
+  'acik uclu sorular':            { icon: '\u{1F4DD}', aciklama: 'Ogrencinin ozgurce fikirlerini ifade ettigi sorular.', nasil: 'Neden/nasil ile baslayan sorular sorun.', sure: '10-15 dk' },
+  'kisa cevapli sorular':         { icon: '\u{270F}\uFE0F', aciklama: '1-3 cumle ile cevap verilen sorular.', nasil: '3-5 soru hazirlayin, sinifta tartisin.', sure: '5-10 dk' },
+  'kavram haritasi':              { icon: '\u{1F5FA}\uFE0F', aciklama: 'Kavramlar arasi iliskileri gosteren sema.', nasil: 'Merkeze ana kavrami yazin, dallari eklettirin.', sure: '15-20 dk' },
+  'cikis karti':                  { icon: '\u{1F3AB}', aciklama: 'Ders sonunda ogrencinin ogrendiklerini yazdigi kart.', nasil: 'Ders sonunda 1 soru sorun, kagitta yazdirin.', sure: '3-5 dk' },
+  'oz degerlendirme formu':       { icon: '\u{1FA9E}', aciklama: 'Ogrencinin kendi ogrenme surecini degerlendirdigi form.', nasil: 'Likert olcekli form dagitip doldurtun.', sure: '5-10 dk' },
+  'performans gorevi':            { icon: '\u{1F3C6}', aciklama: 'Gercek hayat problemine dayali uygulama gorevi.', nasil: 'Rubrik ile degerlendirin.', sure: 'Degisken' },
+  'kontrol listesi':              { icon: '\u2705', aciklama: 'Belirli davranis veya becerilerin gozlemlendigi liste.', nasil: 'Gozlem sirasinda isaretleyin.', sure: '5-10 dk' },
+  'gozlem formu':                 { icon: '\u{1F441}\uFE0F', aciklama: 'Ogretmenin ogrenci davranislarini kaydettigi form.', nasil: 'Ders sirasinda notlar alin.', sure: 'Ders boyunca' },
+  'akran degerlendirmesi':        { icon: '\u{1F465}', aciklama: 'Ogrencilerin birbirlerini degerlendirmesi.', nasil: 'Olcut listesi dagitip eslestirin.', sure: '10-15 dk' },
+  'bosluk doldurma':              { icon: '\u{1F4CB}', aciklama: 'Eksik kelimelerin tamamlandigi test.', nasil: 'Temel kavramlari bosluklarla hazirlayin.', sure: '5-10 dk' },
+  'eslestirme':                   { icon: '\u{1F517}', aciklama: 'Iliskili kavramlarin eslestirildigi etkinlik.', nasil: 'Iki sutunlu liste hazirlayin.', sure: '5-10 dk' },
+  'anlam cozumleme tablosu':      { icon: '\u{1F4CA}', aciklama: 'Kavramlarin ozelliklerinin tablo seklinde karsilastirilmasi.', nasil: 'Satirlara kavram, sutunlara ozellik yazin.', sure: '15-20 dk' },
+  'tanilayici dallanmis agac':    { icon: '\u{1F333}', aciklama: 'Evet/hayir sorulariyla kavram anlayisini olcen arac.', nasil: 'Sorulari dallandirilmis sekilde hazirlayin.', sure: '10-15 dk' },
+  'cumle tamamlama sorulari':     { icon: '\u{1F4AC}', aciklama: 'Baslangic cumlelerinin tamamlandigi etkinlik.', nasil: 'Acik uclu cumle baslangiclarini hazirlayin.', sure: '5-10 dk' },
+  'frayer diyagrami':             { icon: '\u{1F532}', aciklama: 'Kavram, tanim, ornek, ornek olmayan 4 bolumlu sema.', nasil: 'Sablonu dagitip 4 bolumu doldurun.', sure: '15-20 dk' },
+  'bilgi kartlari':               { icon: '\u{1F0CF}', aciklama: 'Ogrencilerin bilgileri kartlara yazdigi etkinlik.', nasil: 'Bos kartlar dagitip yazdirin.', sure: '10-15 dk' },
+  'ogrenme gunlugu':              { icon: '\u{1F4D3}', aciklama: 'Ogrencinin ogrenme surecini yazdigi gunluk.', nasil: 'Her dersten sonra not tutturun.', sure: '5-10 dk' },
+  'coklu cevapli sorular':        { icon: '\u{1F518}', aciklama: 'Secenekli test sorulari.', nasil: '4-5 secenekli sorular hazirlayin.', sure: '10-15 dk' },
+  'evet-hayir kartlari':          { icon: '\u{1F7E2}', aciklama: 'Dogru/yanlis ifadelerle hizli kontrol.', nasil: 'Ifadeleri okuyun, kart kaldirtin.', sure: '5-10 dk' },
+  'yansitici yazi':               { icon: '\u{270D}\uFE0F', aciklama: 'Ogrencinin konuyu kendi bakis acisiyla yazmasi.', nasil: 'Yonlendirici sorularla yazdirin.', sure: '10-15 dk' },
+};
+
+// Olcme araci normalize edesme
+function matchOlcmeAraci(name) {
+  if (!name) return null;
+  const normalized = name.toLowerCase()
+    .replace(/[ıİ]/g, 'i').replace(/[öÖ]/g, 'o').replace(/[üÜ]/g, 'u')
+    .replace(/[çÇ]/g, 'c').replace(/[şŞ]/g, 's').replace(/[ğĞ]/g, 'g')
+    .replace(/[âÂ]/g, 'a').replace(/[î]/g, 'i').replace(/[ûÛ]/g, 'u')
+    .replace(/\s+/g, ' ').trim();
+  // Tam eslesme
+  if (OLCME_ARACLARI[normalized]) return OLCME_ARACLARI[normalized];
+  // Kismen eslesme
+  for (const [key, val] of Object.entries(OLCME_ARACLARI)) {
+    if (normalized.includes(key) || key.includes(normalized)) return val;
+  }
+  return null;
+}
+
+// Ders akisi bolum bileseni
+function lessonFlowSection(icon, title, content, id, expanded = false) {
+  if (!content || content.trim() === '' || content.trim() === '<div class="pb-4 text-sm text-slate-600 dark:text-slate-300 space-y-3"></div>') return '';
+  return `<div class="border-l-4 ${expanded ? 'border-primary' : 'border-slate-200 dark:border-slate-700'} pl-4 mb-4">
+    <button class="w-full flex items-center gap-2 py-2 text-left group" onclick="toggleAccordion('lf-${id}')">
+      <span class="text-lg">${icon}</span>
+      <span class="font-semibold text-sm flex-1">${title}</span>
+      <svg id="acc-icon-lf-${id}" class="w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+    </button>
+    <div id="acc-lf-${id}" class="accordion-content ${expanded ? 'open' : ''}">
+      <div class="pb-4 text-sm text-slate-600 dark:text-slate-300 space-y-3">${content}</div>
+    </div>
+  </div>`;
+}
+
+
 const Pages = {
 
   // ==================== ANA SAYFA ====================
@@ -36,13 +93,14 @@ const Pages = {
 
     return `
       ${UI.buHaftaKarti(dersKodu, plan, data)}
-      <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-4">
+      <div class="grid grid-cols-3 sm:grid-cols-7 gap-2 mb-4">
         <a href="#/${dk}/haftalik" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4C5}<br>Haftalik Plan</a>
         <a href="#/${dk}/kavramlar" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4D6}<br>Kavramlar</a>
         <a href="#/${dk}/teknikler" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F527}<br>Teknikler</a>
         <a href="#/${dk}/kitap" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4D5}<br>Ders Kitabi</a>
         <a href="#/${dk}/program" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4C4}<br>Program PDF</a>
         <a href="#/${dk}/matris" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4CA}<br>Matris</a>
+        <a href="#/${dk}/materyaller" class="card p-3 text-center text-xs hover:bg-slate-50 dark:hover:bg-slate-800">\u{1F4E6}<br>Materyaller</a>
       </div>
       <h2 class="font-semibold text-base mb-3">\u{1F4DA} Uniteler</h2>
       ${uniteler.map(u => UI.uniteCard(dersKodu, u, plan)).join('')}
@@ -147,7 +205,7 @@ const Pages = {
     APP.render();
   },
 
-  // ==================== CIKTI DETAY (EN ONEMLI SAYFA) ====================
+  // ==================== CIKTI DETAY — KRONOLOJIK DERS AKISI ====================
   ciktiDetay(dersKodu, uniteNo, ciktiKodu) {
     const data = APP.getData(dersKodu);
     if (!data) return UI.empty('Ders bulunamadi');
@@ -157,117 +215,449 @@ const Pages = {
     if (!cikti) return UI.empty('Cikti bulunamadi');
 
     const dk = dersKodu.toLowerCase();
-    const activeTab = APP.state.ciktiTab || 0;
     const eslestirme = data.eslestirme;
     const ciktiKitap = (eslestirme.cikti_kitap || []).find(c => c.cikti_kodu === ciktiKodu);
     const uygulama = (unite.ogrenme_ogretme_yasantilari?.uygulamalar || []).find(u => u.cikti_kodu === ciktiKodu);
     const kanitlar = unite.ogrenme_kanitlari;
+    const fark = unite.farklilarstirma || {};
 
-    // QR kodlari: hem kitap hem program QR'larini birlestir
+    // Haftalik plan bu ciktiyi iceren haftalari bul
+    const ilgiliHaftalar = (eslestirme.haftalik_plan || []).filter(h => (h.cikti_kodlari || []).includes(ciktiKodu));
+
+    // Kitap materyalleri bu cikti icin
+    const allMateryaller = data.kitap?.materyaller || [];
+    const ciktiMatIds = ciktiKitap?.iliskili_materyaller || [];
+    const ciktiMateryaller = allMateryaller.filter(m => ciktiMatIds.includes(m.id));
+
+    // QR kodlari
     const kitapQrs = (data.kitap?.qr_kodlar || []).filter(q => q.iliskili_cikti_kodu === ciktiKodu || (q.iliskili_unite === parseInt(uniteNo) && !q.iliskili_cikti_kodu));
     const programQrs = (data.program_qr_kodlar || []).filter(q => q.iliskili_cikti_kodu === ciktiKodu || (q.iliskili_unite === parseInt(uniteNo) && !q.iliskili_cikti_kodu));
     const allQrs = [...kitapQrs, ...programQrs];
 
-    const tabNames = ['Ne', 'Nasil', 'Olcme', 'Fark', '\u{1F517}'];
-    let tabContent = '';
+    // Teknikler - kullanilan_teknikler'den detaylari bul
+    const teknikRefs = uygulama?.kullanilan_teknikler || [];
+    const teknikKutuphane = eslestirme.teknikler_kutuphanesi || [];
 
-    if (activeTab === 0) {
-      // === NE sekmesi ===
-      tabContent = `
-        <div class="space-y-4">
-          <div><h4 class="font-semibold text-sm mb-2">\u{1F4CB} Surec Bilesenleri</h4>
-            <div class="space-y-1">${(cikti.surec_bilesenleri || []).map(s => `<div class="text-sm flex items-start gap-2"><span class="font-semibold text-primary w-5">${s.harf})</span><span class="text-slate-600 dark:text-slate-300">${s.metin}</span></div>`).join('')}</div>
-          </div>
-          ${ciktiKitap ? `<div class="flex items-center gap-2"><span>\u{1F4D6}</span><a href="#/${dk}/kitap/${ciktiKitap.kitap_sayfa_araligi.split('-')[0]}" class="text-primary hover:underline text-sm">Kitap: s.${ciktiKitap.kitap_sayfa_araligi}</a></div>` : ''}
-          ${unite.anahtar_kavramlar?.length ? `<div><h4 class="font-semibold text-sm mb-1">\u{1F511} Anahtar Kavramlar</h4><div class="flex flex-wrap gap-1">${unite.anahtar_kavramlar.map(k => `<span class="badge badge-primary cursor-pointer" onclick="openKavramByName('${dersKodu}','${k.replace(/'/g, "\\'")}')">${k}</span>`).join('')}</div></div>` : ''}
-          ${unite.ogrenme_ogretme_yasantilari?.temel_kabuller ? `<div><h4 class="font-semibold text-sm mb-1">\u{1F4A1} Temel Kabuller</h4><p class="text-sm text-slate-600 dark:text-slate-300">${unite.ogrenme_ogretme_yasantilari.temel_kabuller}</p></div>` : ''}
-          ${unite.ogrenme_ogretme_yasantilari?.kopru_kurma ? `<div><h4 class="font-semibold text-sm mb-1">\u{1F309} Kopru Kurma</h4><p class="text-sm text-slate-600 dark:text-slate-300">${unite.ogrenme_ogretme_yasantilari.kopru_kurma}</p></div>` : ''}
-          ${unite.ogrenme_ogretme_yasantilari?.on_degerlendirme?.length ? `<div><h4 class="font-semibold text-sm mb-1">\u2753 On Degerlendirme</h4><ul class="space-y-1">${unite.ogrenme_ogretme_yasantilari.on_degerlendirme.map(o => `<li class="text-sm text-slate-600 dark:text-slate-300">\u2022 ${o}</li>`).join('')}</ul></div>` : ''}
+    // ===== 1. DERS ONCESI =====
+    let dersOncesiContent = '';
+    // Hazirlik notu
+    if (ilgiliHaftalar.length) {
+      const notlar = ilgiliHaftalar.filter(h => h.hazirlik_notu).map(h => h.hazirlik_notu);
+      if (notlar.length) {
+        dersOncesiContent += `<div class="bg-amber-50 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200 p-3 rounded-lg">
+          <span class="font-semibold">\u26A0\uFE0F Hazirlik Notu:</span> ${notlar.join(' ')}
         </div>`;
-
-    } else if (activeTab === 1) {
-      // === NASIL sekmesi ===
-      let metinHtml = '';
-      if (uygulama) {
-        // Uygulama metnini isleme: teknik referanslarini tiklananilir yap
-        let metin = uygulama.uygulama_metni || '';
-        // Teknik referanslarini linkle
-        (uygulama.kullanilan_teknikler || []).forEach(t => {
-          const regex = new RegExp(t.ad.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-          metin = metin.replace(regex, `<span class="teknik-link" onclick="openTeknikByName('${dersKodu}','${t.ad.replace(/'/g, "\\'")}')">${t.ad}</span>`);
-        });
-        // Kod referanslarini badge yap
-        const kodRegex = /\b([A-Z]{1,4}\d[\d.]*)\b/g;
-        metin = metin.replace(kodRegex, '<span class="kod-badge badge-gray">$1</span>');
-        metinHtml = `<div class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed whitespace-pre-line">${metin}</div>`;
-      }
-
-      const teknikler = uygulama?.kullanilan_teknikler || [];
-      tabContent = `
-        <div class="space-y-4">
-          ${metinHtml ? `<div><h4 class="font-semibold text-sm mb-2">\u{1F4DD} Uygulama Adimlari</h4>${metinHtml}</div>` : ''}
-          ${teknikler.length ? `<div><h4 class="font-semibold text-sm mb-2">\u{1F527} Kullanilan Teknikler</h4>${teknikler.map(t => `
-            <div class="card p-3 mb-2 card-clickable cursor-pointer" onclick="openTeknikByName('${dersKodu}','${t.ad.replace(/'/g, "\\'")}')">
-              <div class="flex items-center justify-between">
-                <span class="font-medium text-sm">${t.ad}</span>
-                <span class="text-xs text-slate-400">Nasil Uygulanir? \u2192</span>
-              </div>
-              ${t.nerede ? `<p class="text-xs text-slate-500 mt-1">${t.nerede}</p>` : ''}
-            </div>`).join('')}</div>` : ''}
-        </div>`;
-
-    } else if (activeTab === 2) {
-      // === OLCME sekmesi ===
-      const olcmeOnerileri = uygulama?.olcme_onerileri || [];
-      tabContent = `
-        <div class="space-y-4">
-          ${olcmeOnerileri.length ? `<div><h4 class="font-semibold text-sm mb-2">\u{1F4CA} Olcme Araclari</h4><ul class="space-y-1">${olcmeOnerileri.map(o => `<li class="text-sm text-slate-600 dark:text-slate-300 flex items-start gap-2"><span class="text-primary">\u2022</span>${o}</li>`).join('')}</ul></div>` : ''}
-          ${kanitlar?.olcme_araclari?.length ? `<div><h4 class="font-semibold text-sm mb-2">Ogrenme Kanitlari</h4><ul class="space-y-1">${kanitlar.olcme_araclari.map(o => `<li class="text-sm text-slate-600 dark:text-slate-300 flex items-start gap-2"><span class="text-primary">\u2022</span>${o}</li>`).join('')}</ul></div>` : ''}
-          ${kanitlar?.performans_gorevi ? `<div><h4 class="font-semibold text-sm mb-2">\u{1F3C6} Performans Gorevi</h4>
-            <p class="text-sm text-slate-600 dark:text-slate-300 mb-2">${kanitlar.performans_gorevi.aciklama}</p>
-            ${kanitlar.performans_gorevi.degerlendirme_olcutleri?.length ? `<div class="space-y-1">${kanitlar.performans_gorevi.degerlendirme_olcutleri.map(o => `<div class="text-sm flex items-start gap-2"><span class="text-green-500">\u2713</span>${o}</div>`).join('')}</div>` : ''}
-            ${kanitlar.performans_gorevi.degerlendirme_araci ? `<p class="text-xs text-slate-400 mt-2">Arac: ${kanitlar.performans_gorevi.degerlendirme_araci}</p>` : ''}
-          </div>` : ''}
-        </div>`;
-
-    } else if (activeTab === 3) {
-      // === FARK sekmesi (Farklilastirma) ===
-      const fark = unite.farklilarstirma || {};
-      tabContent = `
-        <div class="space-y-3">
-          ${(fark.zenginlestirme || []).length ? UI.accordion('\u{1F680} Zenginlestirme', `<ul class="space-y-2">${fark.zenginlestirme.map(z => `<li class="text-sm">\u2022 ${z}</li>`).join('')}</ul>`, 'zengin') : ''}
-          ${(fark.destekleme || []).length ? UI.accordion('\u{1F91D} Destekleme', `<ul class="space-y-2">${fark.destekleme.map(d => `<li class="text-sm">\u2022 ${d}</li>`).join('')}</ul>`, 'destek') : ''}
-        </div>`;
-
-    } else {
-      // === LINK sekmesi (QR / Dijital Icerik) ===
-      if (allQrs.length) {
-        const videos = allQrs.filter(q => q.tur === 'video');
-        const interaktif = allQrs.filter(q => q.tur === 'interaktif');
-        const others = allQrs.filter(q => q.tur !== 'video' && q.tur !== 'interaktif');
-        tabContent = `
-          ${videos.length ? `<h4 class="font-semibold text-sm mb-2">\u{1F3AC} Video Icerikler</h4>${videos.map(q => UI.qrCard(q, dersKodu)).join('')}` : ''}
-          ${interaktif.length ? `<h4 class="font-semibold text-sm mb-2 mt-4">\u{1F5A5} Interaktif Icerikler</h4>${interaktif.map(q => UI.qrCard(q, dersKodu)).join('')}` : ''}
-          ${others.length ? `<h4 class="font-semibold text-sm mb-2 mt-4">\u{1F4CB} Diger Icerikler</h4>${others.map(q => UI.qrCard(q, dersKodu)).join('')}` : ''}
-        `;
-      } else {
-        tabContent = UI.empty('Bu cikti icin dijital icerik bulunmuyor');
       }
     }
+    // Materyal checklist
+    const materyalSet = new Set();
+    teknikRefs.forEach(t => {
+      const full = teknikKutuphane.find(tk => tk.ad.toLowerCase() === t.ad.toLowerCase() || tk.ad.toLowerCase().includes(t.ad.toLowerCase()) || t.ad.toLowerCase().includes(tk.ad.toLowerCase()));
+      if (full?.gerekli_materyal) materyalSet.add(full.gerekli_materyal);
+    });
+    // Kitap materyalleri de ekle (tablo, gorsel turu olanlar hazirlik gerektirir)
+    ciktiMateryaller.filter(m => m.tur === 'tablo' || m.tur === 'gorsel').forEach(m => {
+      materyalSet.add(`${m.baslik} (s.${m.sayfa})`);
+    });
+    if (materyalSet.size) {
+      dersOncesiContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-1">\u{1F4E6} Hazirlanacak Materyaller</h4>
+        <div class="space-y-1">${[...materyalSet].map(m => `<label class="flex items-start gap-2 text-sm"><input type="checkbox" class="mt-0.5 rounded border-slate-300 dark:border-slate-600"> <span>${m}</span></label>`).join('')}</div>
+      </div>`;
+    }
+    // Kitap sayfasi link
+    if (ciktiKitap) {
+      dersOncesiContent += `<div class="flex items-center gap-2">
+        <span>\u{1F4D6}</span>
+        <a href="#/${dk}/kitap/${ciktiKitap.kitap_sayfa_araligi.split('-')[0]}" class="text-primary hover:underline text-sm font-medium">Ders Kitabi: Sayfa ${ciktiKitap.kitap_sayfa_araligi}</a>
+      </div>`;
+    }
+    // Hafta bilgisi
+    if (ilgiliHaftalar.length) {
+      dersOncesiContent += `<div class="text-xs text-slate-400">\u{1F4C5} ${ilgiliHaftalar.map(h => `Hafta ${h.hafta}`).join(', ')} \u2022 ${ilgiliHaftalar.reduce((s, h) => s + (h.ders_saati || 0), 0)} ders saati</div>`;
+    }
 
+    // ===== 2. GIRIS / ISINMA =====
+    let girisContent = '';
+    const ooy = unite.ogrenme_ogretme_yasantilari || {};
+    if (ooy.temel_kabuller) {
+      girisContent += `<div><h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-1">\u{1F4A1} Temel Kabuller</h4><p class="text-sm">${ooy.temel_kabuller}</p></div>`;
+    }
+    if (ooy.kopru_kurma) {
+      girisContent += `<div><h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-1">\u{1F309} Kopru Kurma</h4><p class="text-sm">${ooy.kopru_kurma}</p></div>`;
+    }
+    if (ooy.on_degerlendirme?.length) {
+      girisContent += `<div><h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-1">\u2753 On Degerlendirme Sorulari</h4>
+        <ul class="space-y-1">${ooy.on_degerlendirme.map(o => `<li class="flex items-start gap-2"><span class="text-primary mt-0.5">\u25B8</span><span>${o}</span></li>`).join('')}</ul>
+      </div>`;
+    }
+
+    // ===== 3. OGRETIM =====
+    let ogretimContent = '';
+    // Surec bilesenleri
+    if (cikti.surec_bilesenleri?.length) {
+      ogretimContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4CB} Surec Bilesenleri</h4>
+        <div class="space-y-2">${cikti.surec_bilesenleri.map(s => `<div class="flex items-start gap-2">
+          <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold flex-shrink-0">${s.harf}</span>
+          <span class="text-sm">${s.metin}</span>
+        </div>`).join('')}</div>
+      </div>`;
+    }
+    // Uygulama metni
+    if (uygulama?.uygulama_metni) {
+      let metin = uygulama.uygulama_metni;
+      // Teknik referanslarini tiklananilir yap
+      teknikRefs.forEach(t => {
+        const regex = new RegExp(t.ad.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+        metin = metin.replace(regex, `<span class="teknik-link" onclick="openTeknikByName('${dersKodu}','${t.ad.replace(/'/g, "\\'")}')">${t.ad}</span>`);
+      });
+      // Yetkinlik kodlarini badge yap
+      const kodRegex = /\b([A-Z]{1,4}\d[\d.]*)\b/g;
+      metin = metin.replace(kodRegex, (match) => {
+        const y = typeof Yetkinlikler !== 'undefined' ? Yetkinlikler.get(match) : null;
+        if (y) {
+          const cls = Yetkinlikler.getBadgeClass(match);
+          return `<span class="badge ${cls} text-xs cursor-pointer hover:ring-2 ring-offset-1" onclick="event.stopPropagation();Yetkinlikler.showModal('${match}')">${match}</span>`;
+        }
+        return `<span class="kod-badge badge-gray">${match}</span>`;
+      });
+      ogretimContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4DD} Uygulama Rehberi</h4>
+        <div class="text-sm leading-relaxed whitespace-pre-line">${metin}</div>
+      </div>`;
+    }
+    // Teknik mini-kartlari
+    if (teknikRefs.length) {
+      ogretimContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F527} Kullanilacak Teknikler</h4>
+        <div class="grid gap-2">${teknikRefs.map(t => {
+          const full = teknikKutuphane.find(tk => tk.ad.toLowerCase() === t.ad.toLowerCase() || tk.ad.toLowerCase().includes(t.ad.toLowerCase()) || t.ad.toLowerCase().includes(tk.ad.toLowerCase()));
+          return `<div class="card p-3 card-clickable cursor-pointer" onclick="openTeknikByName('${dersKodu}','${t.ad.replace(/'/g, "\\'")}')">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-medium text-sm">\u{1F527} ${t.ad}</span>
+              ${full?.sure_tahmini ? `<span class="text-xs text-slate-400">\u23F1 ${full.sure_tahmini}</span>` : ''}
+            </div>
+            ${t.nerede ? `<p class="text-xs text-slate-500 dark:text-slate-400 mb-1"><span class="font-medium">Nerede:</span> ${t.nerede}</p>` : ''}
+            ${full?.gerekli_materyal ? `<p class="text-xs text-slate-400"><span class="font-medium">\u{1F4E6}</span> ${full.gerekli_materyal}</p>` : ''}
+          </div>`;
+        }).join('')}</div>
+      </div>`;
+    }
+    // Kitap materyalleri (tablo, gorsel, bilgi kutusu)
+    const ogretimMats = ciktiMateryaller.filter(m => ['tablo', 'gorsel', 'bilgi_kutusu', 'okuma_metni'].includes(m.tur));
+    if (ogretimMats.length) {
+      ogretimContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4D5} Kitap Kaynaklari</h4>
+        <div class="space-y-1">${ogretimMats.map(m => {
+          const turIcon = { tablo: '\u{1F4CA}', gorsel: '\u{1F5BC}\uFE0F', bilgi_kutusu: '\u{1F4E6}', okuma_metni: '\u{1F4D6}' }[m.tur] || '\u{1F4C4}';
+          return `<a href="#/${dk}/kitap/${m.sayfa}" class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+            <span>${turIcon}</span>
+            <span class="text-sm flex-1">${m.baslik}</span>
+            <span class="text-xs text-slate-400">s.${m.sayfa}</span>
+          </a>`;
+        }).join('')}</div>
+      </div>`;
+    }
+
+    // ===== 4. UYGULAMA / PRATIK =====
+    let uygulamaContent = '';
+    // Etkinlik materyalleri
+    const etkinlikMats = ciktiMateryaller.filter(m => ['etkinlik', 'proje_gorevi'].includes(m.tur));
+    if (etkinlikMats.length) {
+      uygulamaContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F3AF} Etkinlikler</h4>
+        <div class="space-y-2">${etkinlikMats.map(m => `<a href="#/${dk}/kitap/${m.sayfa}" class="card p-3 block hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center justify-between">
+            <span class="text-sm font-medium">${m.tur === 'proje_gorevi' ? '\u{1F3C6}' : '\u{1F3AE}'} ${m.baslik}</span>
+            <span class="text-xs text-slate-400">s.${m.sayfa}</span>
+          </div>
+          ${m.aciklama ? `<p class="text-xs text-slate-500 mt-1">${m.aciklama}</p>` : ''}
+        </a>`).join('')}</div>
+      </div>`;
+    }
+    // Iliskilendirilen kodlar (yetkinlik badgeleri)
+    const kodlar = uygulama?.iliskilendirilen_kodlar || [];
+    if (kodlar.length) {
+      uygulamaContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F517} Iliskilendirilen Yetkinlikler</h4>
+        <div class="flex flex-wrap gap-1">${kodlar.map(k => {
+          const y = typeof Yetkinlikler !== 'undefined' ? Yetkinlikler.get(k) : null;
+          const label = y ? `${k} ${y.ad}` : k;
+          const cls = y ? Yetkinlikler.getBadgeClass(k) : 'badge-gray';
+          return `<span class="badge ${cls} text-xs mr-1 mb-1 cursor-pointer hover:ring-2 ring-offset-1" onclick="event.stopPropagation();Yetkinlikler.showModal('${k}')">${label}</span>`;
+        }).join('')}</div>
+      </div>`;
+    }
+    // Anahtar kavramlar
+    if (unite.anahtar_kavramlar?.length) {
+      uygulamaContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F511} Anahtar Kavramlar</h4>
+        <div class="flex flex-wrap gap-1">${unite.anahtar_kavramlar.map(k => `<span class="badge badge-primary cursor-pointer" onclick="openKavramByName('${dersKodu}','${k.replace(/'/g, "\\'")}')">${k}</span>`).join('')}</div>
+      </div>`;
+    }
+
+    // ===== 5. OLCME / DEGERLENDIRME =====
+    let olcmeContent = '';
+    // Olcme onerileri - OLCME_ARACLARI ile zenginlestir
+    const olcmeOnerileri = uygulama?.olcme_onerileri || [];
+    if (olcmeOnerileri.length) {
+      olcmeContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4CA} Onerilen Olcme Araclari</h4>
+        <div class="grid gap-2">${olcmeOnerileri.map(o => {
+          const info = matchOlcmeAraci(o);
+          if (info) {
+            return `<div class="card p-3">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-lg">${info.icon}</span>
+                <span class="font-medium text-sm">${o}</span>
+                <span class="text-xs text-slate-400 ml-auto">\u23F1 ${info.sure}</span>
+              </div>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mb-1">${info.aciklama}</p>
+              <p class="text-xs text-primary/80"><span class="font-medium">Uygulama:</span> ${info.nasil}</p>
+            </div>`;
+          }
+          return `<div class="card p-3 flex items-center gap-2"><span>\u{1F4CC}</span><span class="text-sm">${o}</span></div>`;
+        }).join('')}</div>
+      </div>`;
+    }
+    // Ogrenme kanitlari - unite seviyesi olcme araclari
+    if (kanitlar?.olcme_araclari?.length) {
+      olcmeContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">Unite Olcme Araclari</h4>
+        <div class="flex flex-wrap gap-1">${kanitlar.olcme_araclari.map(o => {
+          const info = matchOlcmeAraci(o);
+          const icon = info ? info.icon : '\u{1F4CC}';
+          return `<span class="badge badge-gray text-xs">${icon} ${o}</span>`;
+        }).join('')}</div>
+      </div>`;
+    }
+    // Performans gorevi
+    if (kanitlar?.performans_gorevi) {
+      const pg = kanitlar.performans_gorevi;
+      olcmeContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F3C6} Performans Gorevi</h4>
+        <div class="card p-3">
+          <p class="text-sm mb-2">${pg.aciklama}</p>
+          ${pg.degerlendirme_olcutleri?.length ? `<div class="mb-2"><span class="text-xs font-medium text-slate-400">Olcutler:</span><div class="flex flex-wrap gap-1 mt-1">${pg.degerlendirme_olcutleri.map(o => `<span class="badge badge-green text-xs">\u2713 ${o}</span>`).join('')}</div></div>` : ''}
+          ${pg.degerlendirme_araci ? `<p class="text-xs text-slate-400">Arac: ${pg.degerlendirme_araci}</p>` : ''}
+        </div>
+      </div>`;
+    }
+    // Degerlendirme sorusu materyalleri
+    const degerMats = ciktiMateryaller.filter(m => m.tur === 'degerlendirme_sorusu');
+    if (degerMats.length) {
+      olcmeContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4DD} Kitaptaki Degerlendirme Sorulari</h4>
+        <div class="space-y-1">${degerMats.map(m => `<a href="#/${dk}/kitap/${m.sayfa}" class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+          <span>\u{1F4CB}</span>
+          <span class="text-sm flex-1">${m.baslik}</span>
+          <span class="text-xs text-slate-400">s.${m.sayfa}</span>
+        </a>`).join('')}</div>
+      </div>`;
+    }
+
+    // ===== 6. KAPAN / ZENGINLESTIRME =====
+    let kapanContent = '';
+    if (fark.zenginlestirme?.length) {
+      kapanContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F680} Zenginlestirme</h4>
+        <ul class="space-y-2">${fark.zenginlestirme.map(z => `<li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">\u25B8</span><span class="text-sm">${z}</span></li>`).join('')}</ul>
+      </div>`;
+    }
+    if (fark.destekleme?.length) {
+      kapanContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F91D} Destekleme</h4>
+        <ul class="space-y-2">${fark.destekleme.map(d => `<li class="flex items-start gap-2"><span class="text-blue-500 mt-0.5">\u25B8</span><span class="text-sm">${d}</span></li>`).join('')}</ul>
+      </div>`;
+    }
+    // QR / Dijital icerik
+    if (allQrs.length) {
+      kapanContent += `<div>
+        <h4 class="font-semibold text-xs text-slate-500 uppercase tracking-wide mb-2">\u{1F4F1} Dijital Icerikler</h4>
+        <div class="space-y-2">${allQrs.map(q => {
+          const icon = UI.qrIcon(q.tur);
+          const title = q.baslik || q.aciklama || q.tur;
+          return `<div class="card p-3 flex items-center gap-3">
+            <span class="text-xl">${icon}</span>
+            <div class="flex-1 min-w-0">
+              <span class="text-sm font-medium block truncate">${title}</span>
+              <span class="text-xs text-slate-400">${q.tur.replace(/_/g, ' ')}${q.sayfa ? ' \u2022 s.' + q.sayfa : ''}</span>
+            </div>
+            ${q.url_tespit_edildi && q.url ? `<a href="${q.url}" target="_blank" rel="noopener" class="text-xs text-primary hover:underline flex-shrink-0" onclick="event.stopPropagation()">Ac \u2197</a>` : ''}
+          </div>`;
+        }).join('')}</div>
+      </div>`;
+    }
+
+    // ===== SAYFAYI OLUSTUR =====
     return `
       <div class="mb-4">
         <span class="badge badge-primary mb-2">${ciktiKodu}</span>
         <h2 class="font-semibold text-base">${cikti.baslik}</h2>
       </div>
-      ${UI.tabs(tabNames, activeTab, 'Pages.switchCiktiTab')}
-      <div class="animate-fade-in">${tabContent}</div>
+      <div class="space-y-1">
+        ${lessonFlowSection('\u{1F4CB}', 'Ders Oncesi', dersOncesiContent, `dersoncesi-${ciktiKodu}`, true)}
+        ${lessonFlowSection('\u{1F514}', 'Giris / Isinma', girisContent, `giris-${ciktiKodu}`, false)}
+        ${lessonFlowSection('\u{1F4D6}', 'Ogretim', ogretimContent, `ogretim-${ciktiKodu}`, true)}
+        ${lessonFlowSection('\u{1F3AF}', 'Uygulama / Pratik', uygulamaContent, `uygulama-${ciktiKodu}`, false)}
+        ${lessonFlowSection('\u{1F4CA}', 'Olcme / Degerlendirme', olcmeContent, `olcme-${ciktiKodu}`, false)}
+        ${lessonFlowSection('\u{1F680}', 'Kapan / Zenginlestirme', kapanContent, `kapan-${ciktiKodu}`, false)}
+      </div>
     `;
   },
 
-  switchCiktiTab(idx) {
-    APP.state.ciktiTab = idx;
+  // ==================== MATERYAL KUTUPHANESI ====================
+  materyalKutuphanesi(dersKodu, matType) {
+    const data = APP.getData(dersKodu);
+    if (!data) return UI.empty('Ders bulunamadi');
+    const dk = dersKodu.toLowerCase();
+    const allMat = data.kitap?.materyaller || [];
+    const uniteler = data.program.uniteler;
+    const activeType = matType || APP.state.matFilter || 'tumu';
+    const activeUnite = APP.state.matUniteFilter || 0;
+    const query = APP.state.matSearchQuery || '';
+
+    // Materyal turlerini belirle
+    const turler = [
+      { key: 'tumu', label: 'Tumu' },
+      { key: 'etkinlik', label: 'Etkinlik' },
+      { key: 'tablo', label: 'Tablo' },
+      { key: 'gorsel', label: 'Gorsel' },
+      { key: 'okuma_metni', label: 'Okuma Metni' },
+      { key: 'degerlendirme_sorusu', label: 'Degerlendirme' },
+      { key: 'bilgi_kutusu', label: 'Bilgi Kutusu' },
+      { key: 'proje_gorevi', label: 'Proje' }
+    ];
+
+    // Filtrele
+    let filtered = allMat;
+    if (activeType !== 'tumu') {
+      filtered = filtered.filter(m => m.tur === activeType);
+    }
+    if (activeUnite > 0) {
+      // Cikti kodundan unite_no cikart
+      filtered = filtered.filter(m => {
+        if (!m.iliskili_cikti_kodu) return false;
+        const kodlar = m.iliskili_cikti_kodu.split(',').map(k => k.trim());
+        return kodlar.some(k => {
+          const parts = k.split('.');
+          return parts.length >= 3 && parseInt(parts[2]) === activeUnite;
+        });
+      });
+    }
+    if (query) {
+      const q = query.toLowerCase();
+      filtered = filtered.filter(m => m.baslik.toLowerCase().includes(q) || (m.aciklama || '').toLowerCase().includes(q));
+    }
+
+    const turIcons = { etkinlik: '\u{1F3AE}', tablo: '\u{1F4CA}', gorsel: '\u{1F5BC}\uFE0F', okuma_metni: '\u{1F4D6}', degerlendirme_sorusu: '\u{1F4DD}', bilgi_kutusu: '\u{1F4E6}', proje_gorevi: '\u{1F3C6}' };
+
+    return `
+      <h2 class="font-semibold text-base mb-3">\u{1F4E6} Materyal Kutuphanesi (${allMat.length})</h2>
+      ${UI.searchBox('Materyal ara...', "Pages.filterMateryaller(this.value)")}
+      <div class="flex gap-1 mb-3 overflow-x-auto pb-1 no-scrollbar">
+        ${turler.map(t => `<button onclick="Pages.setMatFilter('${t.key}')" class="badge ${activeType === t.key ? 'badge-primary' : 'badge-gray'} cursor-pointer whitespace-nowrap text-xs">${t.label}</button>`).join('')}
+      </div>
+      <div class="flex gap-1 mb-4 overflow-x-auto pb-1 no-scrollbar">
+        <button onclick="Pages.setMatUniteFilter(0)" class="badge ${activeUnite === 0 ? 'badge-blue' : 'badge-gray'} cursor-pointer whitespace-nowrap text-xs">Tum Uniteler</button>
+        ${uniteler.map(u => `<button onclick="Pages.setMatUniteFilter(${u.unite_no})" class="badge ${activeUnite === u.unite_no ? 'badge-blue' : 'badge-gray'} cursor-pointer whitespace-nowrap text-xs">U${u.unite_no}</button>`).join('')}
+      </div>
+      <p class="text-xs text-slate-400 mb-3">${filtered.length} materyal listeleniyor</p>
+      <div id="materyal-list" class="space-y-2">
+        ${filtered.length ? filtered.map(m => {
+          const icon = turIcons[m.tur] || '\u{1F4C4}';
+          const turLabel = (turler.find(t => t.key === m.tur) || {}).label || m.tur;
+          // Iliskili cikti kodlarini ayristir
+          const ciktiKodlari = m.iliskili_cikti_kodu ? m.iliskili_cikti_kodu.split(',').map(k => k.trim()) : [];
+          return `<div class="card p-3">
+            <div class="flex items-start gap-3">
+              <span class="text-xl mt-0.5">${icon}</span>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between">
+                  <h4 class="text-sm font-medium truncate flex-1">${m.baslik}</h4>
+                  <a href="#/${dk}/kitap/${m.sayfa}" class="text-xs text-primary hover:underline flex-shrink-0 ml-2">s.${m.sayfa}</a>
+                </div>
+                ${m.aciklama ? `<p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-2">${m.aciklama}</p>` : ''}
+                <div class="flex items-center gap-2 mt-1.5 flex-wrap">
+                  <span class="badge badge-gray text-[10px]">${turLabel}</span>
+                  ${ciktiKodlari.slice(0, 3).map(k => {
+                    const uniteN = k.split('.').length >= 3 ? k.split('.')[2] : '';
+                    return `<a href="#/${dk}/unite/${uniteN}/cikti/${k}" class="badge badge-blue text-[10px] cursor-pointer hover:opacity-80">${k}</a>`;
+                  }).join('')}
+                  ${ciktiKodlari.length > 3 ? `<span class="text-[10px] text-slate-400">+${ciktiKodlari.length - 3}</span>` : ''}
+                </div>
+              </div>
+            </div>
+          </div>`;
+        }).join('') : UI.empty('Materyal bulunamadi')}
+      </div>`;
+  },
+
+  setMatFilter(type) {
+    APP.state.matFilter = type;
     APP.render();
+  },
+
+  setMatUniteFilter(uniteNo) {
+    APP.state.matUniteFilter = uniteNo;
+    APP.render();
+  },
+
+  filterMateryaller(q) {
+    APP.state.matSearchQuery = q;
+    const list = document.getElementById('materyal-list');
+    if (!list) return;
+    const route = APP.parseRoute();
+    const data = APP.getData(route.dersKodu);
+    if (!data) return;
+    const dk = route.dersKodu.toLowerCase();
+    const allMat = data.kitap?.materyaller || [];
+    const activeType = APP.state.matFilter || 'tumu';
+    const activeUnite = APP.state.matUniteFilter || 0;
+    const turIcons = { etkinlik: '\u{1F3AE}', tablo: '\u{1F4CA}', gorsel: '\u{1F5BC}\uFE0F', okuma_metni: '\u{1F4D6}', degerlendirme_sorusu: '\u{1F4DD}', bilgi_kutusu: '\u{1F4E6}', proje_gorevi: '\u{1F3C6}' };
+    const turLabels = { etkinlik: 'Etkinlik', tablo: 'Tablo', gorsel: 'Gorsel', okuma_metni: 'Okuma Metni', degerlendirme_sorusu: 'Degerlendirme', bilgi_kutusu: 'Bilgi Kutusu', proje_gorevi: 'Proje' };
+
+    let filtered = allMat;
+    if (activeType !== 'tumu') filtered = filtered.filter(m => m.tur === activeType);
+    if (activeUnite > 0) {
+      filtered = filtered.filter(m => {
+        if (!m.iliskili_cikti_kodu) return false;
+        return m.iliskili_cikti_kodu.split(',').map(k => k.trim()).some(k => {
+          const parts = k.split('.');
+          return parts.length >= 3 && parseInt(parts[2]) === activeUnite;
+        });
+      });
+    }
+    if (q) {
+      const ql = q.toLowerCase();
+      filtered = filtered.filter(m => m.baslik.toLowerCase().includes(ql) || (m.aciklama || '').toLowerCase().includes(ql));
+    }
+    list.innerHTML = filtered.length ? filtered.map(m => {
+      const icon = turIcons[m.tur] || '\u{1F4C4}';
+      const turLabel = turLabels[m.tur] || m.tur;
+      const ciktiKodlari = m.iliskili_cikti_kodu ? m.iliskili_cikti_kodu.split(',').map(k => k.trim()) : [];
+      return `<div class="card p-3">
+        <div class="flex items-start gap-3">
+          <span class="text-xl mt-0.5">${icon}</span>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between">
+              <h4 class="text-sm font-medium truncate flex-1">${m.baslik}</h4>
+              <a href="#/${dk}/kitap/${m.sayfa}" class="text-xs text-primary hover:underline flex-shrink-0 ml-2">s.${m.sayfa}</a>
+            </div>
+            ${m.aciklama ? `<p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-2">${m.aciklama}</p>` : ''}
+            <div class="flex items-center gap-2 mt-1.5 flex-wrap">
+              <span class="badge badge-gray text-[10px]">${turLabel}</span>
+              ${ciktiKodlari.slice(0, 3).map(k => {
+                const uniteN = k.split('.').length >= 3 ? k.split('.')[2] : '';
+                return `<a href="#/${dk}/unite/${uniteN}/cikti/${k}" class="badge badge-blue text-[10px] cursor-pointer hover:opacity-80">${k}</a>`;
+              }).join('')}
+              ${ciktiKodlari.length > 3 ? `<span class="text-[10px] text-slate-400">+${ciktiKodlari.length - 3}</span>` : ''}
+            </div>
+          </div>
+        </div>
+      </div>`;
+    }).join('') : UI.empty('Materyal bulunamadi');
   },
 
   // ==================== KAVRAM SOZLUGU ====================
